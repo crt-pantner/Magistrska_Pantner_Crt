@@ -1,0 +1,23 @@
+>Feature gb|KAF4577132.1|
+1	521	Protein
+			product	hypothetical protein
+<82	>189	Region
+			region	Herpes_UL46
+			note	Herpesvirus UL46 protein
+			db_xref	CDD:355696
+138	310	Region
+			region	MACPF
+			note	MAC/Perforin domain
+			db_xref	CDD:460349
+345	517	Region
+			region	PlyB_C
+			note	Pleurotolysin B C-terminal domain
+			db_xref	CDD:408464
+1	521	CDS
+			product	hypothetical protein
+			protein_id	gb|KAF4577132.1||gnl|WGS:SJDA|EYR36_005119-T1
+			note	EggNog:ENOG410PVPK~COG:L
+			transcript_id	gnl|WGS:SJDA|EYR36_005119-T1_mrna
+			db_xref	InterPro:IPR020864
+			db_xref	PFAM:PF01823
+

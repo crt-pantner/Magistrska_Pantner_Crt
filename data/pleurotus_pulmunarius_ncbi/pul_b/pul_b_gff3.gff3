@@ -1,0 +1,11 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KAF4577132.1 1 521
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28995
+KAF4577132.1	Genbank	region	1	521	.	+	.	ID=KAF4577132.1:1..521;Dbxref=taxon:28995;collection-date=2016;country=Taiwan;gbkey=Src;isolation-source=soil;lat-lon=25.0375 N 121.564 E;mol_type=unassigned;strain=PM_ss13
+KAF4577132.1	Genbank	polypeptide	1	521	.	+	.	ID=id-KAF4577132.1:1..521;calculated_mol_wt=56817;gbkey=Prot;product=hypothetical protein
+KAF4577132.1	Genbank	biological_region	82	189	.	+	.	ID=id-KAF4577132.1:82..189;Dbxref=CDD:355696;Name=Herpes_UL46;Note=Herpesvirus UL46 protein;end_range=189,.;gbkey=Region;partial=true;start_range=.,82
+KAF4577132.1	Genbank	biological_region	138	310	.	+	.	ID=id-KAF4577132.1:138..310;Dbxref=CDD:460349;Name=MACPF;Note=MAC/Perforin domain;gbkey=Region
+KAF4577132.1	Genbank	biological_region	345	517	.	+	.	ID=id-KAF4577132.1:345..517;Dbxref=CDD:408464;Name=PlyB_C;Note=Pleurotolysin B C-terminal domain;gbkey=Region
+
