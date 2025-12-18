@@ -1,0 +1,17 @@
+name: cleaner_pipeline
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas=2.3 # For scripts: csv_cleaner, json to tab, metadata_merger, stat
+# seqkit
+  - bioconda::seqkit=2.12
+  - requests=2.32 # For scripts: HMMER_python
+  - biopython=1.86 # For scritps: HMMER_python, NCBI_taxonomy
+  - tqdm=4.67 # For scripts: HMMER_python
+  - scipy=1.16 # For scripts: stat
+  - csvtk=0.36
+  - openpyxl #json_to_tab
+
+
