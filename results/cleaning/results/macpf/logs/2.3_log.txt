@@ -1,0 +1,2 @@
+num_sequences_csv: 1148
+num_seqs_fasta: 1148

@@ -1,0 +1,25 @@
+<svg width="174.0" height="20" viewBox="0 0 174.0 20" style="width: 348.0px; height: 40px" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <mask id="PF03171.26_0" width="59.0" height="10" fill="#fff">
+            <rect x="0" y="0" width="8.5" height="10" opacity="0.6" />
+            <rect x="8.5" y="0" width="44.0" height="10" opacity="1" />
+            <rect x="52.5" y="0" width="6.5" height="10" opacity="0.6" />
+        </mask>
+        <mask id="PF14226.12_0" width="59.0" height="10" fill="#fff">
+            <rect x="0" y="0" width="0.0" height="10" opacity="0.6" />
+            <rect x="0.0" y="0" width="53.5" height="10" opacity="1" />
+            <rect x="53.5" y="0" width="5.5" height="10" opacity="0.6" />
+        </mask>
+    </defs>
+    <g transform="translate(0 10)">
+        <rect x="0" y="-2.5" width="172.0" height="5" fill="#d8d8d8" rx="2.5" ry="2.5" />
+    </g>
+    <g transform="translate(86.0, 5)" dataentity="PF03171.26">
+        <path d="m5,0h49.0h5v10h-5h-49.0h-5v-10h5z" fill="#ce9c7f" mask="url(#PF03171.26_0)" />
+        <text x="29.5" y="8" text-anchor="middle" font-size="7.5" fill="white" opacity="1" data-maxwidth="61" font-family="Monospace">2OG-FeII_Oxy</text>
+    </g>
+    <g transform="translate(13.5, 5)" dataentity="PF14226.12">
+        <path d="m5,0h49.0h5v10h-5h-49.0h-5v-10h5z" fill="#458a5c" mask="url(#PF14226.12_0)" />
+        <text x="29.5" y="8" text-anchor="middle" font-size="7.5" fill="white" opacity="1" data-maxwidth="61" font-family="Monospace">DIOX_N</text>
+    </g>
+</svg>

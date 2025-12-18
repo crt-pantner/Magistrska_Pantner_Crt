@@ -1,0 +1,25 @@
+<svg width="392.0" height="20" viewBox="0 0 392.0 20" style="width: 784.0px; height: 40px" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <mask id="PF01823.24_0" width="62.5" height="10" fill="#fff">
+            <rect x="0" y="0" width="3.5" height="10" opacity="0.6" />
+            <rect x="3.5" y="0" width="33.5" height="10" opacity="1" />
+            <rect x="37.0" y="0" width="25.5" height="10" opacity="0.6" />
+        </mask>
+        <mask id="PF01926.29_0" width="61.0" height="10" fill="#fff">
+            <rect x="0" y="0" width="0.5" height="10" opacity="0.6" />
+            <rect x="0.5" y="0" width="39.0" height="10" opacity="1" />
+            <rect x="39.5" y="0" width="21.5" height="10" opacity="0.6" />
+        </mask>
+    </defs>
+    <g transform="translate(0 10)">
+        <rect x="0" y="-2.5" width="390.0" height="5" fill="#d8d8d8" rx="2.5" ry="2.5" />
+    </g>
+    <g transform="translate(282.0, 5)" dataentity="PF01823.24">
+        <path d="m5,0h52.5h5v10h-5h-52.5h-5v-10h5z" fill="#83daac" mask="url(#PF01823.24_0)" />
+        <text x="31.25" y="8" text-anchor="middle" font-size="7.5" fill="white" opacity="1" data-maxwidth="61" font-family="Monospace">MACPF</text>
+    </g>
+    <g transform="translate(100.0, 5)" dataentity="PF01926.29">
+        <path d="m5,0h51.0h5v10h-5h-51.0h-5v-10h5z" fill="#357bdb" mask="url(#PF01926.29_0)" />
+        <text x="30.5" y="8" text-anchor="middle" font-size="7.5" fill="white" opacity="1" data-maxwidth="61" font-family="Monospace">MMR_HSR1</text>
+    </g>
+</svg>

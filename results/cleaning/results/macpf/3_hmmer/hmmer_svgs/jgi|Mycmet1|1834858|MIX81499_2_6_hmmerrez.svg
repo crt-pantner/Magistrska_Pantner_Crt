@@ -1,0 +1,34 @@
+<svg width="406.0" height="20" viewBox="0 0 406.0 20" style="width: 812.0px; height: 40px" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <mask id="PF01823.24_0" width="66.5" height="10" fill="#fff">
+            <rect x="0" y="0" width="7.0" height="10" opacity="0.6" />
+            <rect x="7.0" y="0" width="46.0" height="10" opacity="1" />
+            <rect x="53.0" y="0" width="13.5" height="10" opacity="0.6" />
+        </mask>
+        <mask id="PF01926.29_0" width="61.5" height="10" fill="#fff">
+            <rect x="0" y="0" width="0.5" height="10" opacity="0.6" />
+            <rect x="0.5" y="0" width="48.5" height="10" opacity="1" />
+            <rect x="49.0" y="0" width="12.5" height="10" opacity="0.6" />
+        </mask>
+        <mask id="PF04548.22_0" width="69.5" height="10" fill="#fff">
+            <rect x="0" y="0" width="1.0" height="10" opacity="0.6" />
+            <rect x="1.0" y="0" width="61.0" height="10" opacity="1" />
+            <rect x="62.0" y="0" width="7.5" height="10" opacity="0.6" />
+        </mask>
+    </defs>
+    <g transform="translate(0 10)">
+        <rect x="0" y="-2.5" width="404.0" height="5" fill="#d8d8d8" rx="2.5" ry="2.5" />
+    </g>
+    <g transform="translate(272.0, 5)" dataentity="PF01823.24">
+        <path d="m5,0h56.5h5v10h-5h-56.5h-5v-10h5z" fill="#83daac" mask="url(#PF01823.24_0)" />
+        <text x="33.25" y="8" text-anchor="middle" font-size="7.5" fill="white" opacity="1" data-maxwidth="61" font-family="Monospace">MACPF</text>
+    </g>
+    <g transform="translate(97.5, 5)" dataentity="PF01926.29">
+        <path d="m5,0h51.5h5v10h-5h-51.5h-5v-10h5z" fill="#357bdb" mask="url(#PF01926.29_0)" />
+        <text x="30.75" y="8" text-anchor="middle" font-size="7.5" fill="white" opacity="1" data-maxwidth="61" font-family="Monospace">MMR_HSR1</text>
+    </g>
+    <g transform="translate(97.0, 5)" dataentity="PF04548.22">
+        <path d="m5,0h59.5h5v10h-5h-59.5h-5v-10h5z" fill="#5ec2d3" mask="url(#PF04548.22_0)" />
+        <text x="34.75" y="8" text-anchor="middle" font-size="7.5" fill="white" opacity="1" data-maxwidth="61" font-family="Monospace">AIG1</text>
+    </g>
+</svg>

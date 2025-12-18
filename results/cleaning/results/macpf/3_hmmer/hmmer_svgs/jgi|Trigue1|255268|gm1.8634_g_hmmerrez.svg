@@ -1,0 +1,16 @@
+<svg width="49.5" height="20" viewBox="0 0 49.5 20" style="width: 99.0px; height: 40px" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <mask id="PF12464.13_0" width="22.0" height="10" fill="#fff">
+            <rect x="0" y="0" width="0.5" height="10" opacity="0.6" />
+            <rect x="0.5" y="0" width="20.0" height="10" opacity="1" />
+            <rect x="20.5" y="0" width="1.5" height="10" opacity="0.6" />
+        </mask>
+    </defs>
+    <g transform="translate(0 10)">
+        <rect x="0" y="-2.5" width="47.5" height="5" fill="#d8d8d8" rx="2.5" ry="2.5" />
+    </g>
+    <g transform="translate(10.0, 5)" dataentity="PF12464.13">
+        <path d="m5,0h12.0h5v10h-5h-12.0h-5v-10h5z" fill="#c03cfe" mask="url(#PF12464.13_0)" />
+        <text x="11.0" y="8" text-anchor="middle" font-size="7.5" fill="white" opacity="1" data-maxwidth="61" font-family="Monospace">Mac</text>
+    </g>
+</svg>

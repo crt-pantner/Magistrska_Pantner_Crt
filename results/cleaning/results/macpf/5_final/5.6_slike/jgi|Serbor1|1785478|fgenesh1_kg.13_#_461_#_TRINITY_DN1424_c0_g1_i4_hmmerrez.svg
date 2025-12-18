@@ -1,0 +1,25 @@
+<svg width="250.0" height="20" viewBox="0 0 250.0 20" style="width: 500.0px; height: 40px" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <mask id="PF22693.1_0" width="133.0" height="10" fill="#fff">
+            <rect x="0" y="0" width="0.0" height="10" opacity="0.6" />
+            <rect x="0.0" y="0" width="131.5" height="10" opacity="1" />
+            <rect x="131.5" y="0" width="1.5" height="10" opacity="0.6" />
+        </mask>
+        <mask id="PF01823.24_0" width="92.0" height="10" fill="#fff">
+            <rect x="0" y="0" width="7.5" height="10" opacity="0.6" />
+            <rect x="7.5" y="0" width="78.5" height="10" opacity="1" />
+            <rect x="86.0" y="0" width="6.0" height="10" opacity="0.6" />
+        </mask>
+    </defs>
+    <g transform="translate(0 10)">
+        <rect x="0" y="-2.5" width="248.0" height="5" fill="#d8d8d8" rx="2.5" ry="2.5" />
+    </g>
+    <g transform="translate(23.0, 5)" dataentity="PF22693.1">
+        <path d="m5,0h123.0h5v10h-5h-123.0h-5v-10h5z" fill="#e3712b" mask="url(#PF22693.1_0)" />
+        <text x="66.5" y="8" text-anchor="middle" font-size="7.5" fill="white" opacity="1" data-maxwidth="61" font-family="Monospace">MACPF_1</text>
+    </g>
+    <g transform="translate(56.0, 5)" dataentity="PF01823.24">
+        <path d="m5,0h82.0h5v10h-5h-82.0h-5v-10h5z" fill="#83daac" mask="url(#PF01823.24_0)" />
+        <text x="46.0" y="8" text-anchor="middle" font-size="7.5" fill="white" opacity="1" data-maxwidth="61" font-family="Monospace">MACPF</text>
+    </g>
+</svg>

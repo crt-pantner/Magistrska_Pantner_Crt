@@ -1,0 +1,25 @@
+<svg width="480.0" height="20" viewBox="0 0 480.0 20" style="width: 960.0px; height: 40px" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <mask id="PF09797.15_0" width="181.0" height="10" fill="#fff">
+            <rect x="0" y="0" width="0.0" height="10" opacity="0.6" />
+            <rect x="0.0" y="0" width="180.5" height="10" opacity="1" />
+            <rect x="180.5" y="0" width="0.5" height="10" opacity="0.6" />
+        </mask>
+        <mask id="PF12464.13_1" width="30.5" height="10" fill="#fff">
+            <rect x="0" y="0" width="0.0" height="10" opacity="0.6" />
+            <rect x="0.0" y="0" width="30.0" height="10" opacity="1" />
+            <rect x="30.0" y="0" width="0.5" height="10" opacity="0.6" />
+        </mask>
+    </defs>
+    <g transform="translate(0 10)">
+        <rect x="0" y="-2.5" width="478.0" height="5" fill="#d8d8d8" rx="2.5" ry="2.5" />
+    </g>
+    <g transform="translate(129.5, 5)" dataentity="PF09797.15">
+        <path d="m5,0h171.0h5v10h-5h-171.0h-5v-10h5z" fill="#f9d622" mask="url(#PF09797.15_0)" />
+        <text x="90.5" y="8" text-anchor="middle" font-size="7.5" fill="white" opacity="1" data-maxwidth="61" font-family="Monospace">NatB_MDM20</text>
+    </g>
+    <g transform="translate(430.0, 5)" dataentity="PF12464.13">
+        <path d="m5,0h20.5h5v10h-5h-20.5h-5v-10h5z" fill="#c03cfe" mask="url(#PF12464.13_1)" />
+        <text x="15.25" y="8" text-anchor="middle" font-size="7.5" fill="white" opacity="1" data-maxwidth="61" font-family="Monospace">Mac</text>
+    </g>
+</svg>
