@@ -1,0 +1,9 @@
+name: bio_env # You can choose any name for your environment
+channels:
+  - conda-forge
+  - defaults # It's good practice to keep defaults as well
+dependencies:
+  - biopython
+  # Add other packages you need here, e.g.:
+  # - numpy
+  # - pandas
