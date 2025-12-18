@@ -1,0 +1,4 @@
+pulmolysin A1 (PulA1; NCBI Reference Sequence KAF4577131.1)
+pulmolysin A2 (PulA2; NCBI Reference Sequence KAF4577129.1)
+pulmolysin A3 (PulA3; NCBI Reference Sequence KAF4577128.1)
+pulmolysin B (PulB; NCBI Reference Sequence KAF4577132.1)
