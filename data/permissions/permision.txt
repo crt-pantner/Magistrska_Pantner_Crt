@@ -1,0 +1,105 @@
+Xerocomellus pruinatus BavarianF63 v1.0
+Leucoagaricus gongylophorus AB2 v1.0
+Vuilleminia comedens VcCUCC2015_SSI6 v1.0
+Irpex lacteus DSM 1183 v1.0
+Pleurotus ostreatus DSM 11191 v1.0
+Lentinus tigrinus v1.0
+Tilletia maclaganii Tm001 NY21 v1.0
+Tulasnella helicospora OP6.3d v1.0
+Serpulomyces borealis OMC1750 v1.0
+Anomoporia kamtschatica OMC1758 v1.0
+Ceratobasidium sp 535-2 v1.0
+Boletus coccyginus 2016PMI039 v1.0
+Fomitopsis rosea Sig1Fomros20-ss v1.0
+Ceriporia viridans OMC1683 v1.0
+Chondrostereum purpureum OMC1767 v1.0
+Inosperma lanatodiscum 2018PMI007 v1.0
+Ischnoderma benzoinum IVC119 v1.0
+Kavinia alboviridis OMC1854 v1.0
+Piloderma sphaerosporum 354 v1.0
+Nidularia deformis CBS 156.42 v1.0
+Xylodon remissus sp. n. OMC1960 v1.0
+Cerinomyces crustulinus OMC1686 v1.0
+Chalciporus piperatus 201810 CP v1.0
+Gymnopus earleae GB-263.02 v1.0
+Hygrocybe coccinea JK88 v2.0
+Phellinus ferrugineofuscus SpK3Phefer14 v1.0
+Phellinus viticola PhevitSig-SM15 v1.0
+Piloderma byssinum 4S31 v1.0
+Sistotrema brinkmannii OMC1754 v1.0
+Stephanosporaceae sp. PMI 697 v1.0
+Abortiporus biennis CCBS 521 v1.0
+Antrodia sinuosa LB1 v1.0
+Armillaria ectypa FPL83.16 v1.0
+Boreostereum radiatum TFC1981-005 v1.0
+Cortinarius saniosus 2018PMI107 v2.0
+Dacrymyces fennicus OMC1656 v1.0
+Kurtia argillacea OMC1749 v1.0
+Nidula sp. CBS 380.80 v1.0
+Pycnoporellus fulgens PcyfulGre-SM17 v1.0
+Resinicium bicolor OMC78 v1.0
+Sistotrema raduloides OMC1660 v1.0
+Sistotrema sernanderi OMC 1753 v1.0
+Unilacryma unispora MAFF 240146 v1.0
+Trichaptum abietinum L-15831 v1.0
+Rhizopogon truncatus FC74 v1.0
+Dichomitus squalens CBS 464.89 v2.0
+Rhodotorula mucilaginosa ATCC58901 v1.0
+Rhodotorula mucilaginosa ATCC58901 v1.0
+Rhodotorula mucilaginosa J31 v1.0
+Rhodotorula mucilaginosa J31 v1.0
+Rhodosporidium toruloides ATCC26217 v1.0
+Rhodosporidium toruloides ATCC26217 v1.0
+Rhodotorula glutinis v1.0
+Rhodotorula glutinis v1.0
+Naganishia friedmannii 6030m v2.0
+Paragyrodon sphaerosporus FC442 v2.0
+Ceratobasidium sp. 379 v1.0
+Ceratobasidium sp. 395 v1.0
+Ceratobasidium sp. 423 v1.0
+Ceratobasidium sp. 394 v1.0
+Tulasnella sp. 425 v1.0
+Serendipita sp. 407 v1.0
+Serendipita sp. 411 v1.0
+Tulasnella calospora UAMH 9824 v1.0
+Tulasnella inquilina UAMH 7632 v1.0
+Tulasnella sp. 427 v1.0
+Schizophyllum commune JGI1246750 v1.0
+Cronartium comandrae Tree 4 v2.0
+Cronartium ribicola Cypress_4 v1.0
+Melampsora medusae f. sp. Deltoidae Mmd05TRE539 v1.0
+Climacocystis borealis CliBor001 v1.0
+Sparassis latifolia CCMJ1100 v1.0
+Cystostereum murrayi CysMur001 v1.0
+Hericium coralloides FP-101451 v1.0
+Typhula sp. TRa3160C v1.0
+Xanthoporus peckianus DAOM 52321 v1.0
+Clitocybe sp. JGI1119283 v1.0
+Crepidotus cesatii CBS 511.95 v1.0
+Dendrothele microspora FP 101998 v1.0
+Galzinia incrustans CBS 104901 v1.0
+Laxitextum bicolor CBS 258.73 v1.0
+Sporobolomyces gracilis NRRL Y-5504 v1.0
+Flagelloscypha sp. PMI_526 v1.0
+Panellus stipticus KUC8834 v1.1
+Geastrum triplex GST.BST v1.0
+Cerrena unicolor v1.1
+Antrodia sinuosa LB1 v1.0
+Antrodia sinuosa LB1 v1.0
+Dioszegia cryoxerica ANT03-071 v1.0
+Kriegeriales sp. isolate P6C61 v1.0
+Microbotryomycetes incertae sedis isolate P6C30 v1.0
+Microbotryomycetes sp. P2C70 v1.0
+Dichomitus squalens CBS 464.89 v2.0
+Dichomitus squalens CBS 464.89 v2.0
+Dichomitus squalens CBS 464.89 v2.0
+Dichomitus squalens CBS 464.89 v2.0
+Dichomitus squalens CBS 464.89 v2.0
+Dichomitus squalens CBS 464.89 v2.0
+Aporpium caryae L-13461
+Gymnopilus chrysopellus PR-1187 v1.0
+Exobasidium maculosum A7-4 v1.0
+Melampsora x columbiana Clatskanie v1.0
+Flavodon flavus 38 v1.0
+Cryptococcus terreus 61-443 v1.0
+Serendipita vermifera ssp. bescii NFPB0129 v1.0
