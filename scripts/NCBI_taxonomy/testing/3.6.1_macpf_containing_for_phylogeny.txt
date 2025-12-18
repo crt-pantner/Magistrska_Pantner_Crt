@@ -1,0 +1,228 @@
+Grifola frondosa 9006-11
+Flavodon flavus 38 v1.0
+Trametopsis cervina CIRM-BRFM 1824 v1.0
+Hydnopolyporus fimbriatus CBS384.51 v1.0
+Cerrena unicolor v1.1
+Cytidiella melzeri FP 102339 v1.0
+Hygrophoropsis aurantiaca ATCC 28755 v1.0
+Irpex lacteus DSM 1183 v1.0
+Xanthoporus peckianus DAOM 52321 v1.0
+Irpex lacteus CCBAS Fr. 238 617/93 v1.0
+Clitocybe sp. JGI1119283 v1.0
+Armillaria mellea ELDO17 v1.0
+Armillaria fumosa CBS 122221 v1.0
+Chondrostereum purpureum OMC1767 v1.0
+Armillaria novae-zelandiae 2840 v1.0
+Armillaria luteobubalina HWK02 v1.0
+Armillaria solidipes 28-4 v1.0
+Hymenopellis radicata IJFM A160 v1.0
+Rhizopogon vesiculosus Smith
+Rigidoporus microporus ED310 v1.0
+Ceriporiopsis (Gelatoporia) subvermispora B
+Boletus coccyginus 2016PMI039 v1.0
+Postia placenta MAD-698-R-SB12 v1.0
+Cerrena unicolor v1.1
+Boletus reticuloceps BR01
+Sistotrema brinkmannii OMC1754 v1.0
+Rhizopogon vinicolor AM-OR11-026 v1.0
+Artomyces pyxidatus HHB10654 v1.0
+Sistotrema sp. PMI_390 v1.0
+Suillus clintonianus FC179 v1.0
+Pleurotus eryngii ATCC 90797 v1.0
+Suillus ampliporus FC55 v1.0
+Piloderma sphaerosporum 354 v1.0
+Postia placenta MAD 698-R v1.0
+Dendrothele bispora CBS 962.96 v1.0
+Butyriboletus roseoflavus v1.0
+Pleurotus ostreatus PC9 v1.0
+"Phlebia radiata Fr. (isolate 79, FBCC0043)"
+Mycena olivaceomarginata CBHHK47/15 v1.0
+Rigidoporus microporus ED310 v1.0
+Antrodia sinuosa LB1 v1.0
+Laxitextum bicolor CBS 258.73 v1.0
+Amylocystis lapponica SKaAmylap13 v1.0
+Cortinarius sp. KIS3-TL2766 v1.0
+Ceriporiopsis (Gelatoporia) subvermispora B
+Pisolithus sp. B1 v1.0
+Postia placenta MAD-698-R-SB12 v1.0
+Pleurotus ostreatus DSM 11191 v1.0
+Cerrena unicolor v1.1
+Obba rivulosa 3A-2 v1.0
+Rhizopogon vinicolor AM-OR11-026 v1.0
+Ceriporia viridans OMC1683 v1.0
+Anomoporia kamtschatica OMC1758 v1.0
+Sistotrema sp. PMI_390 v1.0
+Suillus clintonianus FC179 v1.0
+Suillus ampliporus FC55 v1.0
+Pisolithus microcarpus 441 v2.0
+Pisolithus albus SI12 v1.0
+Truncocolumella citrina FC456 v1.1
+Pisolithus marmoratus 721 v1.0
+Boletus edulis Přilba v1.0
+Boletus edulis BED1 v4.0
+Inosperma lanatodiscum 2018PMI007 v1.0
+Dendrothele bispora CBS 962.96 v1.0
+Pleurotus ostreatus PC9 v1.0
+Pleurotus ostreatus PC15 v2.0
+Wolfiporia cocos MD-104 SS10 v1.0
+Pisolithus thermaeus 11 v1.0
+Pisolithus croceorrhizus subspA 74A v1.0
+Pisolithus marmoratus ssp. 2 16A v1.0
+Artomyces pyxidatus HHB10654 v1.0
+Amylocystis lapponica SKaAmylap13 v1.0
+Fibroporia radiculosa TFFH 294
+Lentinus tigrinus v1.0
+Polyporus arcularius v1.0
+Boreostereum radiatum TFC1981-005 v1.0
+Serpulomyces borealis OMC1750 v1.0
+Hydnomerulius pinastri v2.0
+Melanogaster broomeianus MBLB.BST v1.0
+Serendipita vermifera ssp. bescii NFPB0129 v1.0
+Lentinus tigrinus ALCF2SS1-7 v1.0
+Moniliophthora roreri MCA 2997
+Lentinus tigrinus ALCF2SS1-6 v1.0
+Botryobasidium botryosum v1.0
+Pisolithus tympanobaculus R1 v1.0
+Chondrostereum purpureum OMC1767 v1.0
+Ceratobasidium sp. anastomosis group I; DN8442 v1.0
+Tulasnella calospora AL13/4D v1.0
+Sphaerobolus stellatus v1.0
+Pleurotus ostreatus DSM 11191 v1.0
+Serpulomyces borealis OMC1750 v1.0
+Anomoporia kamtschatica OMC1758 v1.0
+Polyporus squamosus CCBS 676 v1.0
+Dendrothele microspora FP 101998 v1.0
+Ceratobasidium sp. anastomosis group I; DN8442 v1.0
+Tulasnella sp. 425 v1.0
+Flagelloscypha sp. PMI_526 v1.0
+Ceratobasidium sp. 423 v1.0
+Gymnopus earleae GB-263.02 v1.0
+Pleurotus ostreatus PC15 v2.0
+Moniliophthora perniciosa FA553
+Lentinus tigrinus v1.0
+Polyporus arcularius v1.0
+Trametopsis cervina CIRM-BRFM 1824 v1.0
+Pisolithus capsulifer 3163 v1.0
+Serpulomyces borealis OMC1750 v1.0
+Hydnomerulius pinastri v2.0
+Lentinus tigrinus ALCF2SS1-7 v1.0
+Moniliophthora roreri MCA 2997
+Lentinus tigrinus ALCF2SS1-6 v1.0
+Pleurotus eryngii ATCC 90797 v1.0
+Botryobasidium botryosum v1.0
+Aporpium caryae L-13461
+Polyporus brumalis CIRM-BRFM 1820 v1.0
+Piloderma sphaerosporum 354 v1.0
+Scleroderma citrinum Foug A v1.0
+Piloderma olivaceum F 1598 v1.0
+Fibulorhizoctonia psychrophila CBS 109695 v1.0
+Piriformospora indica DSM 11827 from MPI
+Trametes pubescens FBCC735
+Pisolithus croceorrhizus ssp. 2 72 v1.0
+Trametes versicolor ATCC 20869
+Pisolithus thermaeus 11 v1.0
+Pycnoporus puniceus CIRM-BRFM 1868 v1.0
+Trametes gibbosa CIRM-BRFM 1770 v1.0
+Pisolithus orientalis OTSU v2.0
+Ischnoderma benzoinum IVC119 v1.0
+Cerinomyces crustulinus OMC1686 v1.0
+Pisolithus sp. B1 v1.0
+Serpulomyces borealis OMC1750 v1.0
+Trametes betulina CIRM-BRFM 1801 v1.0
+Tulasnella sp. 427 v1.0
+Climacocystis borealis CliBor001 v1.0
+Serendipita vermifera ssp. bescii NFPB0129 v1.0
+Trametes versicolor v1.0
+Ceriporia viridans OMC1683 v1.0
+Lepista nuda CBS 247.69 v1.0
+Anomoporia kamtschatica OMC1758 v1.0
+Polyporus squamosus CCBS 676 v1.0
+Sistotrema sp. PMI_390 v1.0
+Lentinus tigrinus ALCF2SS1-6 v1.0
+Botryobasidium botryosum v1.0
+Pisolithus microcarpus 441 v2.0
+Tulasnella calospora UAMH 9824 v1.0
+Oudemansiella mucida CBS 558.79 v1.0
+Tulasnella sp. 425 v1.0
+Flagelloscypha sp. PMI_526 v1.0
+Ceratobasidium sp. 423 v1.0
+Pisolithus croceorrhizus subspA 74A v1.0
+Pisolithus marmoratus ssp. 2 16A v1.0
+Heterobasidion annosum v2.0
+Volvariella volvacea V23
+Rhizoctonia solani AG-1 IB
+Flavodon flavus 38 v1.0
+Irpex lacteus CCBAS Fr. 238 617/93 v1.0
+Clitocybe sp. JGI1119283 v1.0
+Galerina marginata v1.0
+Ceratobasidium sp. 395 v1.0
+Sistotrema sernanderi OMC 1753 v1.0
+Ceratobasidium sp 535-2 v1.0
+Ceratobasidium sp. 423 v1.0
+Roridomyces roridus 9284 v1.0
+Mycena pura 9144 v1.0
+Mycena latifolia 10383 v1.0
+Tulasnella calospora AL13/4D v1.0
+Cerrena unicolor v1.1
+Panellus stipticus KUC8834 v1.1
+Schizopora paradoxa KUC8140 v1.0
+Phlegmacium glaucopus AT 2004 276 v2.0
+Xylodon remissus sp. n. OMC1960 v1.0
+Mycena rosella CBHHK067 v1.0
+Grifola frondosa 9006-11
+Serendipita sp. 407 v1.0
+Serendipita sp. 411 v1.0
+Hydnopolyporus fimbriatus CBS384.51 v1.0
+Trametes maxima CIRM-BRFM 1813 v1.0
+Pleurotus ostreatus DSM 11191 v1.0
+Serpulomyces borealis OMC1750 v1.0
+Cytidiella melzeri FP 102339 v1.0
+Sistotrema brinkmannii OMC1754 v1.0
+Rhizopogon vesiculosus Smith
+Irpex lacteus DSM 1183 v1.0
+Ceriporia viridans OMC1683 v1.0
+Panellus stipticus LUM v1.0
+Entoloma gasteromycetoides TAS9 v1.0
+Stropharia rugosoannulata MYCOTA018 v1.0
+Tulasnella sp. 425 v1.0
+Ceratobasidium sp. 395 v1.0
+Piloderma sphaerosporum 354 v1.0
+Tulasnella helicospora OP6.3d v1.0
+Ceratobasidium sp. 423 v1.0
+Gymnopus earleae GB-263.02 v1.0
+Mycena pura 9144 v1.0
+Mycena alexandri CBHHK200 v1.0
+Cyathus pallidus NK-01 v1.0
+Mycena sanguinolenta CBHHK176m v1.0
+Mycena albidolilacea CBHHK002 v1.0
+Mycena capillaripes Frankland 9286 v1.0
+Mycena epipterygia CBHHK145m v1.0
+Mycena metata CBHHK182m v1.0
+Mycena galericulata CBHHK162m v1.0
+Mycena galopus ATCC-62051 v1.0
+Favolaschia claudopus CIRM-BRFM 2984 v1.0
+Mycena rebaudengoi CBHHK068 v1.0
+Mycena leptocephala CBHHK5/15 v1.0
+Mycena olivaceomarginata CBHHK47/15 v1.0
+"Phlebia radiata Fr. (isolate 79, FBCC0043)"
+Mycena rebaudengoi CBHHK068 v1.0
+Panellus stipticus LUM v1.0
+Mycena haematopus CBHHK189 v1.0
+Tulasnella helicospora OP6.3d v1.0
+Inosperma lanatodiscum 2018PMI007 v1.0
+Mycena maculata CBHHK188m v1.0
+Mycena alexandri CBHHK200 v1.0
+Mycena rosella CBHHK067 v1.0
+Mycena sanguinolenta CBHHK176m v1.0
+Mycena albidolilacea CBHHK002 v1.0
+Mycena capillaripes Frankland 9286 v1.0
+Mycena latifolia 10383 v1.0
+Mycena epipterygia CBHHK145m v1.0
+Mycena metata CBHHK182m v1.0
+Mycena vulgaris CBHHK164 v1.0
+Mycena galericulata CBHHK162m v1.0
+Mycena galopus ATCC-62051 v1.0
+Favolaschia claudopus CIRM-BRFM 2984 v1.0
+Mycena rebaudengoi CBHHK068 v1.0
+Mycena leptocephala CBHHK5/15 v1.0
+Mycena olivaceomarginata CBHHK47/15 v1.0
