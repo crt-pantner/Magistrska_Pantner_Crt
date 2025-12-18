@@ -1,0 +1,693 @@
+Abortiporus biennis CCBS 521 v1.0
+Abortiporus biennis ​CIRM-BRFM 1778 v1.0
+Acaromyces ingoldii MCA 4198 v1.0
+Agaricostilbum hyphaenes ATCC MYA-4628 v1.0
+Agaricus bisporus var bisporus (H97) v2.0
+Agaricus bisporus var. burnettii JB137-S8
+Agrocybe pediades AH 40210 v1.0
+Agrocybe praecox OKM6292 v1.0
+Amanita aff. conicoverrucosa KIS12 v1.0
+Amanita muscaria Koide v1.0
+Amanita muscaria var. formosa 2016PMI152 v1.0
+Amanita rubescens Přilba v1.0
+Amanita thiersii Skay4041 v1.0
+Amylocorticium subincarnatum OMC1654 v1.0
+Amylocystis lapponica SKaAmylap13 v1.0
+Amylostereum chailletii DWAch2 v1.0
+Anomoloma albolutescens OMC1655 v1.0
+Anomoporia bombycina ATCC 64506 v1.0
+Anomoporia kamtschatica OMC1758 v1.0
+Anomoporia myceliosa MJL 4413 v1.0
+Antrodia serialis Sig1Antser10 v1.0
+Antrodia sinuosa LB1 v1.0
+Antrodiella citrinella FBCC 969 v1.0
+Aphanobasidium pseudotsugae OMC1630 v1.0
+Aporpium caryae L-13461
+Armillaria borealis FPL87.14 v1.0
+Armillaria cepistipes B5
+Armillaria ectypa FPL83.16 v1.0
+Armillaria fumosa CBS 122221 v1.0
+Armillaria gallica 21-2 v1.0
+Armillaria luteobubalina HWK02 v1.0
+Armillaria mellea DSM 3731
+Armillaria mellea ELDO17 v1.0
+Armillaria nabsnona CMW6904 v1.0
+Armillaria novae-zelandiae 2840 v1.0
+Armillaria ostoyae C18/9
+Armillaria solidipes 28-4 v1.0
+Armillaria tabescens CCBAS 213 v1.0
+Artolenzites elegans CIRM-BRFM 1122 v1.0
+Artolenzites elegans CIRM-BRFM 1663 v1.0
+Artomyces pyxidatus HHB10654 v1.0
+Atractiellales rhizophila PMI 95 v2.0
+Auricularia subglabra v2.0
+Auriculariopsis ampla NL-1724 v1.0
+Auriscalpium vulgare FP105234-Sp v1.0
+Basidioascus undulatus
+Bjerkandera adusta v1.0
+Bolbitius vitellinus SZMC-NL-1974 v1.0
+Boletus coccyginus 2016PMI039 v1.0
+Boletus edulis BED1 v4.0
+Boletus edulis Přilba v1.0
+Boletus reticuloceps BR01
+Boreostereum radiatum TFC1981-005 v1.0
+Botryobasidium botryosum v1.0
+Butyriboletus roseoflavus v1.0
+Calocera cornea v1.0
+Calocera viscosa v1.0
+Cantharellales sp. MUCL 035158 v1.0
+Cantharellus anzutake C23 v1.0
+Ceraceosorus bombacis ATCC 22867
+Ceraceosorus guamensis MCA 4658 v1.0
+Ceratobasidium sp 535-2 v1.0
+Ceratobasidium sp. 379 v1.0
+Ceratobasidium sp. 394 v1.0
+Ceratobasidium sp. 395 v1.0
+Ceratobasidium sp. 423 v1.0
+Ceratobasidium sp. anastomosis group I; DN8442 v1.0
+Cerinomyces ceraceus ATCC 56525 v1.0
+Cerinomyces crustulinus OMC1686 v1.0
+Ceriporia viridans OMC1683 v1.0
+Ceriporiopsis (Gelatoporia) subvermispora B
+Cerrena unicolor v1.1
+Chalciporus piperatus 201810 CP v1.0
+Chionosphaera apobasidialis 52639 v1.0
+Chionosphaera cuniculicola CBS10063 v1.0
+Chiua virens LA06
+Chondrostereum purpureum OMC1767 v1.0
+Chroogomphus vinicolor CA002 v1.0
+Clavogaster sp. whakapapa MYCOTA032 v1.0
+Clavogaster virescens MYCOTA036 v1.0
+Climacocystis borealis CliBor001 v1.0
+Clitocybe gibba IJFM A808 v1.0
+Clitocybe sp. JGI1119283 v1.0
+Coniophora olivacea MUCL 20566 v1.0
+Coniophora puteana v1.0
+Conocybe apala SZMC-NL-8967 v1.0
+Coprinellus angulatus CBS 144469 v1.0
+Coprinellus micaceus FP101781 v2.0
+Coprinellus pellucidus v1.0
+Coprinopsis cinerea
+Coprinopsis cinerea AmutBmut pab1-1 v1.0
+Coprinopsis cinerea AmutBmut v2
+Coprinopsis marcescibilis CBS121175 v1.0
+Coprinopsis sclerotiger v1.0
+Coprinopsis sp. MPI-PUGE-AT-0042 v1.0
+Cortinarius abnormis TAS10R v1.0
+Cortinarius aff. campbellae TAS5-PSC4363 v1.0
+Cortinarius archeri SA1 v1.0
+Cortinarius austrovenetus TL2843-KIS7R v1.0
+Cortinarius saniosus 2018PMI107 v2.0
+Cortinarius sp. KIS3-TL2766 v1.0
+Cortinarius sp. TAS3 v1.0
+Crassisporium funariophilum CBS 144457 v1.0
+Crepidotus cesatii CBS 511.95 v1.0
+Crepidotus variabilis CBS 506.95 v1.0
+Cristinia sonorae KKN 215 v1.0
+Cronartium comandrae Tree 4 v2.0
+Cronartium quercuum f. sp. fusiforme G11 v1.0
+Cronartium ribicola Cypress_4 v1.0
+Crucibulum laeve CBS 166.37 v1.0
+Crustoderma dryinum OMC1663 v1.0
+Cryptococcus amylolentus CBS 6039
+Cryptococcus curvatus ATCC 20509 v1.0
+Cryptococcus gattii CA1873
+Cryptococcus gattii VGII 2001/935-1
+Cryptococcus gattii VGIV IND107
+Cryptococcus gattii WM276
+Cryptococcus neoformans var neoformans JEC21
+Cryptococcus neoformans var. grubii H99
+Cryptococcus terreus 61-443 v1.0
+Cryptococcus terricola JCM 24523 v1.0
+Cryptococcus wingfieldii CBS 7118
+Cyathus pallidus NK-01 v1.0
+Cyathus stercoreus NK-82 v1.0
+Cyathus striatus AH 40144 v1.0
+Cylindrobasidium torrendii FP15055 v1.0
+Cystobasidium minutum MCA 4210 v1.0
+Cystostereum murrayi CysMur001 v1.0
+Cytidiella melzeri FP 102339 v1.0
+Dacrymyces fennicus OMC1656 v1.0
+Dacrymyces tortus OMC1693 v1.0
+Dacryonaema rufum OMC1653 v1.0
+Dacryopinax primogenitus DJM 731 SSP1 v1.0
+Daedalea quercina v1.0
+Dendrothele bispora CBS 962.96 v1.0
+Dendrothele microspora FP 101998 v1.0
+Dentipellis sp. KUC8613 v1.0
+Dichomitus squalens CBS 464.89 v2.0
+Dichomitus squalens CBS463.89 v1.0
+Dichomitus squalens CBS464.89 v1.0
+Dichomitus squalens LYAD-421 SS1 v1.0
+Dichomitus squalens OM18370.1 v1.0
+Digitatispora marina 008cD1.1 v1.0
+Dioszegia cryoxerica ANT03-071 v1.0
+Dioszegia hungarica PDD-24b-2
+Earliella scabrosa CIRM-BRFM 1817 v1.0
+Echinodontium tinctorium Aho-80 v1.0
+Entoloma gasteromycetoides TAS9 v1.0
+Epithele typhae CBS 203.58 v1.0
+Erythrobasidium hasegawianum ATCC 9536 v1.0
+Exidia glandulosa v1.0
+Exobasidium maculosum A7-4 v1.0
+Exobasidium vaccinii MPITM v1.0
+Favolaschia claudopus CIRM-BRFM 2984 v1.0
+Fellomyces penicillatus Phaff54-35 v1.0
+Fibroporia radiculosa TFFH 294
+Fibulobasidium inconspicuum Phaff89-39 v1.0
+Fibulorhizoctonia psychrophila CBS 109695 v1.0
+Filobasidium floriforme CBS 6241 v1.0
+Filobasidium wieringae UCDFST 05-544 v1.0
+Fistulina hepatica v1.0
+Flagelloscypha sp. PMI_526 v1.0
+Flavodon flavus 38 v1.0
+Fomes fomentarius CIRM-BRFM 1821 v1.0
+Fomitiporia mediterranea v1.0
+Fomitopsis betulina CIRM-BRFM 1772 v1.1
+Fomitopsis rosea Sig1Fomros20-ss v1.0
+Fomitopsis schrenkii FP-58527 SS1 v3.0
+Galerina marginata v1.0
+Galzinia incrustans CBS 104901 v1.0
+Ganoderma adspersum CBS 147723 v1.0
+Ganoderma boninense G3 v1.0
+Ganoderma leucocontextum Dai12418 v1.0
+Ganoderma lucidum G.260125-1 v1.0
+Ganoderma sinense ZZ0214-1
+Ganoderma sp. 10597 SS1 v1.0
+Gautieria morchelliformis GMNE.BST v1.0
+Geastrum triplex GST.BST v1.0
+Gloeopeniophorella convolvens OM19405 v1.0
+Gloeophyllum trabeum v1.0
+Grifola frondosa 9006-11
+Guyanagaster necrorhizus MCA 3950 v1.0
+Gymnopilus chrysopellus PR-1187 v1.0
+Gymnopilus junonius AH 44721 v1.0
+Gymnopus androsaceus JB14 v1.0
+Gymnopus earleae GB-263.02 v1.0
+Gymnopus luxurians v1.0
+Gyrodon lividus BX v1.0
+Hebeloma brunneifolium PMI1Jessy v2.0
+Hebeloma cylindrosporum h7 v2.0
+Heliocybe sulcata OMC1185 v1.0
+Hericium coralloides FP-101451 v1.0
+Heterobasidion annosum v2.0
+Heterodoassansia hygrophilae CBS 346.65 v1.0
+Heterogastridium pycnidioideum ATCC MYA-4631 v1.0
+Hexagonia nitida CIRM-BRFM 1802 v1.0
+Hyalopycnis blepharistoma ATCC 48560 v1.0
+Hydnomerulius pinastri v2.0
+Hydnopolyporus fimbriatus CBS384.51 v1.0
+Hydnum rufescens UP504 v2.0
+Hygrocybe coccinea JK88 v2.0
+Hygrophoropsis aurantiaca ATCC 28755 v1.0
+Hymenopellis radicata IJFM A160 v1.0
+Hypholoma sublateritium v1.0
+Hypsizygus marmoreus 51987-8
+Hysterangium stoloniferum HS.BST v1.0
+Inosperma lanatodiscum 2018PMI007 v1.0
+Intextomyces contiguus OMC1699 v1.0
+Irpex lacteus CCBAS Fr. 238 617/93 v1.0
+Irpex lacteus DSM 1183 v1.0
+Ischnoderma benzoinum IVC119 v1.0
+Jaapia argillacea v1.0
+Jaminaea sp. MCA 5214 v1.0
+Kalmanozyma brasiliensis GHG001
+Kavinia alboviridis OMC1854 v1.0
+Kockovaella imperatae NRRL Y-17943 v1.0
+Kriegeriales sp. isolate P6C61 v1.0
+Kurtia argillacea OMC1749 v1.0
+Kwoniella pini CBS 10737
+Laccaria amethystina LaAM-08-1 v2.0
+Laccaria bicolor 81306 v1.0
+Laccaria bicolor CBS 559.96 v1.0
+Laccaria bicolor CBS 594.89 v1.0
+Laccaria bicolor Cham3 v1.0
+Laccaria bicolor D101 v1.0
+Laccaria bicolor DR170 v1.0
+Laccaria bicolor N203 v1.0
+Laccaria bicolor S238N 93.12 v1.1
+Laccaria bicolor S238N v1.0
+Laccaria bicolor S238N-H53 v1.0
+Laccaria bicolor S238N-H70 v1.0
+Laccaria bicolor S238N-H82 v1.0
+Laccaria bicolor S238N-H82xH70 v1.0
+Laccaria bicolor S238O v1.0
+Laccaria bicolor v2.0
+Laccaria sp. KIS1 v1.0
+Laccaria sp. KIS6 v1.0
+Lactarius akahatsu QP v1.0
+Lactarius controversus PMI44 v1.0
+Lactarius deliciosus 48 v1.0
+Lactarius hatsudake 109 v1.0
+Lactarius hengduanensis 84 v1.0
+Lactarius indigo 2018DUKE089 v1.0
+Lactarius psammicola BPL869 v1.0
+Lactarius pseudohatsudake 88 v1.0
+Lactarius quietus S23C v1.0
+Lactarius sanguifluus B21 v1.0
+Lactarius subdulcis FM v1.0
+Lactarius tabidus Fr. 1825 v1.0
+Lactarius vividus 141 v1.0
+Lactifluus cf. subvellereus BPL653 v1.0
+Lactifluus cf. volemus BPL652 v1.0
+Laetiporus sulphureus var. sulphureus v1.0
+Lanmaoa asiatica v1.0
+Laxitextum bicolor CBS 258.73 v1.0
+Leiotrametes lactinea CIRM-BRFM 1664 v1.0
+Leiotrametes menziesii CIRM-BRFM 1781 v1.0
+Leiotrametes sp. CIRM-BRFM 1775 v1.0
+Lentinellus vulpinus AHS73672-sp v1.0
+Lentinula aciculospora JLM2183 v1.0
+Lentinula aff. detonsa TFB10291 v1.0
+Lentinula aff. detonsa TFB10292 v1.0
+Lentinula aff. lateritia TMI1499 v1.0
+Lentinula afn. lateritia sp 3 TMI1502 v1.0
+Lentinula boryana TFB10827 v1.0
+Lentinula detonsa TFB7810 v1.0
+Lentinula detonsa TFB7829 v1.0
+Lentinula edodes B17 v1.3
+Lentinula edodes CS-584 v1.0
+Lentinula edodes Le(Bin) 0899 ss11 v1.0
+Lentinula edodes NBRC 111202
+Lentinula edodes TMI1148 v1.0
+Lentinula edodes TMI1633 v1.0
+Lentinula edodes VB361 v1.0
+Lentinula edodes W1-26 v1.0
+Lentinula edodes sp2 HRB7682 ss15 v1.0
+Lentinula guzmanii ET3784 v1.0
+Lentinula lateritia RHP3577 ss4 v1.0
+Lentinula lateritia RV95-379 v1.0
+Lentinula novae-zelandiae ICMP 18003 v1.0
+Lentinula novae-zelandiae TMI-1172 v1.0
+Lentinula raphanica INPA1701G ss19 v1.0
+Lentinula raphanica INPA1820 v1.0
+Lentinula raphanica JLM1587 v1.0
+Lentinula raphanica TFB8682 v1.0
+Lentinula raphanica TFB9207 v1.0
+Lentinula raphanica TFB9929 ss4 v1.0
+Lentinus tigrinus ALCF2SS1-6 v1.0
+Lentinus tigrinus ALCF2SS1-7 v1.0
+Lentinus tigrinus v1.0
+Lepista nuda CBS 247.69 v1.0
+Leptoporus mollis OMC1684 v1.0
+Leratiomyces ceres mycota028 v2.0
+Leratiomyces erythrocephalus mycota031 v2.0
+Leucoagaricus gongylophorus AB2 v1.0
+Leucoagaricus gongylophorus AL2 v1.0
+Leucoagaricus gongylophorus AS2 v1.0
+Leucoagaricus gongylophorus Ac12
+Leucogyrophana mollusca KUC20120723A-06 v1.0
+Leucosporidiella creatinivora UCDFST 62-1032 v1.0
+Lycoperdon perlatum FP-102459-T v1.0
+Lyophyllum atratum CBS 144462 v1.0
+Macrolepiota fuliginosa MF-IS2 v1.0
+Malassezia globosa
+Malassezia pachydermatis CBS 1879
+Malassezia sympodialis ATCC 42132
+Malassezia vespertilionis NWHC:44797-103
+Marasmius fiardii PR-910 v1.0
+Meira miltonrushii MCA 3882 v1.0
+Melampsora allii-populina 12AY07 v1.0
+Melampsora americana R15-033-03 v1.0
+Melampsora larici-populina v2.0
+Melampsora lini CH5
+Melampsora lini CH5 haplotype C v2.0
+Melampsora lini CH5 haplotype H v2.0
+Melampsora medusae f. sp. Deltoidae Mmd05TRE539 v1.0
+Melampsora medusae f. sp. tremuloidae Mmt05Ida529 v1.0
+Melampsora x columbiana Clatskanie v1.0
+Melanogaster broomeianus MBLB.BST v1.0
+Melanotaenium endogenum CBS481.91 v1.0
+Meredithblackwellia eburnea MCA 4105 v1.0
+Meripilus sumstinei FP 105329 v1.0
+Microbotryomycetes incertae sedis isolate P6C30 v1.0
+Microbotryomycetes sp. P2C70 v1.0
+Microbotryum intermedium 1389 BM 12 12
+Microbotryum lychnidis-dioicae p1A1 Lamole
+Mixia osmundae IAM 14324 v1.0
+Moesziomyces antarcticus JCM 10317
+Moesziomyces aphidis DSM 70725
+Moniliella sp. MCA 3643 v1.0
+Moniliophthora perniciosa FA553
+Moniliophthora roreri MCA 2997
+Mrakia frigida ATCC 22029 v1.0
+Multifurca ochricompacta BPL690 v1.0
+Mutinus elegans ME.BST v1.0
+Mycena albidolilacea CBHHK002 v1.0
+Mycena alexandri CBHHK200 v1.0
+Mycena amicta BAPX v1.0
+Mycena belliae CBHHK173m v1.0
+Mycena capillaripes Frankland 9286 v1.0
+Mycena crocata CBHHK184 v1.0
+Mycena epipterygia CBHHK145m v1.0
+Mycena filopes CBHHK001 v1.0
+Mycena floridula CBHHK072 v1.0
+Mycena galericulata CBHHK162m v1.0
+Mycena galopus ATCC-62051 v1.0
+Mycena haematopus CBHHK189 v1.0
+Mycena latifolia 10383 v1.0
+Mycena leptocephala CBHHK5/15 v1.0
+Mycena maculata CBHHK188m v1.0
+Mycena metata CBHHK182m v1.0
+Mycena olivaceomarginata CBHHK47/15 v1.0
+Mycena polygramma CBHHK137 v1.0
+Mycena pura 9144 v1.0
+Mycena rebaudengoi CBHHK068 v1.0
+Mycena rosella CBHHK067 v1.0
+Mycena sanguinolenta CBHHK176m v1.0
+Mycena sp. CBHHK59/15 v1.0
+Mycena vitilis CBHHK169m v1.0
+Mycena vulgaris CBHHK164 v1.0
+Mycocalia denudata CBS 494.85 v1.0
+Naematelia encephela UCDFST 68-887.2 v1.0
+Naganishia friedmannii 6030m v2.0
+Naganishia vishniacii ANT03-052 v1.1
+Naiadella fluitans ATCC 64713 v1.0
+Naohidea sebacea CBS 8477 (P95) v1.0
+Neolentinus lepideus v1.0
+Nia vibrissa CBS 119815 v1.0
+Nidula sp. CBS 380.80 v1.0
+Nidularia deformis CBS 156.42 v1.0
+Obba rivulosa 3A-2 v1.0
+Oliveonia pauxilla MPI-PUGE-AT-0066 v1.0
+Omphalotus olearius
+Onnia scaura P-53A v1.0
+Oudemansiella mucida CBS 558.79 v1.0
+Panaeolus papilionaceus CIRM-BRFM 715 v1.0
+Panellus stipticus KUC8834 v1.1
+Panellus stipticus LUM v1.0
+Panus rudis PR-1116 ss-1 v1.0
+Papiliotrema laurentii 5307AH v1.0
+Paragyrodon sphaerosporus FC442 v2.0
+Paullicorticium ansatum OMC1603 v1.0
+Paxillus adelphus Ve08.2h10 v2.0
+Paxillus ammoniavirescens Pou09.2 v1.0
+Paxillus involutus ATCC 200175 v1.0
+Peniophora sp. CONTA v1.0
+Peniophora sp. v1.0
+Perenniporia fraxinea SS3
+Perenniporia subacida PersubVin-SM18 v1.0
+Phaeosolenia platensis CBS 268.64 v1.0
+Phakopsora pachyrhizi K8108 v2.0
+Phakopsora pachyrhizi MT2006 v1.0
+Phakopsora pachyrhizi UFV02 v2.1
+Phanerochaete carnosa HHB-10118-Sp v1.0
+Phanerochaete chrysosporium RP-78 v2.2
+Phanerochaete chrysosporium RP-78 v3.0
+Phanerochaete chrysosporium RP-78 v4.0
+Phellinus ferrugineofuscus SpK3Phefer14 v1.0
+Phellinus igniarius CCBS 575 v1.0
+Phellinus noxius FFPRI411160
+Phellinus viticola PhevitSig-SM15 v1.0
+Phellopilus nigrolimitatus SigPhenig9 v1.0
+Phlebia brevispora HHB-7030 SS6 v1.0
+Phlebia centrifuga FBCC195 
+Phlebia radiata Fr. (isolate 79, FBCC0043)
+Phlebia subcretacea OMC74 v1.0
+Phlebiopsis gigantea v1.0
+Phlebopus sp. FC_14 v2.0
+Phlegmacium glaucopus AT 2004 276 v2.0
+Phleogena faginea OMC 1709 v1.0
+Pholiota alnicola AH 47727 v1.0
+Pholiota conissans CIRM-BRFM 674 v1.0
+Pholiota molesta CBS 144467 v1.0
+Pholiota sp. NL-8118 v1.0
+Piloderma byssinum 4S31 v1.0
+Piloderma olivaceum F 1598 v1.0
+Piloderma sphaerosporum 354 v1.0
+Piriformospora indica DSM 11827 from MPI
+Pisolithus albus SI12 v1.0
+Pisolithus capsulifer 3163 v1.0
+Pisolithus croceorrhizus ssp. 2 72 v1.0
+Pisolithus croceorrhizus subspA 74A v1.0
+Pisolithus marmoratus 721 v1.0
+Pisolithus marmoratus ssp. 2 16A v1.0
+Pisolithus microcarpus 441 v2.0
+Pisolithus orientalis OTSU v2.0
+Pisolithus sp. B1 v1.0
+Pisolithus thermaeus 11 v1.0
+Pisolithus tinctorius Marx 270 v2.0
+Pisolithus tympanobaculus R1 v1.0
+Pleurotus eryngii ATCC 90797 v1.0
+Pleurotus ostreatus DSM 11191 v1.0
+Pleurotus ostreatus PC15 v2.0
+Pleurotus ostreatus PC9 v1.0
+Plicaturopsis crispa v1.0
+Pluteus cervinus NL-1719 v1.0
+Polyporus arcularius v1.0
+Polyporus brumalis CIRM-BRFM 1820 v1.0
+Polyporus squamosus CCBS 676 v1.0
+Porodaedalea chrysoloma FP-135951 v1.0
+Porodaedalea niemelaei PN71-100-IP13 v1.0
+Porosterum spadiceum BS34 v1.0
+Porpomyces mucidus OMC1666 v1.0
+Postia placenta MAD 698-R v1.0
+Postia placenta MAD-698-R-SB12 v1.0
+Postia stiptica OMC1664 v1.0
+Pseudomicrostroma glucosiphilum gen et sp. nov. MCA 4718 v1.0
+Pseudozyma antarctica T-34
+Pseudozyma flocculosa PF-1
+Pseudozyma hubeiensis SY62
+Psilocybe cubensis v1.0
+Psilocybe serbica v1.0
+Psilocybe subaeruginosa BRI183 v1.0
+Pterula gracilis CBS309.79 v1.0
+Puccinia coronata avenae 12NC29
+Puccinia coronata avenae 12SD80
+Puccinia graminis f. sp. tritici 21-0 haplotype A
+Puccinia graminis f. sp. tritici 21-0 haplotype B
+Puccinia graminis f. sp. tritici Ug99 haplotype A
+Puccinia graminis f. sp. tritici Ug99 haplotype C
+Puccinia graminis f. sp. tritici v2.0
+Puccinia striiformis f. sp. tritici 104 E137 A-
+Puccinia striiformis f. sp. tritici PST-130 
+Puccinia striiformis f. sp. tritici PST-78 v1.0
+Puccinia triticina 1-1 BBBD Race 1
+Puccinia triticina Pt76
+Punctularia strigosozonata v1.0
+Pycnoporellus fulgens PcyfulGre-SM17 v1.0
+Pycnoporus cinnabarinus CIRM-BRFM 137 v1.0
+Pycnoporus cinnabarinus CIRM-BRFM 50 v1.0
+Pycnoporus coccineus CIRM-BRFM 310 v1.0
+Pycnoporus coccineus ​CIRM-BRFM 1662 v1.0
+Pycnoporus puniceus CIRM-BRFM 1868 v1.0
+Pycnoporus sanguineus CIRM-BRFM 1264 v1.0
+Radulomyces confluens OMC1631 v1.0
+Ramaria rubella (R. acris) UT-36052-T v1.0
+Resinicium bicolor OMC78 v1.0
+Rhamphospora nymphaeae CBS 172.38 v1.0
+Rhizoctonia solani AG-1 IB
+Rhizoctonia solani AG-3 Rhs1AP
+Rhizoctonia solani AG-8 WAC10335
+Rhizopogon salebrosus TDB-379 v1.0
+Rhizopogon truncatus FC74 v1.0
+Rhizopogon vesiculosus Smith
+Rhizopogon vinicolor AM-OR11-026 v1.0
+Rhizopogon vulgaris FC72 v1.0
+Rhodocollybia butyracea AH 40177 v1.0
+Rhodocollybia butyracea CCBAS 279 v1.0
+Rhodofomes roseus CIRM-BRFM 1785 v1.0
+Rhodosporidium diobovatum 08-225 v1.0
+Rhodosporidium glutinis ATCC 204091 v1.0
+Rhodosporidium toruloides ATCC26217 v1.0
+Rhodosporidium toruloides IFO0559_1
+Rhodosporidium toruloides IFO0880 v4.0
+Rhodosporidium toruloides IFO1236_1
+Rhodosporidium toruloides NP11
+Rhodotorula glutinis v1.0
+Rhodotorula graminis strain WP1 v1.1
+Rhodotorula mucilaginosa ATCC58901 v1.0
+Rhodotorula mucilaginosa J31 v1.0
+Rhodotorula sp. CCFEE 5036
+Rhodotorula sp. JG-1b
+Rhodotorula taiwanensis MD1149
+Rickenella fibula HBK330-10 v1.0
+Rickenella mellea v1.0 (SZMC22713)
+Rigidoporus microporus ED310 v1.0
+Roridomyces roridus 9284 v1.0
+Russula brevipes BPL707 v1.0
+Russula compacta BPL669 v1.0
+Russula decolorans Maridalen v1.0
+Russula dissimulans BPL704 v1.0
+Russula earlei BPL698 v1.0
+Russula emetica 2018DUKE113 v1.0
+Russula emetica Přilba v1.0
+Russula ochroleuca Přilba v1.0
+Russula rugulosa BPL654 v1.0
+Russula seminuda PSC4341-TAS1 v1.0
+Russula sp. KIS4 v1.1
+Russula sp. KIS8R TL3126 v1.0
+Russula sp. SA2 v1.0
+Russula sp. TAS8 v1.0
+Russula vinacea BPL710 v1.0
+Saccosoma farinaceum IVC104 v1.0
+Schizophyllum commune 207.1 v1.0
+Schizophyllum commune 223.1 v1.0
+Schizophyllum commune 225.1 v1.0
+Schizophyllum commune 227.1 v1.0
+Schizophyllum commune 227.2 v1.0
+Schizophyllum commune H4-8 v3.0
+Schizophyllum commune JGI1246750 v1.0
+Schizophyllum commune Loenen D v1.0
+Schizophyllum commune Tattone D v1.0
+Schizophyllum commune ZB1 v1.0
+Schizophyllum commune ZB2 v1.0
+Schizophyllum fasciatum CBS 267.60 v1.0
+Schizophyllum radiatum CBS 301.32 v1.0
+Schizopora paradoxa KUC8140 v1.0
+Scleroderma citrinum Foug A v1.0
+Scleroderma citrinum hr. v1.0
+Scleroderma yunnanense jo. v1.0
+Sclerogaster hysterangioides SCL2.BST v1.0
+Scytinostroma sp. KUC9335 v1.0
+Sebacina vermifera MAFF 305830 v1.0
+Septobasidium sp. PNB30-8B v1.0
+Serendipita sp. 400 v1.0
+Serendipita sp. 405 v1.0
+Serendipita sp. 407 v1.0
+Serendipita sp. 411 v1.0
+Serendipita vermifera ssp. bescii NFPB0129 v1.0
+Serpula himantioides (S.lacrymans var shastensis) MUCL38935 v1.0
+Serpula lacrymans S7.3 v2.0
+Serpula lacrymans S7.9 v2.0
+Serpulomyces borealis OMC1750 v1.0
+Sidera vulgaris OMC 1730 v1.0
+Sirobasidium intermedium CBS7805 v1.0
+Sistotrema brinkmannii OMC1754 v1.0
+Sistotrema muscicola OMC 1658 v1.0
+Sistotrema raduloides OMC1660 v1.0
+Sistotrema sernanderi OMC 1753 v1.0
+Sistotrema sp. PMI_390 v1.0
+Sistotremastrum niveocremeum HHB9708 ss-1 1.0
+Sistotremastrum suecicum v1.0
+Skeletocutis biguttulata OMC1759 v1.0
+Skeletocutis stellae OMC1752 v1.0
+Slooffia pilatii Y-17178 v1.0
+Sparassis latifolia CCMJ1100 v1.0
+Sphaerobolus stellatus v1.0
+Sporidiobolus pararoseus UCDFST 68-350 v1.0
+Sporisorium reilianum SRZ2
+Sporobolomyces gracilis NRRL Y-5504 v1.0
+Sporobolomyces linderae CBS 7893 v1.0
+Sporobolomyces roseus v1.0
+Stephanosporaceae sp. PMI 697 v1.0
+Stereum hirsutum FP-91666 SS1 v1.0
+Sterigmatosporidium polymorphum UCDFST 82-13 v1.0
+Stropharia rugosoannulata MYCOTA018 v1.0
+Suillus acidus FC148 v1.0
+Suillus americanus EM31 v1.0
+Suillus ampliporus FC55 v1.0
+Suillus bovinus UH-Sbo-P2 v1.0
+Suillus brevipes Sb2 v2.0
+Suillus brunnescens FC94 v1.1
+Suillus cf. sibiricus RUI384 v1.0
+Suillus cf. subluteus FC464 v1.0
+Suillus cf. variegatus FC465 v1.0
+Suillus clintonianus FC179 v1.0
+Suillus collinitus S28 v1.0
+Suillus cothurnatus VC 1858 v1.0
+Suillus decipiens EM49 v1.0
+Suillus discolor FC423 v1.0
+Suillus elbensis FC64 v1.0
+Suillus fuscotomentosus FC203 v1.0
+Suillus glandulosipes FC488 v1.0
+Suillus granulatus S33 v1.0
+Suillus grisellus FC184 v1.0
+Suillus hirtellus EM16 v1.0
+Suillus kaibabensis FC96 v2.0
+Suillus lakei FC43 v1.0
+Suillus luteus 16.09.17.av07 v1.0
+Suillus luteus UH-Slu-Lm8-n1 v3.0
+Suillus occidentalis FC124 v1.0
+Suillus ochraceoroseus FC498 v1.0
+Suillus paluster FC165 v1.0
+Suillus placidus DOB743 v1.0
+Suillus placidus S07 v1.0
+Suillus plorans S12 v1.0
+Suillus pseudogranulatus FC45 v1.0
+Suillus punctipes FC325 v1.0
+Suillus pungens FC27 v1.0
+Suillus quiescens AUS222 v1.0
+Suillus quiescens AUS223 v1.0
+Suillus quiescens FC197 v1.0
+Suillus quiescens FC198 v1.0
+Suillus quiescens NZ227 v1.0
+Suillus sp. nov. FC429 v1.0
+Suillus spraguei EM44 v1.0
+Suillus subalutaceus FC151 v1.0
+Suillus subaureus MN1 v1.0
+Suillus tomentosus FC115 v1.0
+Suillus variegatus UH-Sva-Z1 v1.0
+Suillus viscidus S02 v2.0
+Suillus weaverae EM37 v1.0
+Termitomyces sp. J132
+Testicularia cyperi MCA 3645 v1.0
+Thanatephorus cucumeris MPI-SDFR-AT-0096 v1.0
+Thelephora ganbajun P2 v1.0
+Thelephora terrestris UH-Tt-Lm1 v1.0
+Tilletia caries DAOM 238032
+Tilletia controversa DAOM 236426
+Tilletia indica DAOM 236416
+Tilletia maclaganii Tm001 NY21 v1.0
+Tilletia walkeri DAOM 236422
+Tilletiaria anomala UBC 951 v1.0
+Tilletiopsis albescens v1.0
+Tilletiopsis sp. TKC30 v1.0
+Tilletiopsis washingtonensis MCA 4186 v1.0
+Trametes betulina CIRM-BRFM 1801 v1.0
+Trametes cingulata CIRM-BRFM 1805 v1.0
+Trametes gibbosa CIRM-BRFM 1770 v1.0
+Trametes ljubarskyi CIRM-BRFM 1659 v1.0
+Trametes maxima CIRM-BRFM 1813 v1.0
+Trametes meyenii CIRM-BRFM 1810 v1.0
+Trametes polyzona CIRM-BRFM 1798 v1.0
+Trametes pubescens FBCC735
+Trametes versicolor ATCC 20869
+Trametes versicolor v1.0
+Trametopsis cervina CIRM-BRFM 1824 v1.0
+Tremella mesenterica Fries v1.0
+Trichaptum abietinum L-15831 v1.0
+Tricholoma matsutake 945 v3.0
+Tricholoma populinum 2016PMI031 v1.0
+Trichosporon asahii var. asahii CBS 2479
+Trichosporon asahii var. asahii CBS 8904
+Trichosporon chiarellii MYA-4694 v1.0
+Trichosporon guehoae v1.0
+Trichosporon oleaginosus IBC0246 v1.0
+Tritirachium sp. CBS 265.96 v1.0
+Truncocolumella citrina FC456 v1.1
+Tulasnella calospora AL13/4D v1.0
+Tulasnella calospora UAMH 9824 v1.0
+Tulasnella helicospora OP6.3d v1.0
+Tulasnella inquilina UAMH 7632 v1.0
+Tulasnella irregularis AM1.12e v1.0
+Tulasnella sp 1423-3 v1.0
+Tulasnella sp. 419 v1.0
+Tulasnella sp. 425 v1.0
+Tulasnella sp. 427 v1.0
+Tylopilus felleus Maridalen v1.0
+Typhula sp. TRa3160C v1.0
+Unilacryma unispora MAFF 240146 v1.0
+Urocystis occulta CBS 102.71 v1.0
+Urocystis primulicola RUB 030670 v1.0
+Ustanciosporium gigantosporum RK316 v1.0
+Ustilago bromivora UB2112
+Ustilago hordei Uh4857_4
+Ustilago maydis 521 v2.0
+Vararia minispora EC-137 v1.0
+Veluticeps abietina OMC1657 v1.0
+Violaceomyces palustris SA 807 v1.0
+Volvariella volvacea V23
+Vuilleminia comedens VcCUCC2015_SSI3 v1.0
+Vuilleminia comedens VcCUCC2015_SSI6 v1.0
+Wallemia ichthyophaga EXF-994
+Wallemia mellicola v1.0
+Wolfiporia cocos MD-104 SS10 v1.0
+Xanthophyllomyces dendrorhous CBS 6938 v1.0
+Xanthophyllomyces dendrorhous UBV-AX4 v1.0
+Xanthoporus peckianus DAOM 52321 v1.0
+Xenasmatella tulasnelloidea OMC1662 v1.0
+Xenasmatella vaga CBS212.54 v1.0
+Xerocomellus pruinatus BavarianF63 v1.0
+Xerocomus badius 84.06 v1.0
+Xylodon remissus sp. n. OMC1960 v1.0

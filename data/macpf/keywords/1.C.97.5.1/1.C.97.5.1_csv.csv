@@ -1,0 +1,2 @@
+Score,"Organism Id","Organism Name",Name,Track,"Protein Id","Transcript Id",Location,Scaffold,Start,End,Strand,Annotations,"User Annotations"
+0.133116,Tulca1,"Tulasnella calospora AL13/4D v1.0","MIX21569_78_64","null",231163,231254,"scaffold_57:192,831-194,471 (+)","scaffold_57",192831,194471,"(+)","TCDB:1.C.97.5.1 IPRF:ipr001862 PFD:pf01823",""
