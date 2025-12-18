@@ -1,9 +1,3 @@
-06-10-2025 13:36
-
-Status:
-
-Tags: [[SnakeMake]] | [[dependencies]]
-
 ## DEPENDENCIES
 
 in environment.yml
