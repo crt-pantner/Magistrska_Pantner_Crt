@@ -1,4 +1,4 @@
-name: cleaner_pipeline
+name: pore_former_env
 channels:
   - conda-forge
   - defaults
