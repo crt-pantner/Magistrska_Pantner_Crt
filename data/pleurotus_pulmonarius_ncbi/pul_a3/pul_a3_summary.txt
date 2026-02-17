@@ -1,0 +1,4 @@
+
+1. Ostreolysin A6 [Pleurotus pulmonarius]
+140 aa protein
+KAF4577128.1 GI:1839246556
