@@ -1,3 +1,0 @@
-num_seqs_before_permission: 536
-num_seqs_permitted: 516
-num_seqs_forbidden: 20

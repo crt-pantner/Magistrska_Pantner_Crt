@@ -1,4 +1,0 @@
-
-1. hypothetical protein EYR36_005119 [Pleurotus pulmonarius]
-521 aa protein
-KAF4577132.1 GI:1839246560

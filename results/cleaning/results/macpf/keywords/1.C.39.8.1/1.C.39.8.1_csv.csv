@@ -1,8 +1,0 @@
-Score,"Organism Id","Organism Name",Name,Track,"Protein Id","Transcript Id",Location,Scaffold,Start,End,Strand,Annotations,"User Annotations"
-0.101983,Leugon1,"Leucoagaricus gongylophorus AB2 v1.0","CE398430_706","null",398431,398560,"scaffold_20:100,958-101,833 (-)","scaffold_20",100958,101833,"(-)","TCDB:1.C.39.8.1 IPRF:ipr000585",""
-0.101983,Leugon1,"Leucoagaricus gongylophorus AB2 v1.0","CE894188_789","null",894189,894318,"scaffold_668:10,714-11,600 (-)","scaffold_668",10714,11600,"(-)","TCDB:1.C.39.8.1 IPRF:ipr000585 IPRF:ipr018487",""
-0.101869,Cersp5352_1,"Ceratobasidium sp 535-2 v1.0","estExt_fgenesh1_pm.C_40001","estExt_fgenesh1_pm",2318730,2319318,"scaffold_4:1,275-2,017 (+)","scaffold_4",1275,2017,"(+)","TCDB:1.C.39.8.1 IPRF:ipr000585 IPRF:ipr018487",""
-0.101869,Cersp5352_1,"Ceratobasidium sp 535-2 v1.0","estExt_Genewise1Plus.C_3450059","estExt_Genewise1Plus",1916115,1916703,"scaffold_345:125,568-126,417 (-)","scaffold_345",125568,126417,"(-)","TCDB:1.C.39.8.1 IPRF:ipr000585 IPRF:ipr018487",""
-0.101869,Cersp5352_1,"Ceratobasidium sp 535-2 v1.0","estExt_Genewise1Plus.C_3450060","estExt_Genewise1Plus",1916116,1916704,"scaffold_345:128,840-129,582 (+)","scaffold_345",128840,129582,"(+)","TCDB:1.C.39.8.1 IPRF:ipr000585 IPRF:ipr018487",""
-0.085083,Cersp395_1,"Ceratobasidium sp. 395 v1.0","CE925262_25475","null",925263,925701,"scaffold_6:2,029,206-2,030,708 (-)","scaffold_6",2029206,2030708,"(-)","TCDB:1.C.39.8.1 MERCO:M10.031 IPRF:ipr000585 IPRF:ipr018487 PFD:pf00045",""
-0.068132,Thacu1,"Thanatephorus cucumeris MPI-SDFR-AT-0096 v1.0","CE358260_366","null",358261,358261,"scaffold_5:322,158-323,126 (+)","scaffold_5",322158,323126,"(+)","TCDB:1.C.39.8.1 MERCO:M10.031 MERCO:M10.UNA IPRF:ipr000585 IPRF:ipr018487",""

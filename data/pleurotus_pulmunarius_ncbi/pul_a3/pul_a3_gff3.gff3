@@ -1,9 +1,0 @@
-##gff-version 3
-#!gff-spec-version 1.21
-#!processor NCBI annotwriter
-##sequence-region KAF4577128.1 1 140
-##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28995
-KAF4577128.1	Genbank	region	1	140	.	+	.	ID=KAF4577128.1:1..140;Dbxref=taxon:28995;collection-date=2016;country=Taiwan;gbkey=Src;isolation-source=soil;lat-lon=25.0375 N 121.564 E;mol_type=unassigned;strain=PM_ss13
-KAF4577128.1	Genbank	polypeptide	1	140	.	+	.	ID=id-KAF4577128.1:1..140;calculated_mol_wt=15214;gbkey=Prot;product=Ostreolysin A6
-KAF4577128.1	Genbank	biological_region	5	137	.	+	.	ID=id-KAF4577128.1:5..137;Dbxref=CDD:399391;Name=Aegerolysin;gbkey=Region
-
