@@ -692,7 +692,7 @@ mkdir macpf/5_final/5.6_slike
 for file in $(find macpf/5_final/5.5_macpf_contianing_hmmer_results/ -iname "*"); do base=$(basename $file .json); svg="${base}.svg"; python3 /home/crt/Development/hmmer_viz/features.py $file "macpf/3_hmmer/hmmer_svgs/${svg}"; done
 ```
 
-## 8. Outgroups
+## 7. Outgroups
 
 TODO: Metadata:
 - Po čiščenju datotek z nigB proteinoma nadaljujemo z analizo
