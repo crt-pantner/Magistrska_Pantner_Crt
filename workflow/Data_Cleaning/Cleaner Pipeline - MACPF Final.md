@@ -679,10 +679,6 @@ cat macpf/logs/6.5.2_log.txt
 ```
 
 
-
-
-#TODO Po tem moramo združiti podatke se pravi s tistimi od prej in s pleurotus pulmunarius, to bomo uporabili za TreeViewer, da se lažje izrišejo drevesa. Itak še nimam koraka v katerem v csv datoteko izpišem filogenijo. Enako se mora zgoditi s outgroup proteini.
-
 ## . HMMER slike
 
 ```bash
@@ -698,14 +694,50 @@ for file in $(find macpf/5_final/5.5_macpf_contianing_hmmer_results/ -iname "*")
 
 ## 8. Outgroups
 
-8.1. Konkateniramo skupaj
+TODO: Metadata:
+- Po čiščenju datotek z nigB proteinoma nadaljujemo z analizo
 
-8.1.1 fasta
+7.1. Dodajanje outgroup genomov k sekvencam macpf in pleurotus pulmunarius
+- Združimo torej outgroup sekvence skupaj s sekvencami, ki smo jih pridobili v koraku združevanja 6.1
 
-8.1.2 csv
+```bash
+mkdir results/cleaning/macpf/7_outgroups/
 
-8.2 Odstranimo ID-je
+# Kopiranje združenih datotek iz koraka 6.1
+cp results/cleaning/macpf/6_pleurotus_pulmunarius/6.1_macpfs_pul_b.fasta results/cleaning/macpf/7_outgroups/7.1_meged.fasta
 
+# Prečiščevanje in dodajanje sekvenc pul_b
+seqkit seq data/outgroups/nig_b.fasta >> results/cleaning/macpf/7_outgroups/7.1_meged.fasta 
+
+```
+
+7.2. Pridobivanje statistike
+- Pridobimo statistiko novonastale fasta datoteke
+
+7.2.1. Statistika števila outgroup proteinov
+- Preverimo, koliko outgroup proteinov bi naj dodali v novo datoteko.
+```bash
+seqkit stats -a -T data/outgroups/nig_b.fasta >> results/cleaning/macpf/seqkit_stats/7.2.1_outgroup_stats.tsv
+```
+
+7.2.2. Statistika števila proteinov po združevanju s sekvencami iz prejšnjih korakov.
+```bash
+seqkit stats -a -T results/cleaning/macpf/7_outgroups/7.1_meged.fasta >> results/cleaning/macpf/seqkit_stats/7.2.2_outgroups_added_stats.tsv
+```
+
+7.2.3 Preverimo, ali je sedaj število sekvenc po dodatku outgroupov za število outgroup sekvenc večje od števila sekvenc v datoteki iz koraka 6.1. po združevanju s sekvencami _Pleurotus pulmunarius_
+```bash
+# Check number of sequences before adding outgroups
+ num_seqs=$(cat results/cleaning/macpf/seqkit_stats/6.1.1_macpf_pul_b_stats.tsv | csvtk cut -t -f "num_seqs" | csvtk del-header); echo "num_seqs_before_outgroups: ${num_seqs}" >> results/cleaning/macpf/logs/7.2.3_log.txt
+
+# Check number of sequences of outgroups
+num_seqs=$(cat results/cleaning/macpf/seqkit_stats/7.2.1_outgroup_stats.tsv | csvtk cut -t -f "num_seqs" | csvtk del-header); echo "num_seqs_outgroups: ${num_seqs}" >> results/cleaning/macpf/logs/7.2.3_log.txt
+
+# Check number of sequences after adding outgroups
+num_seqs=$(cat results/cleaning/macpf/seqkit_stats/7.2.2_outgroups_added_stats.tsv | csvtk cut -t -f "num_seqs" | csvtk del-header); echo "num_seqs_added_outgroups: ${num_seqs}" >> results/cleaning/macpf/logs/7.2.3_log.txt
+
+# See log
+cat results/cleaning/macpf/logs/7.2.3_log.txt 
 
 
 
