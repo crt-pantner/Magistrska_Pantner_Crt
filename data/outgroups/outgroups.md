@@ -22,6 +22,6 @@ AspHSB: Aspfu1|3327
 Organism: Beauveria bassiana ARSEF 286
 
 ## Aegerolysin:
-BlyA: Beaba1|12701
+BlyA: Beaba1|2701
 ## MACPF-like:
-BlyB: Beaba1|12701
+BlyB: Beaba1|2702
