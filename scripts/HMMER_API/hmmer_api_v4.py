@@ -160,6 +160,8 @@ def main():
                 pass
         except Exception as e:
             print(f"Error: {e}")
+            with open("Not_done_proteins.txt", "a") as file:
+                file.write(f"{sequence.id}\n")
 
 
             
