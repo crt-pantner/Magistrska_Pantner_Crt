@@ -1,0 +1,2 @@
+Score,"Organism Id","Organism Name",Name,Track,"Protein Id","Transcript Id",Location,Scaffold,Start,End,Strand,Annotations,"User Annotations"
+8.745842,Aspfu1,"Aspergillus fumigatus Af293 from AspGD","Afu3g00600_mRNA","ExternalModels",3327,3327,"Chr_3_A_fumigatus_Af293:131,435-133,886 (+)","Chr_3_A_fumigatus_Af293",131435,133886,"(+)","",""

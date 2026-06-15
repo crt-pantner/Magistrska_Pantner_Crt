@@ -1,0 +1,2 @@
+Score,"Organism Id","Organism Name",Name,Track,"Protein Id","Transcript Id",Location,Scaffold,Start,End,Strand,Annotations,"User Annotations"
+7.029831,Aspni_NRRL3_1,"Aspergillus niger NRRL3","NRRL3_02453","ExternalModels",2453,2453,"chr_202:2,518,943-2,519,439 (+)","chr_202",2518943,2519439,"(+)","GO:0019836 GO:0030582 TCDB:1.C.97.1.1 IPRF:ipr009413 PFD:pf06355",""

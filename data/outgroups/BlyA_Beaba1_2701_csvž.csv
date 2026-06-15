@@ -1,0 +1,2 @@
+Score,"Organism Id","Organism Name",Name,Track,"Protein Id","Transcript Id",Location,Scaffold,Start,End,Strand,Annotations,"User Annotations"
+7.204147,Beaba1,"Beauveria bassiana ARSEF 2860","BBA_02701m.01","ExternalModels",2701,2701,"scaffold_00005:1,350,136-1,350,628 (+)","scaffold_00005",1350136,1350628,"(+)","GO:0019836 GO:0030582 TCDB:1.C.97.1.1 IPRF:ipr009413 PFD:pf06355",""
