@@ -1,4 +1,4 @@
-name: pore_former_env
+name: pore-former-env
 channels:
   - conda-forge
   - defaults
@@ -13,5 +13,8 @@ dependencies:
   - scipy=1.16 # For scripts: stat
   - csvtk=0.36
   - openpyxl #json_to_tab
+  - bioconda::mafft==7.525 # For running MAFFT for sequence alignment
+  - conda-forge::seaborn==0.13.2 # For protein properties script
+  - bioconda::peptides==0.5.0 # For calculation of peptide properties and graphs
 
 
