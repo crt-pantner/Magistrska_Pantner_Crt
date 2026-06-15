@@ -1,0 +1,31 @@
+Database, Accesion Number, Annotation                                                                                                    , Posikano?
+IPRF    , ipr001862      , Membrane attack complex component/perforin/complement C9                                                      , da
+IPRF    , ipr020863      , "Membrane attack complex component/perforin domain, conserved site"                                           , da
+IPRF    , ipr020864      , Membrane attack complex component/perforin (MACPF) domain                                                     , da
+PFD     , pf01823        , MAC/Perforin domain                                                                                           , da
+TCDB    , 1.C.39.4.1     , "Chain A, MACPF perforin-like protein, Plu-MACPF (structure solved to 2.0 Å resolution; Rosado et al., 2007).", da
+TCDB    , 1.C.39.9.1     , MACPF homologue                                                                                               , da
+TCDB    , 1.C.97.1.1     , 2 component system: The Pleurotolysin Pore-forming (Pleurotolysin) Family                                     , da
+TCDB    , 1.C.97.1.2     , 2 component system: The Pleurotolysin Pore-forming (Pleurotolysin) Family                                     , da
+TCDB    , 1.C.97.2.1     , Putative hemolysin of 224 aas                                                                                 , da
+TCDB    , 1.C.97.5.1     , 2 component system: The Pleurotolysin Pore-forming (Pleurotolysin) Family                                     , da
+IPRF    , ipr006703      , AIG1-type guanine nucleotide-binding (G) domain                                                               , ne
+IPRF    , ipr013320      , Concanavalin A-like lectin/glucanase domain superfamily                                                       , ne
+IPRF    , ipr016130      , "Protein-tyrosine phosphatase, active site"                                                                   , ne
+PFD     , pf04548        , AIG1 family                                                                                                   , ne
+PFD     , pf13385        , Concanavalin A-like lectin/glucanases superfamily                                                             , ne
+IPRF    , ipr008985      , Concanavalin A-like lectin/glucanases superfamily                                                             , ne
+        ,                , """perforin"""                                                                                                , da
+TCDB    , 1.C.39.8.1     , MACPF-Hemopexin protein                                                                                       , da
+TCDB    , 1.C.39.8.2     , The MACPF protein homologue with hemopexin-like C-terminal repeats                                            , da
+PFD     , pf00045        , Hemopexin                                                                                                     , ne
+IPRF    , ipr000585      , Hemopexin-like domain                                                                                         , ne
+IPRF    , ipr018487      , Hemopexin-like repeats                                                                                        , ne
+        ,                , MACPF                                                                                                         , da
+        ,                , MACPF homologue                                                                                               , da
+        ,                , MAC                                                                                                           , da
+        ,                , hemolysis                                                                                                     , da
+        , GO:0019836     , symbiont-mediated hemolysis of host erythrocyte                                                               , ne
+        ,                , """Pleurotolysin B"""                                                                                         , da
+        ,                , Pleurotolysin                                                                                                 , da
+        ,                , priA                                                                                                          , ne
