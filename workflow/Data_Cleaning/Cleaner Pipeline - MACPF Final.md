@@ -13,10 +13,11 @@ in environment.yml
 
 ## IMENA:
 SAMPLE.STEP_NUMBER.DESCRIPTION.EXTENSION
-
-TODO: Preveri, kje je potrebno zamenjati star način preverjana ujemanja seqkit stats in csv in ga zamenjati z csvtk ter to naredi.
+Ukaze poganjamo iz direktorija results/cleaning
 
 # Data Cleaning
+
+
 
 ## 1. Združevanje podatkov - 1_combined
 1.1 Združevanje CSV datoteke
@@ -25,14 +26,16 @@ TODO: Preveri, kje je potrebno zamenjati star način preverjana ujemanja seqkit 
 
 ```bash
 # Directories
-
 mkdir macpf/1_combined
+cd results/cleaning/
 
 # Finding the csv files
 for file in $(find ../../data/macpf/ -iname *csv*); do echo $file; cp $file .; done
 
 # Merging the files
 awk 'FNR==1 && NR!=1{next;}{print}' *csv > macpf/1_combined/1.1_macpf_combined.csv
+
+sed -i 's|/|_|g' macpf/1_combined/1.1_macpf_combined.csv
 
 # Cleanup
 rm *csv
@@ -58,7 +61,7 @@ d/1.2_macpf_cleaned.csv
 ```
 
 ### 1.3. Združevanje FASTA datotek
-- Združimo vse fasta datoteke s sekvencami za proteine
+- Združimo vse fasta datoteke s proteinskimi sekvencami
 ```
 input: več fasta datotek s sekvencami proteinov (ena na en keyword)
 output: ena fasta datoteka z vsemi sekvencami: 1.3_protein_combined.fasta
@@ -67,6 +70,8 @@ output: ena fasta datoteka z vsemi sekvencami: 1.3_protein_combined.fasta
 ```bash
 # Find and read protein FASTA files, read and concat them to 1.3_protein_combined.fasta
 find ../../data/macpf/keywords/ -iname *protein* | xargs cat > macpf/1_combined/1.3_protein_combined.fasta
+
+sed 's|/|_|g' macpf/1_combined/1.3_protein_combined.fasta
 ```
 
 #### 1.3.1. Statistics
@@ -85,7 +90,7 @@ seqkit stats -a -T macpf/1_combined/1.3_protein_combined.fasta > macpf/seqkit_st
 
 ```
 
-#### 1.3.2. Checking
+#### 1.3.2. Checkpoint
 - Preverimo, ali je število proteinov v csv datoteki enako številu sekvenc v fasta datoteki.
 ```bash
 # Preparing log directory
@@ -128,8 +133,8 @@ output: datoteka z statistiko o tem, koliko je macpfov združenih, pred odstranj
 seqkit stats -a -T macpf/1_combined/1.4_protein_ids_combined.fasta > macpf/seqkit_stats/1.4.1_protein_ids_combined_stats.tsv
 
 ```
-#### 1.4.2. Preverjanje enakopravnosti
-- Preverimo, ali se slučajno Seqkit ni zmotil pri odstranjevanju ID-jev in po pomoti kakšno sekvenco izpustil
+#### 1.4.2. Preverjanje enakosti
+- Preverimo, ali pri združevanju sekvenc s Seqkit ni prišlo do kakšne napake, in da je število sekvenc ostalo enako.
 
 ```bash
 # Checking and exporting number of sequences in csv file
@@ -143,8 +148,9 @@ cat macpf/logs/1.4.2_log.txt
 
 
 ## 2. Odstranjevanje imenskih duplikatov
+- V tej točki imamo v FASTA datoteki zaradi načina podatkovnega rudarjenja sekvenc (dve ključni besedi lahko vrneta enak protein, oz. veliko proteinov vsebuje več kot eno ključno besedo, zato nekaj proteinov efektivno prenesemo dva ali več krat), več sekvenc ki so identične po imenu in sekvenci - znebimo se jih.
 ### 2.1. Odstranjevanje imenskih duplikatov iz fasta datoteke
-- V tej točki imamo v FASTA datoteki zaradi načina iskanja (dve ključni besedi lahko poiščeta enak protein, zato ga efektivno prenesemo dol dvakrat), več sekvenc ki so identične po imenu in sekvenci - znebimo se jih.
+- Imenski duplikati so proteini, ki imajo enako ime in posledično tudi enako sekvenco.
 ```
 input: FASTA datoteka MACPF z ID-ji - "1.4_protein_ids_combined.fasta"
 output: 
@@ -215,7 +221,7 @@ seqkit stats -a -T macpf/2_name_copies/2.1_2_macpf_protein_namedupes.fasta > mac
 ### 2.5. Checkpoint
 - #TO-DO: preverimo, ali je število proteinov po odstranjevanju + število imenskih duplikatov enako številu proteinov pred odstranjevanjem
 ## 3. HMMER
-- Sedaj moramo pridobiti podatke za vse proteinske domene obravnavanih proteinov. Način iskanja nam vrne nekatere proteine, ki niso MACPF, in se jih želimo zato znebiti.
+- S pomočjo HMMER programske opreme poiščemo vse proteinske domene, ki se pojavljajo na našem naboru proteinov, in odstranimo tiste, ki ne vsebujejo MACPF domene.
 
 ### 3.1. Poženemo HMMER skripto 
 ```
@@ -238,7 +244,7 @@ python3 ../../../../scripts/HMMER_API/hmmer_api_v4.py -seq ../2_name_copies/2.1_
 ```
 
 ### 3.2 Pridobimo poročilo o zadetkih
-- Pregledamo datoteke json  z rezultati o zadetkih na našem naboru proteinov in izdelamo poročilo z začetkom in koncem ujemanja ter pfam id-ji. 
+- Pregledamo datoteke json  z rezultati o zadetkih na našem naboru proteinov in izdelamo poročilo z začetkom in koncem ujemanja posamezne proteinske domene z našim proteinom, ter PFAM identifikacijskimi številkami.
 
 ```
 input: Datoteka sama poišče JSON datoteke o zadetkih v podmapi /hmmer_results/
@@ -303,7 +309,7 @@ seqkit stats -a -T macpf/3_hmmer/3_4_after_hmmer/3.4.3_macpf_non_containig.fasta
 
 #### 3.4.5. Izločanje iz CSV datoteke
 
-- S pomočjo csv datoteke z macpf vsebujočimi proteini smo pridobili 
+- Iz datoteke z metapodakti naših proteinov moramo izločiti tiste, ki ne vsebujejo MACPF domene.
 
 ```
 input: CSV datoteka z odstranjenimi duplikati na ime 2.2_macpf_nonamedupes.csv
@@ -322,8 +328,7 @@ grep -F -f macpf/3_hmmer/macpf_containing_proteins.csv macpf/2_name_copies/2.2_m
 
 ### 3.5. Checkpoint
 
-- Preverimo ali je število protein ID-jev v CSV datoteki z MACPF enako kot v 
-
+Preverimo, ali se po odstranjevanju MACPF nevsebujočih proteinov iz datoteke z metapodatki ujema s številom proteinov v FASTA datoteki.
 ```bash
 # Checking and exporting number of sequences in csv file
 num_seqs=$(tail -n +2 macpf/3_hmmer/3_4_after_hmmer/3.4.5_macpf_after_hmmer.csv | cut -d "," -f 2 | wc -l); echo "num_sequences_csv: ${num_seqs}" > macpf/logs/3.5_log.txt
@@ -334,12 +339,13 @@ num_seqs=$(cat macpf/seqkit_stats/3.4.2_macpf_after_hmmer.tsv | csvtk cut -t -f 
 cat macpf/logs/3.5_log.txt
 ```
 
-#TO-DO: check v končni skripti, ki preveri, da sta števlki enaki.
 
-### 3.6. Pridobimo statistiko proteine, ki so realni MACPF
+
+### 3.6. Pridobimo statistiko proteinov, ki vsebujejo MACPF domeno.
 - Na tej točki imamo vse proteine, ki so realni MACPF proteini - nekaj izmed njih je duplikatov, nekaj pa je takih, ki jih zaradi politike uporabe podatkov JGI ne smemo uporabiti
 
-#### 3.6.1. Pridobimo filogenijo za realne MACPF - PODATKI MORAJO BITI ZA CELOTNO BASIDIOMYCOTA.
+#### 3.6.1. Pridobimo filogenijo za MACPF-vsebujoče proteine
+**Pomembno, vhodna datoteka s filogenijo (se nahaja za -i zastavico) mora vsebovati informacije o filogeniji za celotno Basidiomycota deblo**
 ```bash
 mkdir basidiomycota_phylogeny
 
@@ -694,10 +700,7 @@ for file in $(find macpf/5_final/5.5_macpf_contianing_hmmer_results/ -iname "*")
 
 ## 7. Outgroups
 
-TODO: Metadata:
-- Po čiščenju datotek z nigB proteinoma nadaljujemo z analizo
-
-7.1. Dodajanje outgroup genomov k sekvencam macpf in pleurotus pulmunarius
+### 7.1. Dodajanje outgroup genomov k sekvencam macpf in pleurotus pulmunarius
 - Združimo torej outgroup sekvence skupaj s sekvencami, ki smo jih pridobili v koraku združevanja 6.1
 
 ```bash
@@ -711,34 +714,54 @@ seqkit seq data/outgroups/nig_b.fasta >> results/cleaning/macpf/7_outgroups/7.1_
 
 ```
 
-7.2. Pridobivanje statistike
+### 7.2. Pridobivanje statistike
 - Pridobimo statistiko novonastale fasta datoteke
 
-7.2.1. Statistika števila outgroup proteinov
+#### 7.2.1. Statistika števila outgroup proteinov
 - Preverimo, koliko outgroup proteinov bi naj dodali v novo datoteko.
 ```bash
 seqkit stats -a -T data/outgroups/nig_b.fasta >> results/cleaning/macpf/seqkit_stats/7.2.1_outgroup_stats.tsv
 ```
 
-7.2.2. Statistika števila proteinov po združevanju s sekvencami iz prejšnjih korakov.
+#### 7.2.2. Statistika števila proteinov po združevanju s sekvencami iz prejšnjih korakov.
 ```bash
 seqkit stats -a -T results/cleaning/macpf/7_outgroups/7.1_meged.fasta >> results/cleaning/macpf/seqkit_stats/7.2.2_outgroups_added_stats.tsv
 ```
 
 7.2.3 Preverimo, ali je sedaj število sekvenc po dodatku outgroupov za število outgroup sekvenc večje od števila sekvenc v datoteki iz koraka 6.1. po združevanju s sekvencami _Pleurotus pulmunarius_
+
 ```bash
 # Check number of sequences before adding outgroups
- num_seqs=$(cat results/cleaning/macpf/seqkit_stats/6.1.1_macpf_pul_b_stats.tsv | csvtk cut -t -f "num_seqs" | csvtk del-header); echo "num_seqs_before_outgroups: ${num_seqs}" >> results/cleaning/macpf/logs/7.2.3_log.txt
+num_seqs=$(cat results/cleaning/macpf/seqkit_stats/6.1.1_macpf_pul_b_stats.tsv | csvtk cut -t -f "num_seqs" | csvtk del-header); echo "num_seqs_before_outgroups: ${num_seqs}" >> results/cleaning/macpf/logs/7.2.3_log.txt
+
 
 # Check number of sequences of outgroups
-num_seqs=$(cat results/cleaning/macpf/seqkit_stats/7.2.1_outgroup_stats.tsv | csvtk cut -t -f "num_seqs" | csvtk del-header); echo "num_seqs_outgroups: ${num_seqs}" >> results/cleaning/macpf/logs/7.2.3_log.txt
+num_seqs=$(cat results/cleaning/macpf/seqkit_stats/7.2.1_outgroup_stats.tsv | csvtk cut -t -f "num_seqs" | csvtk del-header); echo "num_seqs_outgrou`ps: ${num_seqs}" >> results/cleaning/macpf/logs/7.2.3_log.txt
 
 # Check number of sequences after adding outgroups
 num_seqs=$(cat results/cleaning/macpf/seqkit_stats/7.2.2_outgroups_added_stats.tsv | csvtk cut -t -f "num_seqs" | csvtk del-header); echo "num_seqs_added_outgroups: ${num_seqs}" >> results/cleaning/macpf/logs/7.2.3_log.txt
 
 # See log
-cat results/cleaning/macpf/logs/7.2.3_log.txt 
+cat results/cleaning/macpf/logs/7.2.3_log.txt
+```
 
 
+### 7.3. Dodamo metapodatke
+
+
+- Ta korak sem naredil ročno s pomočjo Excela. V datoteko sem dodal samo tiste podatke, ki so nujno potrebni za izdelavo proteinskega drevesa.
+
+Najprej pridobimo glavo csv datoteke iz prejšnjih korakov, za namen poenotenja strukturiranja podatkov:
+```
+# Get header row
+head -1 macpf/5_seqdupes/5.2_macpf_noseqdupes_metadata.csv > macpf/?_pleurotus_pulmunarius/?_pul_b_metadata.csv
+```
+
+- Nato odpremo v poljubnem urejevalniku csv datotek in dodamo fasta header ter ime organizma.
+- Fasta header prekopiramo iz konca datoteke `"6.1_macpfs_pul_b.fasta"`
+- Organism ID je skrajšana verzija imena - Plepul1
+- organism name je celotno ime vrste, enako velja za "Genus species", najdemo v originalni fasta datoteki, prenešeni iz NCBI, v oglatih oklepajih `"pul_b_protein.fasta"`
+- Name vzamemo iz _summary datoteke - `"pul_summary.txt"`
+- protei
 
 ## References
