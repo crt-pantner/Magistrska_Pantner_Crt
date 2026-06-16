@@ -59,6 +59,8 @@ def export_hmmer_data(json_data, org_name):
 def status_checker(result_data):
     if result_data["status"] == "PENDING":
         raise PendingError("Results are pending, retrying")
+    elif result_data["status"] == "STARTED":
+        raise PendingError("Results are started, retrying")
 
 
 def get_hmmer_data(sequence):
