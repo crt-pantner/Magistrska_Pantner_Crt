@@ -1,8 +1,6 @@
 import json
-import re
 import sys
 import time
-import xml.etree.ElementTree as ET
 from pathlib import Path
 import argparse
 
@@ -33,7 +31,7 @@ def open_fasta_file(location) -> list[SeqRecord]:
     # Handles opening the fasta file
     input_fasta_file = Path(location).resolve()
 
-    seq_records = []
+    seq_records: list[SeqRecord] = []
 
     for seq_record in SeqIO.parse(input_fasta_file, "fasta"):
         seq_records.append(seq_record)
@@ -41,17 +39,33 @@ def open_fasta_file(location) -> list[SeqRecord]:
     return seq_records
 
 
-def export_hmmer_data(json_data, org_name):
+def export_hmmer_data(response, sequence):
     current_dir = Path.cwd()
 
     save_dir = current_dir / "hmmer_results"
+    
+    json_data = response.json()
+
+    # In the case that no hits were found, the hist list is empty
+    # Check if hist list is empty
+    if not json_data.get("result", {}).get("hits"):
+        id = json_data.get("result", {}).get("stats").get("id")
+
+        # Fetch dummy json file
+        dummy_response = open_dummy_response()
+
+        # Inject dummy json
+        json_data = inject_dummy_data(dummy_response, id, sequence)
+
+        """with open("injected.json", "w", encoding="utf-8") as df:
+            json.dump(json_data, df)"""
 
     save_dir.mkdir(exist_ok=True)
 
-    output_file = save_dir / f"{org_name}_hmmerrez.json"
+    output_file = save_dir / f"{sequence.id}_hmmerrez.json"
 
     with open(output_file, "w", encoding="utf-8") as hmmrez_file:
-        json.dump(json_data.json(), hmmrez_file)
+        json.dump(json_data, hmmrez_file)
 
     return output_file
 
@@ -63,7 +77,7 @@ def status_checker(result_data):
         raise PendingError("Results are started, retrying")
 
 
-def get_hmmer_data(sequence):
+def get_hmmer_data(sequence: SeqRecord):
     # API endpoint
     url = "https://www.ebi.ac.uk/Tools/hmmer/api/v1/search/hmmscan"
 
@@ -91,7 +105,6 @@ def get_hmmer_data(sequence):
         if uuid:
             # Fetch results
             result_url = f"https://www.ebi.ac.uk/Tools/hmmer/api/v1/result/{uuid}"
-            webpage_url = f"https://www.ebi.ac.uk/Tools/hmmer/results/{uuid}/score"
 
             while True:
                 try:
@@ -100,9 +113,9 @@ def get_hmmer_data(sequence):
                     if result_response.status_code == 200:
                         status_checker(result_response.json())
 
-                        export_hmmer_data(result_response, org_name=sequence.id)
+                        export_hmmer_data(result_response, sequence)
 
-                        return webpage_url
+                        return
                 except PendingError as e:
                     print(e)
                     time.sleep(5)
@@ -130,6 +143,28 @@ def countdown(seconds):
     sys.stdout.write("\rRetrying now...                      \n")
     sys.stdout.flush()
 
+def open_dummy_response():
+    """Opens and imports the dummy response for data injection in the case of absence of hits on a sequence"""
+    # Get path to python script
+    hmmer_api_v4_path = Path(__file__).resolve()
+
+    # Point to dummy_response.json
+    script_dir = hmmer_api_v4_path.parent
+    dummy_response_path = script_dir / "config" / "dummy_response.json"
+    
+    with open(dummy_response_path, "r") as dummy_f:
+        dummy_json_dict = json.load(dummy_f)
+    
+    return dummy_json_dict
+
+def inject_dummy_data(json_data, id: str, sequence: SeqRecord):
+    # Change the id of the job so it matches the response
+    json_data["result"]["stats"]["id"] = id
+
+    # Change the lenght of the sequence so it reflects actual lenght
+    (json_data["result"]["hits"][0]["domains"][0]["alignment_display"]["l"]) = len(sequence)
+
+    return json_data
 
 def main():
     arguments = get_arguments()
