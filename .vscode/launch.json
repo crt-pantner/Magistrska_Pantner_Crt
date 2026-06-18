@@ -5,14 +5,15 @@
     "version": "0.2.0",
     "configurations": [
 
+
         {
-            "name": "Python Debugger: Debug HMMER_API",
-            "type": "python",
+            "name": "Python Debugger: Debug features.py",
+            "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/scripts/HMMER_API/hmmer_api_v4.py",
+            "program": "${workspaceFolder}/scripts/hmmer_features/features.py",
             "console": "integratedTerminal",
-            "cwd": "${workspaceFolder}/scripts/HMMER_API" 
-            "args": ["-seq", "test/test.fasta"]
+            "cwd": "${workspaceFolder}/scripts/hmmer_features",
+            "args": ["-d", "${workspaceFolder}/scripts/hmmer_features/testing/hmmer_results/jgi|Aspfu1|3327|Afu3g00600_mRNA_hmmerrez.json", "-o", "${workspaceFolder}/scripts/hmmer_features/testing/hmmer_results/test_result.svg"]
         }
     ]
 }
