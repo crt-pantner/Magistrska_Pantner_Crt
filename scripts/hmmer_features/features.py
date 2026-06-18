@@ -1,10 +1,32 @@
 import xml.etree.ElementTree as ET
 import json
-import sys
+from pathlib import Path
+import argparse
 
 data = ""
 
-file_path = sys.argv[1]
+def get_arguments():
+    # Handles command line arguments.
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "-d",
+        "--dir",
+        required=True,
+        type=Path,
+        help="Path to folder with json results from the HMMER_API script.",
+    )
+    parser.add_argument(
+        "-o",
+        "--output",
+        required=True,
+        type=Path,
+        help="Path to the output folder into which the svg will be saved."
+    )
+    args = parser.parse_args()
+    return args
+
+args = get_arguments()
+file_path = args.dir
 
 with open(file_path, "r") as json_file:
     data = json.load(json_file)
@@ -145,4 +167,4 @@ print(len(factual_domains))
 ET.indent(svg, space="    ", level=0)
 tree = ET.ElementTree(svg)
 
-tree.write(sys.argv[2], encoding="utf-8", xml_declaration=False)
+tree.write(args.output, encoding="utf-8", xml_declaration=False)
