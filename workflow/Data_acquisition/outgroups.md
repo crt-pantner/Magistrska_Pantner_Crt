@@ -1,15 +1,19 @@
-Za outgroup proteine smo uporabili proteine za MACPF in aegerolizine iz genoma <i>Aspergillus niger</i>
+Za outgroup proteine smo uporabili proteine iz dveh različnih razredov - Eurotiomycetes in Sordariomycetes. 
+UJporabili smo štiri proteine iz Aspergillus niger NRRL3 - dva aegerolizina in dva "macpf-like" proteina.
+- Ali so to že znani/delujejo preverjeno.. ali morem napisati kakšno referenco glede tega? Ali moram napisati kateri so delujoči, kateri so samo v teoriji delujoči in kateri so pari?
 
-Proteine smo pridobili iz osebnega arhiva dr. Nade Kraševec
 
-#TODO: Uredi/napiši od kod smo dobili proteine, oz. kako to navedem
-Najprej proteinske sekvence damo v novo datoteko, ločimo glede na nig_a in nig_b.
-V nig_b datoteki sta proteina nigB1 in nigB2.
 
-Nato datoteki prečistimo, tako da uporabimo ukaz seqkit seq in izberemo kot vhodno datoteko datoteko s sekvencami bodisi nigB bodisi nigA.
+TODO: Dodaj informacije o outgroupih.
 
-```bash
-seqkit seq data/outgroups/nig_b.fasta
-```
+Vse prenešene outgroupe smo preverili s pomočjo HMMER spletnega serverja ter ugotovili, kateri rezultati so signifikantni. Prav tako smo s pomočjo skripte izrisali domene prisotne na proteinu.
 
-Proteinske sekvence smo deponirali vsako v svojo datoteko.
+Proteinske sekvence smo najprej združili v skupno datoteko![alt text](image.png)
+
+S tem ukazom združimo datoteke v eno, seqkit seq uporabimo, zato da se izenačijo dolžine sekvenc.
+for file in $(find data/outgroups/*_protein.fasta); do seqkit seq $file >> results/outgroups/outgroups_protein.fasta; done
+
+
+Nato narišemo slike:
+for file in $(find results/outgroups/hmmer/hmmer_results/ -iname "*.json"); do base=$(basename $file .json); svg="${base}.s
+vg"; python scripts/hmmer_features/features.py -d $file -o "results/outgroups/hmmer/hmmer_pictures/${svg}"; done
