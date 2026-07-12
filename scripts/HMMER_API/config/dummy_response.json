@@ -1,5 +1,5 @@
 {
-    "status": "SUCCESS",
+    "status": "dummy",
     "result": {
         "stats": {
             "id": "",
@@ -58,7 +58,7 @@
                 "evalue": 0,
                 "metadata": {
                     "accession": "",
-                    "identifier": "",
+                    "identifier": "dummmy",
                     "description": "",
                     "clan": null,
                     "type": "Family",
