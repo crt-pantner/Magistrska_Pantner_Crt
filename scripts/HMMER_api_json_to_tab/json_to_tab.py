@@ -44,26 +44,30 @@ def main():
             data = open_json(json_file)               
             hits = data["result"]["hits"]
             
+            #if the domain is a dummy domain, keep all of the info for the hits and add to new list.
             if data.get("status") == "dummy":
                 for hit in hits:
                     for domain in hit.get("domains", []):
-                        if domain.get("significant"):
                             domain_info = {
-                                "organism": json_file.stem.replace("_hmmerrez", ""),
-                                "pfam_acc": hit["acc"],
-                                "pfam_id": hit["metadata"]["identifier"],
-                                "description": hit["metadata"]["description"],
-                                "start": domain["alignment_display"]["sqfrom"],
-                                "end": domain["alignment_display"]["sqto"],
-                                "bitscore": domain["bitscore"],
-                                "evalue": domain["ievalue"],
-                                "displayed": domain.get("display", False),
-                            }
+                            "organism": json_file.stem.replace("_hmmerrez", ""),
+                            "pfam_acc": hit["acc"],
+                            "pfam_id": hit["metadata"]["identifier"],
+                            "description": hit["metadata"]["description"],
+                            "start": domain["alignment_display"]["sqfrom"],
+                            "end": domain["alignment_display"]["sqto"],
+                            "bitscore": domain["bitscore"],
+                            "evalue": domain["ievalue"],
+                            "displayed": domain.get("display", False),
+                        }
                             empty_domains.append(domain_info)
 
+            # if a domain is not a dummy domain
             else:
                 for hit in hits:
                     for domain in hit.get("domains", []):
+
+
+                        # Then check if a domain is significant, if yes keep the results.
                         if domain.get("significant"):
                             domain_info = {
                                 "organism": json_file.stem.replace("_hmmerrez", ""),
@@ -86,38 +90,40 @@ def main():
     df = pd.DataFrame(valid_domains)
     df_empty = pd.DataFrame(empty_domains)
 
-    with pd.ExcelWriter("empty_domains.xlsx") as writer:
+    with pd.ExcelWriter("empty proteins.xlsx") as writer:
         df_empty.to_excel(writer, index=False, sheet_name="empty_domains")
 
+    # Handles errors when working with dummy proteins - do not export the "domain data" if the protein is a dummy.
+    if not df.empty:
 
-    # Create cleaned dataframe with only proteins whose domains are MACPF related.
-    # There may be some exceptions in this, but since we already filter by evalue while parsing, we can assume that all of these are significant.
-    macpf_values = ["MACPF", "MACPF_1", "PlyB_C"]
-    cleaned_df_macpf = df[df["pfam_id"].isin(macpf_values)]
-    cleaned_df_aegero = df[df["pfam_id"] == "Aegerolysin"]
+        # Create cleaned dataframe with only proteins whose domains are MACPF related.
+        # There may be some exceptions in this, but since we already filter by evalue while parsing, we can assume that all of these are significant.
+        macpf_values = ["MACPF", "MACPF_1", "PlyB_C"]
+        cleaned_df_macpf = df[df["pfam_id"].isin(macpf_values)]
+        cleaned_df_aegero = df[df["pfam_id"] == "Aegerolysin"]
 
-    # Output the results to excel file.
-    output_filename = "significant_hits_report.xlsx"
-    # print("Outputing report to excel..")
+        # Output the results to excel file.
+        output_filename = "significant_hits_report.xlsx"
+        # print("Outputing report to excel..")
 
-    with pd.ExcelWriter(output_filename) as writer:
-        df.to_excel(writer, index=False, sheet_name="all_domains")
-        cleaned_df_macpf.to_excel(writer, index=False, sheet_name="MACPF_containing")
-        cleaned_df_aegero.to_excel(
-            writer, index=False, sheet_name="aegerolysin_containing"
+        with pd.ExcelWriter(output_filename) as writer:
+            df.to_excel(writer, index=False, sheet_name="all_domains")
+            cleaned_df_macpf.to_excel(writer, index=False, sheet_name="MACPF_containing")
+            cleaned_df_aegero.to_excel(
+                writer, index=False, sheet_name="aegerolysin_containing"
+            )
+
+        # Output results for macpfs for downstream processing.
+        nodup_df = cleaned_df_macpf.drop_duplicates(subset="organism")
+        nodup_df["organism"].to_csv(
+            "macpf_containing_proteins.csv", index=False, header=False
         )
 
-    # Output results for macpfs for downstream processing.
-    nodup_df = cleaned_df_macpf.drop_duplicates(subset="organism")
-    nodup_df["organism"].to_csv(
-        "macpf_containing_proteins.csv", index=False, header=False
-    )
-
-    # Output resutls for aegerolysins for downstream processing.
-    nodup_df = cleaned_df_aegero.drop_duplicates(subset="organism")
-    nodup_df["organism"].to_csv(
-        "aegerolysin_containing_proteins.csv", index=False, header=False
-    )
+        # Output resutls for aegerolysins for downstream processing.
+        nodup_df = cleaned_df_aegero.drop_duplicates(subset="organism")
+        nodup_df["organism"].to_csv(
+            "aegerolysin_containing_proteins.csv", index=False, header=False
+        )
 
 
 def open_json(path: Path):
