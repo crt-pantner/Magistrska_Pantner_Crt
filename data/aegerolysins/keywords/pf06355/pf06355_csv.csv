@@ -1,6 +1,6 @@
 Score,"Organism Id","Organism Name",Name,Track,"Protein Id","Transcript Id",Location,Scaffold,Start,End,Strand,Annotations,"User Annotations"
-0.004743,Volvo1,"Volvariella volvacea V23","PriA ","ExternalModels",116806,116978,"VVO_00010:460,297-461,528 (-)","VVO_00010",460297,461528,"(-)","GO:0019836 GO:0030582 TCDB:1.C.97.1.1 IPRF:ipr009413 PFD:pf06355",""
-0.004743,Volvo1,"Volvariella volvacea V23","Aegerolysin Aa-Pri1 ","ExternalModels",121057,121229,"VVO_00033:249,491-250,526 (+)","VVO_00033",249491,250526,"(+)","GO:0019836 GO:0030582 TCDB:1.C.97.1.1 IPRF:ipr009413 PFD:pf06355",""
+0.004743,Volvo1,"Volvariella volvacea V23","PriA","ExternalModels",116806,116978,"VVO_00010:460,297-461,528 (-)","VVO_00010",460297,461528,"(-)","GO:0019836 GO:0030582 TCDB:1.C.97.1.1 IPRF:ipr009413 PFD:pf06355",""
+0.004743,Volvo1,"Volvariella volvacea V23","Aegerolysin Aa-Pri1","ExternalModels",121057,121229,"VVO_00033:249,491-250,526 (+)","VVO_00033",249491,250526,"(+)","GO:0019836 GO:0030582 TCDB:1.C.97.1.1 IPRF:ipr009413 PFD:pf06355",""
 0.004655,Fibra1,"Fibroporia radiculosa TFFH 294","FIBRA_06718m.01","ExternalModels",8583,8583,"scaffold_8592:89,598-90,154 (+)","scaffold_8592",89598,90154,"(+)","GO:0019836 GO:0030582 TCDB:1.C.97.1.1 IPRF:ipr009413 PFD:pf06355",""
 0.004655,Fibra1,"Fibroporia radiculosa TFFH 294","FIBRA_06728m.01","ExternalModels",8593,8593,"scaffold_8592:118,053-118,634 (-)","scaffold_8592",118053,118634,"(-)","GO:0019836 GO:0030582 TCDB:1.C.97.1.1 IPRF:ipr009413 PFD:pf06355",""
 0.004653,PhlFC14_2,"Phlebopus sp. FC_14 v2.0","CE483766_4870","null",483767,483975,"scaffold_2:442,074-442,911 (-)","scaffold_2",442074,442911,"(-)","GO:0019836 TCDB:1.C.97.1.1 IPRF:ipr009413 PFD:pf06355",""
