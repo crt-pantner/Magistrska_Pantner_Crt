@@ -7,7 +7,8 @@ import pandas as pd
 def get_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "-dir",
+        "-d",
+        "--dir",
         required=True,
         type=str,
         default=".",
@@ -35,27 +36,47 @@ def main():
         json_paths.append(path)
 
     valid_domains = []
+    empty_domains = []
+
 
     for json_file in json_paths:
         try:
-            data = open_json(json_file)
+            data = open_json(json_file)               
             hits = data["result"]["hits"]
+            
+            if data.get("status") == "dummy":
+                for hit in hits:
+                    for domain in hit.get("domains", []):
+                        if domain.get("significant"):
+                            domain_info = {
+                                "organism": json_file.stem.replace("_hmmerrez", ""),
+                                "pfam_acc": hit["acc"],
+                                "pfam_id": hit["metadata"]["identifier"],
+                                "description": hit["metadata"]["description"],
+                                "start": domain["alignment_display"]["sqfrom"],
+                                "end": domain["alignment_display"]["sqto"],
+                                "bitscore": domain["bitscore"],
+                                "evalue": domain["ievalue"],
+                                "displayed": domain.get("display", False),
+                            }
+                            empty_domains.append(domain_info)
 
-            for hit in hits:
-                for domain in hit.get("domains", []):
-                    if domain.get("significant"):
-                        domain_info = {
-                            "organism": json_file.stem.replace("_hmmerrez", ""),
-                            "pfam_acc": hit["acc"],
-                            "pfam_id": hit["metadata"]["identifier"],
-                            "description": hit["metadata"]["description"],
-                            "start": domain["alignment_display"]["sqfrom"],
-                            "end": domain["alignment_display"]["sqto"],
-                            "bitscore": domain["bitscore"],
-                            "evalue": domain["ievalue"],
-                            "displayed": domain.get("display", False),
-                        }
-                        valid_domains.append(domain_info)
+            else:
+                for hit in hits:
+                    for domain in hit.get("domains", []):
+                        if domain.get("significant"):
+                            domain_info = {
+                                "organism": json_file.stem.replace("_hmmerrez", ""),
+                                "pfam_acc": hit["acc"],
+                                "pfam_id": hit["metadata"]["identifier"],
+                                "description": hit["metadata"]["description"],
+                                "start": domain["alignment_display"]["sqfrom"],
+                                "end": domain["alignment_display"]["sqto"],
+                                "bitscore": domain["bitscore"],
+                                "evalue": domain["ievalue"],
+                                "displayed": domain.get("display", False),
+                            }
+                            valid_domains.append(domain_info)
 
             # print(len(valid_domains))
 
@@ -63,6 +84,11 @@ def main():
             pass
 
     df = pd.DataFrame(valid_domains)
+    df_empty = pd.DataFrame(empty_domains)
+
+    with pd.ExcelWriter("empty_domains.xlsx") as writer:
+        df_empty.to_excel(writer, index=False, sheet_name="empty_domains")
+
 
     # Create cleaned dataframe with only proteins whose domains are MACPF related.
     # There may be some exceptions in this, but since we already filter by evalue while parsing, we can assume that all of these are significant.
