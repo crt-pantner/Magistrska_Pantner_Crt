@@ -57,8 +57,8 @@ def export_hmmer_data(response, sequence):
         # Inject dummy json
         json_data = inject_dummy_data(dummy_response, id, sequence)
 
-        """with open("injected.json", "w", encoding="utf-8") as df:
-            json.dump(json_data, df)"""
+        with open("no_domains.txt", "a") as file:
+                    file.write(f"{sequence.id}\n")
 
     save_dir.mkdir(exist_ok=True)
 
