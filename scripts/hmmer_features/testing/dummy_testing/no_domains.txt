@@ -1,0 +1,3 @@
+jgi|Aspfu1|3327|Afu3g00600_mRNA
+jgi|Beaba1|2700|BBA_02700m.01
+jgi|Aspni_NRRL3_1|2452|NRRL3_02452
