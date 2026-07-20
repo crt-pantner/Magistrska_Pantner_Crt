@@ -559,8 +559,6 @@ cat aegerolysins/logs/6.1.2_log.txt
 
 ### 6.2. Ustvarjanje datoteke z metapodatki za pul a-je 
 
-TODO 18. 7. 2026 ob 14:23
-
 - Ta korak sem naredil ročno s pomočjo Excela. V datoteko sem dodal samo tiste podatke, ki so nujno potrebni za izdelavo proteinskega drevesa.
 
 Najprej pridobimo glavo csv datoteke iz prejšnjih korakov, za namen poenotenja strukturiranja podatkov:
@@ -596,18 +594,18 @@ python ../../../../../scripts/HMMER_API/hmmer_api_v4.py -seq ../pul_a_seqs.fasta
 # Pridobimo statistiko za HMMER
  python ../../../../../scripts/HMMER_api_json_to_tab/json_to_tab.py --dir hmmer_results/
 
-# Pridobimo sliko
-python3 ../../../../scripts/hmmer_features/features.py hmmer_results/KAF4577132.1_hmmerrez.json 6.3.1_pul_b_svg.svg
+# Pridobimo slik
+python ../../scripts/hmmer_features/features.py --dir aegerolysins/6_pleurotus_pulmonarius/HMMER/hmmer_results/ --output aegerolysins/6_pleurotus_pulmonarius/HMMER/hmmer_pics/
 ```
 
 ### 6.4. Pridobivanje filogenije
 
 ```
 # Pripravljanje datoteke za pridobivanje 
-echo "Pleurotus pulmonarius" > for_phylogeny.txt
+echo "Pleurotus pulmonarius" > aegerolysins/6_pleurotus_pulmonarius/6.4_pleurotus_pulmonarius_for_phylogeny.txt
 
 # Lookup phylogeny with script
-python3 ../../../../scripts/NCBI_taxonomy/taxonomy_v7_pandas_gemini.py -i for_phylogeny.txt -o pleurotus_pulmonarius_phlogeny.csv
+python ../../scripts/NCBI_taxonomy/taxonomy_v7_pandas_gemini.py -i aegerolysins/6_pleurotus_pulmonarius/6.4_pleurotus_pulmonarius_for_phylogeny.txt -o aegerolysins/6_pleurotus_pulmonarius/6.4_phylogeny_Plepul1.csv
 
 ```
 
@@ -617,17 +615,19 @@ Korak nam olajša delo pri upodabljanju drevesa s pomočjo programa TreeViewer.
 
 ```bash
 # Create temporary directory for metadata
-mkdir macpf/6_pleurotus_pulmunarius/6.5_combined_metadata/
+mkdir aegerolysins/6_pleurotus_pulmonarius/6.5_combined_metadata
 
 # Copy metadata to temporary directory
-cp macpf/5_seqdupes/5.2_macpf_noseqdupes_metadata.csv macpf/6_pleurotus_pulmunarius/6.5_combined_metadata/
-cp macpf/6_pleurotus_pulmunarius/6.2_pul_b_metadata.csv macpf/6_pleurotus_pulmunarius/6.5_combined_metadata/
+cp aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv aegerolysins/6_pleurotus_pulmonarius/6.5_combined_metadata/
+
+cp aegerolysins/6_pleurotus_pulmonarius/6.2_pul_a_metadata.csv aegerolysins/6_pleurotus_pulmonarius/6.5_combined_metadata/
+
 
 # Merging the metadata files
-awk 'FNR==1 && NR!=1{next;}{print}' macpf/6_pleurotus_pulmunarius/6.5_combined_metadata/*csv > macpf/6_pleurotus_pulmunarius/6.5_macpf_noseqdupes_pulb.csv
+awk 'FNR==1 && NR!=1{next;}{print}' aegerolysins/6_pleurotus_pulmonarius/6.5_combined_metadata/*csv > aegerolysins/6_pleurotus_pulmonarius/6.5_aegerolysin_noseqdupes_pula.csv
 
 # Remove temporary directory
-rm -r 6.5_macpf_noseqdupes_pulb.csv
+rm -rf aegerolysins/6_pleurotus_pulmonarius/6.5_combined_metadata/
 ```
 
 #### 6.5.2. Checkpoint
@@ -635,45 +635,30 @@ rm -r 6.5_macpf_noseqdupes_pulb.csv
 Preverimo, ali je število sekvenc v csv datoteki enako številu sekvenc v fasta datoteki.
 
 ```bash
-# Preparing log directory
-mkdir macpf/logs
-
 # Checking and exporting number of sequences in csv file
-num_seqs=$(tail -n +2 macpf/6_pleurotus_pulmunarius/6.5_macpf_noseqdupes_pulb.csv | cut -d "," -f 2 | wc -l); echo "num_sequences_csv: ${num_seqs}" > macpf/logs/6.5.2_log.txt
+num_seqs=$(tail -n +2 aegerolysins/6_pleurotus_pulmonarius/6.5_aegerolysin_noseqdupes_pula.csv | cut -d "," -f 2 | wc -l); echo "num_sequences_csv: ${num_seqs}" > aegerolysins/logs/6.5.2_log.txt
 
 # Exporting number of sequences in seqkit stats file
-num_seqs=$(cat macpf/seqkit_stats/6.1.1_macpf_pul_b_stats.tsv | csvtk cut -t -f "num_seqs" | csvtk del-header); echo "num_seqs_fasta: ${num_seqs}" >> macpf/logs/6.5.2_log.txt 
+num_seqs=$(cat aegerolysins/seqkit_stats/6.1.1_aegero_pul_a_stats.tsv | csvtk cut -t -f "num_seqs" | csvtk del-header); echo "num_seqs_fasta: ${num_seqs}" >> aegerolysins/logs/6.5.2_log.txt 
 
-cat macpf/logs/6.5.2_log.txt
-
-```
-
-## . HMMER slike
-
-```bash
-# Create directory for macpf containing proteins.
-mkdir macpf/5_final/5.5_macpf_contianing_hmmer_results
-
-for f in $(cat macpf/5_final/5.2_macpf_final_headers.txt); do find macpf/3_hmmer/hmmer_results/ -type f -name "${f}.json" -exec cp {} macpf/5_final/5.5_macpf_contianing_hmmer_results/ \;; done
-
-mkdir macpf/5_final/5.6_slike
-
-for file in $(find macpf/5_final/5.5_macpf_contianing_hmmer_results/ -iname "*"); do base=$(basename $file .json); svg="${base}.svg"; python3 /home/crt/Development/hmmer_viz/features.py $file "macpf/3_hmmer/hmmer_svgs/${svg}"; done
+cat aegerolysins/logs/6.5.2_log.txt
 ```
 
 ## 7. Outgroups
+
+TODO 20. 7. 2026 ob 22:36: Od tukaj naprej.
 
 ### 7.1. Dodajanje outgroup genomov k sekvencam macpf in pleurotus pulmunarius
 
 - Združimo torej outgroup sekvence skupaj s sekvencami, ki smo jih pridobili v koraku združevanja 6.1
 
 ```bash
-mkdir results/cleaning/macpf/7_outgroups/
+mkdir aegerolysins/7_outgroupsmkdir aegerolysins/7_outgroups
 
 # Kopiranje združenih datotek iz koraka 6.1
-cp results/cleaning/macpf/6_pleurotus_pulmunarius/6.1_macpfs_pul_b.fasta results/cleaning/macpf/7_outgroups/7.1_meged.fasta
+cp aegerolysins/6_pleurotus_pulmonarius/6.1_aegero_nodupes_pul.fasta aegerolysins/7_outgroups/7.1_merged.fasta
 
-# Prečiščevanje in dodajanje sekvenc pul_b
+# Prečiščevanje in dodajanje sekvenc outgroupov
 seqkit seq data/outgroups/nig_b.fasta >> results/cleaning/macpf/7_outgroups/7.1_meged.fasta 
 
 ```
