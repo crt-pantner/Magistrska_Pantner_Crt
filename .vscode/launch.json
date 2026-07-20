@@ -4,6 +4,8 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+
 
 
 
@@ -14,7 +16,7 @@
             "program": "${workspaceFolder}/scripts/hmmer_features/features.py",
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}/scripts/hmmer_features",
-            "args": ["-d", "${workspaceFolder}/scripts/hmmer_features/testing/hmmer_results/jgi|Aspfu1|3327|Afu3g00600_mRNA_hmmerrez.json", "-o", "${workspaceFolder}/scripts/hmmer_features/testing/hmmer_results/test_result.svg"]
+            "args": ["-d", "${workspaceFolder}/scripts/hmmer_features/testing/dummy_testing/hmmer_results", "-o", "${workspaceFolder}/scripts/hmmer_features/testing/hmmer_pics/"]
         },
 
         {
@@ -25,6 +27,6 @@
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}/scripts/HMMER_api_json_to_tab",
             "args": ["-d", "${workspaceFolder}/scripts/HMMER_api_json_to_tab/test_2"]
-        }
+        },
     ]
 }
