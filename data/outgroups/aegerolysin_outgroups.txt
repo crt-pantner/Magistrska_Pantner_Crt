@@ -1,0 +1,5 @@
+nigA1: Aspni_NRRL3|1234
+nigA2: Aspni_NRRL3|2453
+AspHS: Aspfu1|3326
+AspHS-like: Aspfu1|4834
+BlyA: Beaba1|2701
