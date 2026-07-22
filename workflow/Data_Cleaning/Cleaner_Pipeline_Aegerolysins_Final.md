@@ -6,10 +6,10 @@ in environment.yml
 
 ## Data Acquisition
 
-1. Pridobimo podatke MACPF
-   1. Search by keywords, prenesi csv, protein fasta, transcript fasta, genomic fasta
+1. Pridobimo podatke za aegerolizinske proteine
+   1. Iščemo po JGI Mycocosm glede na "pf06355" Pfam številko
    2. struktura mape:
-      - Datoteke prenesi znotraj podmape macpf/keywords
+      - Datoteke prenesi znotraj podmape aegerolysins/keywords
       - datoteko vsako prenesi v podmapo poimenovano glede na keyword
       - datoteke poimenuj: keyword_tip, npr: pleurotolysin_protein.gz etc.
 
@@ -70,7 +70,7 @@ sed 's|/|_|g' ../../data/aegerolysins/keywords/pf06355/pf06355_csv.csv > aegerol
 
 ```bash
 # Directory management
-mkdir -p aegerolysincat  | s/2_name_copies
+mkdir -p aegerolysins
 
 # Removing duplicates
 seqkit rmdup -n -D aegerolysins/2_name_copies/2.1_1_aegerolysin_protein_namedupes.txt -d aegerolysins/2_name_copies/2.1_2_aegerolysin_protein_namedupes.fasta aegerolysins/1_cleaned/1.1_cleaned_ids.fasta > aegerolysins/2_name_copies/2.1_3_aegerolysin_protein_nonamedupes.fasta
@@ -162,11 +162,11 @@ seqkit stats --all --tabular aegerolysins/3_hmmer/3_4_after_hmmer/3.4.1_after_hm
 #### 3.4.3 Pridobivanje ne-aegerolizin vsebujočih proteinov
 
 ```bash
-# Keeping non-macpf containing proteins
+# Keeping non-aegerolysin containing proteins
 seqkit grep --invert-match --pattern-file aegerolysins/3_hmmer/aegerolysin_containing_proteins.csv aegerolysins/2_name_copies/2.1_3_aegerolysin_protein_nonamedupes.fasta > aegerolysins/3_hmmer/3_4_after_hmmer/3.4.3_aegerolysin_non_containing.fasta
 ```
 
-#### 3.4.4. Statistika ne-MACPF vsebujočih
+#### 3.4.4. Statistika ne-aegerolizin vsebujočih proteinov
 
 ```bash
 seqkit stats --all --tabular aegerolysins/3_hmmer/3_4_after_hmmer/3.4.3_aegerolysin_non_containing.fasta > aegerolysins/seqkit_stats/3.4.3_aegero_non_containing.tsv
@@ -196,31 +196,6 @@ num_seqs=$(tail -n +2 aegerolysins/3_hmmer/3_4_after_hmmer/3.4.5_aegerolysins_af
 num_seqs=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/3.4.2_aegerolysins_after_hmmer.tsv | csvtk del-header); echo "num_seqs_fasta: ${num_seqs}" >> aegerolysins/logs/3.5_log.txt
 
 cat aegerolysins/logs/3.5_log.txt
-```
-
-### 3.6. Pridobimo statistiko proteinov, ki vsebujejo aegerolizinsko domeno.
-
-TODO: Premakni ta del 3.6. v dokument z analizo. Enako za MACPF
-
-- Ker nas zanima, kakšna je razporeditev 
-- Na tej točki imamo vse proteine, ki so realni MACPF proteini - nekaj izmed njih je duplikatov, nekaj pa je takih, ki jih zaradi politike uporabe podatkov JGI ne smemo uporabiti
-
-#### 3.6.1. Pridobimo filogenijo za aegerolizin-vsebujoče proteine
-
-**Pomembno, vhodna datoteka s filogenijo (se nahaja za -i zastavico) mora vsebovati informacije o filogeniji za celotno Basidiomycota deblo**
-
-```bash
-mkdir -p basidiomycota_phylogeny
-
-# Perform phylogeny lookup on NCBI
-python3 ../../scripts/NCBI_taxonomy/taxonomy_v7_pandas_gemini.py -i ../../data/basidiomycota_for_taxonomy.txt -o ../cleaning/basidiomycota_phylogeny/basidiomycota_taxonomy.csv
-```
-
-#### 3.6.3. Pridobimo statistiko
-
-```bash
-# Run script that obtains statistics
-python3 ../../scripts/stat/stat_v2.py -m macpf/3_hmmer/3_4_after_hmmer/3.4.5_macpf_after_hmmer.csv -p basidiomycota_phylogeny/basidiomycota_taxonomy.csv -o macpf/3_hmmer/3_4_after_hmmer/3.6.3_macpf_statistics_all.xlsx
 ```
 
 ### 4 Odstranimo nedovoljene proteine
@@ -276,9 +251,7 @@ seqkit grep -f aegerolysins/4_permitted/4.2_aegerolysins_permitted_headers.txt a
 
 ```
 
-```
-# BUG Nekateri proteini se v tem koraku izmuznejo - mislim da predvsem tisti, ki imajo whitespace v imenu. Glej  korak 1.1.
-```
+> BUG Nekateri proteini se v tem koraku izmuznejo - mislim da predvsem tisti, ki imajo whitespace v imenu. Glej  korak 1.1.
 
 #### 4.3. Pridobivanje statistike
 
@@ -321,12 +294,11 @@ Preverimo, ali je število nedovoljenih proteinov + število dovoljenih proteino
 # Get number of sequences in fasta file before permission removal
 num_seqs_before=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/3.4.2_aegerolysins_after_hmmer.tsv | csvtk del-header); echo "num_seqs_before_permission: ${num_seqs_before}"  > aegerolysins/logs/4.3.3_log.txt
 
-# TODO 21. 7. 2026 ob 20:09: popravi tole, tukaj notri so še neki macpf - napačna datoteka.
 # Get number of sequences in fasta file that are permitted to be used
-num_seqs_permitted=$(cat macpf/seqkit_stats/4.3.1_macpf_permitted_stats.tsv | csvtk cut -t -f "num_seqs" | csvtk del-header); echo "num_seqs_permitted: ${num_seqs_permitted}" >> aegerolysins/logs/4.3.3_log.txt
+num_seqs_permitted=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/4.3.1_aegerolysins_permitted_stats.tsv | csvtk del-header); echo "num_seqs_permitted: ${num_seqs_permitted}" >> aegerolysins/logs/4.3.3_log.txt
 
 # Get number of sequences that are not allwed
-num_seqs_permitted=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/4.3.1_aegerolysins_permitted_stats.tsv | csvtk del-header); echo "num_seqs_permitted: ${num_seqs_permitted}" >> aegerolysins/logs/4.3.3_log.txt
+num_seqs_forbidden=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/4.3.2_aegerolysins_non_permitted_stats.tsv | csvtk del-header); echo "num_seqs_forbidden: ${num_seqs_forbidden}" >> aegerolysins/logs/4.3.3_log.txt
 
 cat aegerolysins/logs/4.3.3_log.txt
 
@@ -392,12 +364,6 @@ Pridobimo statistiko vsebnosti proteinov
 
 ```bash
 python ../../scripts/stat/stat_v2.py -m aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv -p basidiomycota_phylogeny/basidiomycota_taxonomy.csv -o aegerolysins/5_seqdupes/5.3_aegero_noseqdupes_statistics.xlsx
-```
-
-## 5.4 združimo datoteko z metapodatki in filogenijo za lažje delo pri uvažanju podatkov v TreeViewer. PRESTAVI ČISTO NA KONEC
-
-```bash
-python3 ~/Development/NCBI_taxonomy/helpers/csv_merger/metadata_merger.py -p basidiomycota_phylogeny/basidiomycota_taxonomy.csv -m macpf/5_final/5.2_macpf_final_metadata.csv -o macpf/5_final/5.3_macpf_final_metadata_phylogeny.csv
 ```
 
 ## 6. Dodajanje Pleurotus pulmunarius
@@ -547,7 +513,7 @@ seqkit seq ../../data/outgroups/*protein.fasta > outgroups/2_all_outgroups_prote
 
 
 
-### 7.1. Dodajanje outgroup genomov k sekvencam macpf in pleurotus pulmunarius
+### 7.1. Dodajanje outgroup genomov k sekvencam aegerolizinov in sekvencam Pleurotus pulmunarius
 
 - Združimo torej outgroup sekvence skupaj s sekvencami, ki smo jih pridobili v koraku združevanja 6.1
 
@@ -620,6 +586,13 @@ csvtk concat aegerolysins/6_pleurotus_pulmonarius/6.5_aegerolysin_noseqdupes_pul
 num_seqs=$(csvtk del-header aegerolysins/7_outgroups/7.3_2_final_aegerolysins_noseqdupes_pula_outgroups_metadata.csv | wc -l); echo "num_seqs_outgroups_csv: ${num_seqs}" >> aegerolysins/logs/7.2.3_log.txt
 
 cat aegerolysins/logs/7.2.3_log.txt
+
+```
+
+5.4 združimo datoteko z metapodatki in filogenijo za lažje delo pri uvažanju podatkov v TreeViewer. PRESTAVI ČISTO NA KONEC
+
+```
+python ../../scripts/NCBI_taxonomy/helpers/csv_merger/metadata_merger.py -p basidiomycota_phylogeny/basidiomycota_taxonomy.csv -m aegerolysins/7_outgroups/7.3_2_final_aegerolysins_noseqdupes_pula_outgroups_metadata.csv -o aegerolysins/7_outgroups/7.4_aegerolysin_final_metadata_phylogeny.csv
 ```
 
 
