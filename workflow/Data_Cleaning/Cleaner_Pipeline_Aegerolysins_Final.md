@@ -15,7 +15,8 @@ in environment.yml
 
 ## IMENA:
 
-SAMPLE.STEP_NUMBER.DESCRIPTION.EXTENSION
+> STEP.NUMBER_SAMPLE_DESCRIPTION.EXTENSION
+
 Ukaze poganjamo iz direktorija **results/cleaning**
 
 # Data Cleaning
