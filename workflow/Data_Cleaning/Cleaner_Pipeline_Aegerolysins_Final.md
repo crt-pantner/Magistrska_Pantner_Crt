@@ -15,7 +15,8 @@ in environment.yml
 
 ## IMENA:
 
-SAMPLE.STEP_NUMBER.DESCRIPTION.EXTENSION
+> STEP.NUMBER_SAMPLE_DESCRIPTION.EXTENSION
+
 Ukaze poganjamo iz direktorija **results/cleaning**
 
 # Data Cleaning
@@ -70,7 +71,7 @@ sed 's|/|_|g' ../../data/aegerolysins/keywords/pf06355/pf06355_csv.csv > aegerol
 
 ```bash
 # Directory management
-mkdir -p aegerolysins
+mkdir -p aegerolysins/2_name_copies
 
 # Removing duplicates
 seqkit rmdup -n -D aegerolysins/2_name_copies/2.1_1_aegerolysin_protein_namedupes.txt -d aegerolysins/2_name_copies/2.1_2_aegerolysin_protein_namedupes.fasta aegerolysins/1_cleaned/1.1_cleaned_ids.fasta > aegerolysins/2_name_copies/2.1_3_aegerolysin_protein_nonamedupes.fasta
@@ -81,7 +82,7 @@ seqkit rmdup -n -D aegerolysins/2_name_copies/2.1_1_aegerolysin_protein_namedupe
 - Pridobimo statistiko FASTA datoteke po tem ko smo odstranili imenske duplikate
 
 ```bash
-seqkit stats -a -T aegerolysins/2_name_copies/2.1_3_aegerolysin_protein_nonamedupes.fasta > aegerolysins/seqkit_stats/2.1.1_aegero_protein_nonamedupes_stats.tsv
+seqkit stats --all --tabular aegerolysins/2_name_copies/2.1_3_aegerolysin_protein_nonamedupes.fasta > aegerolysins/seqkit_stats/2.1.1_aegero_protein_nonamedupes_stats.tsv
 ```
 
 
@@ -131,7 +132,7 @@ python ../../../../scripts/HMMER_API/hmmer_api_v4.py -seq ../2_name_copies/2.1_3
 
 ```bash
 # Executing script
-python3 ../../../../scripts/HMMER_api_json_to_tab/json_to_tab.py --dir hmmer_results/
+python ../../../../scripts/HMMER_api_json_to_tab/json_to_tab.py --dir hmmer_results/
 ```
 
 ### 3.4. Izločimo proteine, ki nimajo aegerolizinske domene
@@ -228,12 +229,12 @@ grep --fixed-strings -f ../../data/permissions/not_allowed.txt aegerolysins/3_hm
 
 ```bash
 # Get and write number of kept sequences into the log file.
-permitted_num=$(csvtk nrow aegerolysins/4_permitted/4.1_aegerolysins_permitted_metadata.csv); echo "num_of_permitted_sequences: ${permitted_num}" >> aegerolysins/logs/4.1.2_log.txt
+permitted_num=$(csvtk nrow aegerolysins/4_permitted/4.1_aegerolysins_permitted_metadata.csv); echo "num_of_permitted_sequences: ${permitted_num}" > aegerolysins/logs/4.1.2_log.txt
 
 # Get and write number of removed sequences into the log file
 forbidden_num=$(csvtk nrow -H aegerolysins/4_permitted/4.1_aegerolysins_forbidden_metadata.csv); echo "num_of_forbidden(removed)_sequences: ${forbidden_num}" >> aegerolysins/logs/4.1.2_log.txt
 
-
+cat aegerolysins/logs/4.1.2_log.txt
 ```
 
 
@@ -267,7 +268,7 @@ Preverimo ali je število sekvenc v fasta datoteki po odstranjevanju nedovoljeni
 
 ```bash
 # Checking and exporting number of sequences in csv file
-num_seqs=$(tail -n +2 aegerolysins/4_permitted/4.1_aegerolysins_permitted_metadata.csv | cut -d "," -f 2 | wc -l); echo "num_sequences_csv: ${num_seqs}" > aegerolysins/logs/4.3.2_log.txt
+num_seqs=$(csvtk cut -f "fasta_header" aegerolysins/4_permitted/4.1_aegerolysins_permitted_metadata.csv| csvtk del-header | wc -l); echo "num_sequences_csv: ${num_seqs}" > aegerolysins/logs/4.3.2_log.txt
 
 # Exporting number of sequences in seqkit stats file
 num_seqs=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/4.3.1_aegerolysins_permitted_stats.tsv | csvtk del-header); echo "num_seqs_fasta: ${num_seqs}" >> aegerolysins/logs/4.3.2_log.txt
