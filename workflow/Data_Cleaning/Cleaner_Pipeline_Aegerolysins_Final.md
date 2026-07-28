@@ -83,7 +83,7 @@ seqkit rmdup -n -D aegerolysins/2_name_copies/2.1_1_aegerolysin_protein_namedupe
 seqkit stats --all --tabular aegerolysins/2_name_copies/2.1_3_aegerolysin_protein_nonamedupes.fasta > aegerolysins/seqkit_stats/2.1.1_aegero_protein_nonamedupes_stats.tsv
 ```
 
-### 2.2. Odstranjevanje imenskih duplikatov iz CSV datotJeke:
+### 2.2. Odstranjevanje imenskih duplikatov iz CSV datoteke:
 
 ```bash
 # Running duplicate_cleaner_csv script
