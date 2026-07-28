@@ -2,14 +2,14 @@
 
 ## DEPENDENCIES
 
-in environment.yml
+* [ ]
 
 ## Data Acquisition
 
 1. Pridobimo podatke za aegerolizinske proteine
    1. Iščemo po JGI Mycocosm glede na "pf06355" Pfam številko
    2. struktura mape:
-      - Datoteke prenesi znotraj podmape aegerolysins/keywords
+      - Datoteke -prenesi znotraj podmape aegerolysins/keywords
       - datoteko vsako prenesi v podmapo poimenovano glede na keyword
       - datoteke poimenuj: keyword_tip, npr: pleurotolysin_protein.gz etc.
 
@@ -48,7 +48,7 @@ seqkit seq -n aegerolysins/1_cleaned/1.1_cleaned_ids.fasta > aegerolysins/1_clea
 # Directory management
 mkdir -p aegerolysins/seqkit_stats
 
-seqkit stats -a -T aegerolysins/1_cleaned/1.1_cleaned_ids.fasta > aegerolysins/seqkit_stats/1.1.1_cleaned_headers_stats.tsv
+seqkit stats --all --tabular aegerolysins/1_cleaned/1.1_cleaned_ids.fasta > aegerolysins/seqkit_stats/1.1.1_cleaned_headers_stats.tsv
 ```
 
 #### 1.2.1 Cleaning CSV file
@@ -58,8 +58,6 @@ Ker smo zamenjali vse nedovoljene znake z podčrtajom, moramo enako storiti tudi
 ```bash
 sed 's|/|_|g' ../../data/aegerolysins/keywords/pf06355/pf06355_csv.csv > aegerolysins/1_cleaned/1.2.1_cleaned_ids_csv.csv
 ```
-
-
 
 ## 2. Odstranjevanje imenskih duplikatov
 
@@ -71,7 +69,7 @@ sed 's|/|_|g' ../../data/aegerolysins/keywords/pf06355/pf06355_csv.csv > aegerol
 
 ```bash
 # Directory management
-mkdir -p aegerolysins
+mkdir -p aegerolysins/2_name_copies
 
 # Removing duplicates
 seqkit rmdup -n -D aegerolysins/2_name_copies/2.1_1_aegerolysin_protein_namedupes.txt -d aegerolysins/2_name_copies/2.1_2_aegerolysin_protein_namedupes.fasta aegerolysins/1_cleaned/1.1_cleaned_ids.fasta > aegerolysins/2_name_copies/2.1_3_aegerolysin_protein_nonamedupes.fasta
@@ -82,20 +80,17 @@ seqkit rmdup -n -D aegerolysins/2_name_copies/2.1_1_aegerolysin_protein_namedupe
 - Pridobimo statistiko FASTA datoteke po tem ko smo odstranili imenske duplikate
 
 ```bash
-seqkit stats -a -T aegerolysins/2_name_copies/2.1_3_aegerolysin_protein_nonamedupes.fasta > aegerolysins/seqkit_stats/2.1.1_aegero_protein_nonamedupes_stats.tsv
+seqkit stats --all --tabular aegerolysins/2_name_copies/2.1_3_aegerolysin_protein_nonamedupes.fasta > aegerolysins/seqkit_stats/2.1.1_aegero_protein_nonamedupes_stats.tsv
 ```
 
-
-
-### 2.2. Odstranjevanje imenskih duplikatov iz CSV datoteke:
+### 2.2. Odstranjevanje imenskih duplikatov iz CSV datotJeke:
 
 ```bash
 # Running duplicate_cleaner_csv script
 python ../../scripts/csv_utils/csv_cleaner.py -i aegerolysins/1_cleaned/1.2.1_cleaned_ids_csv.csv -o aegerolysins/2_name_copies/2.2_aegerolysins_nonamedupes.csv
-
 ```
 
-### 2.3 Checkpoint 
+### 2.3 Checkpoint
 
 - Preverimo, ali je število proteinov v CSV datoteki enako številu proteinov v fasta datoteki
 
@@ -182,7 +177,7 @@ seqkit stats --all --tabular aegerolysins/3_hmmer/3_4_after_hmmer/3.4.3_aegeroly
 head -1 aegerolysins/2_name_copies/2.2_aegerolysins_nonamedupes.csv > aegerolysins/3_hmmer/3_4_after_hmmer/3.4.5_aegerolysins_after_hmmer.csv
 
 # Get proteins with aegerolysin domain
-grep --fixed-strings -f aegerolysins/3_hmmer/aegerolysin_containing_proteins.csv aegerolysins/2_name_copies/2.2_aegerolysins_nonamedupes.csv >> aegerolysins/3_hmmer/3_4_after_hmmer/3.4.5_aegerolysins_after_hmmer.csv 
+grep --fixed-strings -f aegerolysins/3_hmmer/aegerolysin_containing_proteins.csv aegerolysins/2_name_copies/2.2_aegerolysins_nonamedupes.csv >> aegerolysins/3_hmmer/3_4_after_hmmer/3.4.5_aegerolysins_after_hmmer.csv
 ```
 
 ### 3.5. Checkpoint
@@ -195,8 +190,6 @@ num_seqs=$(tail -n +2 aegerolysins/3_hmmer/3_4_after_hmmer/3.4.5_aegerolysins_af
 
 # Exporting number of sequences in seqkit stats file
 num_seqs=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/3.4.2_aegerolysins_after_hmmer.tsv | csvtk del-header); echo "num_seqs_fasta: ${num_seqs}" >> aegerolysins/logs/3.5_log.txt
-
-cat aegerolysins/logs/3.5_log.txt
 ```
 
 ### 4 Odstranimo nedovoljene proteine
@@ -210,34 +203,37 @@ cat aegerolysins/logs/3.5_log.txt
 # Directory management
 mkdir -p aegerolysins/4_permitted
 
-# Grab the fist line from CSV file
-head -1 aegerolysins/3_hmmer/3_4_after_hmmer/3.4.5_aegerolysins_after_hmmer.csv > aegerolysins/4_permitted/4.1_aegerolysins_permitted_metadata.csv
+
 
 # From the csv file after hmmer, grab only the lines that are not in the not_allowed.txt file
 grep --invert-match --fixed-strings -f ../../data/permissions/not_allowed.txt aegerolysins/3_hmmer/3_4_after_hmmer/3.4.5_aegerolysins_after_hmmer.csv >> aegerolysins/4_permitted/4.1_aegerolysins_permitted_metadata.csv
 
+# Grab the fist line from CSV file
+head -1 aegerolysins/3_hmmer/3_4_after_hmmer/3.4.5_aegerolysins_after_hmmer.csv > aegerolysins/4_permitted/4.1_aegerolysins_forbidden_metadata.csv
+
 # Get metadata for the non-permitted proteins - aids in logging number of removed proteins downstream
 grep --fixed-strings -f ../../data/permissions/not_allowed.txt aegerolysins/3_hmmer/3_4_after_hmmer/3.4.5_aegerolysins_after_hmmer.csv >> aegerolysins/4_permitted/4.1_aegerolysins_forbidden_metadata.csv
-
 ```
-
-
 
 ##### 4.1.2: LOG
 
 - Število sekvenc, ki smo jih obdržali, in število sekvenc, ki jih nismo smeli obdržati, zapišemo v datoteko
 
 ```bash
+# Get and write number of sequences before persmission cleanign.
+before_permissions=$(cat aegerolysins/logs/3.5_log.txt | grep "num_seqs_fasta" | csvtk cut -d " " -f 2); echo "num_before_permission_cleaning: ${before_permissions}" > aegerolysins/logs/4.1.2_log.txt
+
 # Get and write number of kept sequences into the log file.
 permitted_num=$(csvtk nrow aegerolysins/4_permitted/4.1_aegerolysins_permitted_metadata.csv); echo "num_of_permitted_sequences: ${permitted_num}" >> aegerolysins/logs/4.1.2_log.txt
 
 # Get and write number of removed sequences into the log file
-forbidden_num=$(csvtk nrow -H aegerolysins/4_permitted/4.1_aegerolysins_forbidden_metadata.csv); echo "num_of_forbidden(removed)_sequences: ${forbidden_num}" >> aegerolysins/logs/4.1.2_log.txt
+forbidden_num=$(csvtk nrow aegerolysins/4_permitted/4.1_aegerolysins_forbidden_metadata.csv); echo "num_of_forbidden(removed)_sequences: ${forbidden_num}" >> aegerolysins/logs/4.1.2_log.txt
 
+# Get and sum up number of kept sequences and number of removed sequences
+permitted=$(grep "num_of_permitted_sequences" aegerolysins/logs/4.1.2_log.txt | csvtk cut -d " " -f 2); forbidden=$(grep "forbidden" aegerolysins/logs/4.1.2_log.txt | csvtk cut -d " " -f 2); total=$((permitted + forbidden)); echo "permitted_and_forbidden_total: ${total}" >> aegerolysins/logs/4.1.2_log.txt
 
+cat aegerolysins/logs/4.1.2_log.txt
 ```
-
-
 
 #### 4.2. Odstranjevanje iz FASTA datoteke
 
@@ -249,7 +245,6 @@ csvtk cut -U -f  fasta_header aegerolysins/4_permitted/4.1_aegerolysins_permitte
 # Fetching only the permitted proteins
 seqkit grep -f aegerolysins/4_permitted/4.2_aegerolysins_permitted_headers.txt aegerolysins/3_hmmer/3_4_after_hmmer/3.4.1_after_hmmer.fasta > aegerolysins/4_permitted/4.2_aegerolysins_permitted.fasta
 ## Nekateri proteini se tukaj izmuznejo. Porpravljeno ročno - predvsem tisti, ki imajo whitespace v imenu.
-
 ```
 
 > BUG Nekateri proteini se v tem koraku izmuznejo - mislim da predvsem tisti, ki imajo whitespace v imenu. Glej  korak 1.1.
@@ -284,7 +279,6 @@ seqkit grep --invert-match -f aegerolysins/4_permitted/4.2_aegerolysins_permitte
 
 # Get statistics for non-permitted proteins
 seqkit stats --all --tabular aegerolysins/4_permitted/4.3.2_aegerolysins_non_permitted.fasta > aegerolysins/seqkit_stats/4.3.2_aegerolysins_non_permitted_stats.tsv
-
 ```
 
 ##### 4.3.3. Checkpoint
@@ -302,10 +296,9 @@ num_seqs_permitted=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/4.3.1_
 num_seqs_forbidden=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/4.3.2_aegerolysins_non_permitted_stats.tsv | csvtk del-header); echo "num_seqs_forbidden: ${num_seqs_forbidden}" >> aegerolysins/logs/4.3.3_log.txt
 
 cat aegerolysins/logs/4.3.3_log.txt
-
 ```
 
-## 5. Odstranjevanje glede na sekvenco 
+## 5. Odstranjevanje glede na sekvenco
 
 - Sedaj imamo končni seznam proteinov, vendar pa je nekaj takih proteinov, ki so si med sabo glede na sekvenco identični - odstranimo jih.
 
@@ -323,12 +316,13 @@ seqkit rmdup --dup-num-file aegerolysins/5_seqdupes/5.1_duplicate_sequences_coun
 
 ```bash
 # Get header
-head -1 aegerolysins/4_permitted/4.1_aegerolysins_permitted_metadata.csv > aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv
+head -1 aegerolysins/4_permitted/
+4.1_aegerolysins_permitted_metadata.csv > aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv
 
 # Get fasta headers from fasta file
 seqkit seq --name aegerolysins/5_seqdupes/5.1_aegero_noseqdupes.fasta > aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_headers.txt
 
-grep -f aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_headers.txt aegerolysins/4_permitted/4.1_aegerolysins_permitted_metadata.csv >> aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv 
+grep -f aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_headers.txt aegerolysins/4_permitted/4.1_aegerolysins_permitted_metadata.csv >> aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv
 ```
 
 #### 5.1. Statistika končnih in odstranjenih proteinov.
@@ -338,7 +332,6 @@ grep -f aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_headers.txt aegeroly
 ```bash
 # Get statistics of sequence duplicates
 seqkit stats --all --tabular aegerolysins/5_seqdupes/5.1_duplicate_sequences_seq.fasta > aegerolysins/seqkit_stats/5.1.1_aegerolsyins_seqdups_stats.tsv
-
 ```
 
 ##### 5.1.2. Statistika končnih proteinov
@@ -406,7 +399,7 @@ num_seqs=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/6.1.1_aegero_pul
 cat aegerolysins/logs/6.1.2_log.txt
 ```
 
-### 6.2. Ustvarjanje datoteke z metapodatki za pul a-je 
+### 6.2. Ustvarjanje datoteke z metapodatki za pul a-je
 
 - Ta korak sem naredil ročno s pomočjo Excela. V datoteko sem dodal samo tiste podatke, ki so nujno potrebni za izdelavo proteinskega drevesa.
 
@@ -421,13 +414,13 @@ head -1 aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv > aeger
 - Fasta header prekopiramo iz datoteke `"pul_a_seqs.fasta"`
 - Organism ID je skrajšana verzija imena - "Plepul1"
 - organism name je celotno ime vrste, enako velja za "Genus species", najdemo v originalni fasta datoteki, prenešeni iz NCBI, v oglatih oklepajih `"pul_b_protein.fasta"` - "Pleurotus pulmonarius"
-  - "Name" je kar enak protein id-ju `"pul_summary.txt"`
 
+  - "Name" je kar enak protein id-ju `"pul_summary.txt"`
 - "protein_id" za posamezen protein je enak, kot pri shranjevanju datotek:
+
   - "pul_a1"
   - "pul_a2"
   - "pul_a3"
-
 
 ### 6.3 Pridobivanje HMMER za protein
 
@@ -512,8 +505,6 @@ python ../../scripts/csv_utils/csv_cleaner.py -i outgroups/1_all_outgroups_metad
 seqkit seq ../../data/outgroups/*protein.fasta > outgroups/2_all_outgroups_protein.fasta
 ```
 
-
-
 ### 7.1. Dodajanje outgroup genomov k sekvencam aegerolizinov in sekvencam Pleurotus pulmunarius
 
 - Združimo torej outgroup sekvence skupaj s sekvencami, ki smo jih pridobili v koraku združevanja 6.1
@@ -567,7 +558,7 @@ cat aegerolysins/logs/7.2.3_log.txt
 
 ```
 
-### 7.3. Dodamo metapodatke 
+### 7.3. Dodamo metapodatke
 
 ```bash
 # Get headers for extracting aegerolysin metadata from all metadata
@@ -595,7 +586,5 @@ cat aegerolysins/logs/7.2.3_log.txt
 ```
 python ../../scripts/NCBI_taxonomy/helpers/csv_merger/metadata_merger.py -p basidiomycota_phylogeny/basidiomycota_taxonomy.csv -m aegerolysins/7_outgroups/7.3_2_final_aegerolysins_noseqdupes_pula_outgroups_metadata.csv -o aegerolysins/7_outgroups/7.4_aegerolysin_final_metadata_phylogeny.csv
 ```
-
-
 
 - References
