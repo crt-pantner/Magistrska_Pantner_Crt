@@ -190,6 +190,8 @@ num_seqs=$(tail -n +2 aegerolysins/3_hmmer/3_4_after_hmmer/3.4.5_aegerolysins_af
 
 # Exporting number of sequences in seqkit stats file
 num_seqs=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/3.4.2_aegerolysins_after_hmmer.tsv | csvtk del-header); echo "num_seqs_fasta: ${num_seqs}" >> aegerolysins/logs/3.5_log.txt
+
+cat aegerolysins/logs/3.5_log.txt
 ```
 
 ### 4 Odstranimo nedovoljene proteine
@@ -316,8 +318,7 @@ seqkit rmdup --dup-num-file aegerolysins/5_seqdupes/5.1_duplicate_sequences_coun
 
 ```bash
 # Get header
-head -1 aegerolysins/4_permitted/
-4.1_aegerolysins_permitted_metadata.csv > aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv
+head -1 aegerolysins/4_permitted/4.1_aegerolysins_permitted_metadata.csv > aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv
 
 # Get fasta headers from fasta file
 seqkit seq --name aegerolysins/5_seqdupes/5.1_aegero_noseqdupes.fasta > aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_headers.txt
@@ -356,6 +357,8 @@ cat aegerolysins/logs/5.1.3_log.txt
 
 Pridobimo statistiko vsebnosti proteinov
 
+TODO: MOVE THIS TO ANALYSIS
+
 ```bash
 python ../../scripts/stat/stat_v2.py -m aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv -p basidiomycota_phylogeny/basidiomycota_taxonomy.csv -o aegerolysins/5_seqdupes/5.3_aegero_noseqdupes_statistics.xlsx
 ```
@@ -368,13 +371,13 @@ Dodajanje fasta sekvence pul b: odstranjevanje ID-ja in dodajanje k datotekam br
 mkdir -p aegerolysins/6_pleurotus_pulmonarius
 
 # Kopiramo datoteke očiščenih in dedupliciranih proteinov ter preimenujemo
-cp aegerolysins/5_seqdupes/5.1_aegero_noseqdupes.fasta aegerolysins/6_pleurotus_pulmonarius/6.1_aegero_nodupes_pul.fasta
+ aegerolysins/6_pleurotus_pulmonarius/6.1_aegero_nodupes_pul.fasta
 
 # Kopiramo vse sekvence za pul a in jih shranimo v eno datoteko
-for file in $(find ../../data/pleurotus_pulmonarius_ncbi/* -iname "pul_a*.fasta"); do seqkit seq -i $file >> aegerolysins/6_pleurotus_pulmonarius/pul_a_seqs.fasta; done
+for file in $(find ../../data/pleurotus_pulmonarius_ncbi/* -iname "*.fasta"); do seqkit replace -p " " -r  "_" "$file" | seqkit seq -i >> aegerolysins/6_pleurotus_pulmonarius/pul_a_seqs.fasta; done
 
 # Dodamo združene pul a sekvence k dedupliciranim sekvencam
-seqkit seq aegerolysins/6_pleurotus_pulmonarius/pul_a_seqs.fasta >> aegerolysins/6_pleurotus_pulmonarius/6.1_aegero_nodupes_pula.fasta
+seqkit seq aegerolysins/6_pleurotus_pulmonarius/pul_a_seqs.fasta aegerolysins/5_seqdupes/5.1_aegero_noseqdupes.fasta > aegerolysins/6_pleurotus_pulmonarius/6.1_aegero_nodupes_pula.fasta
 ```
 
 #### 6.1.1 Statistika
@@ -389,7 +392,7 @@ Preverimo, ali je sedaj v novi fasta datoteki ena sekvenca več, kot je bila na 
 
 ```bash
 # Get stats for file with deduplicated sequences
-num_seqs=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/5.1.2_aegero_noseqdupes_stats.tsv | csvtk del-header); echo "num_seqs_fasta_deudplicated: ${num_seqs}" >> aegerolysins/logs/6.1.2_log.txt
+num_seqs=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/5.1.2_aegero_noseqdupes_stats.tsv | csvtk del-header); echo "num_seqs_fasta_deudplicated: ${num_seqs}" > aegerolysins/logs/6.1.2_log.txt
 
 num_seqs=$(seqkit stats --all --tabular aegerolysins/6_pleurotus_pulmonarius/pul_a_seqs.fasta | csvtk cut -t -f "num_seqs" | csvtk del-header); echo "num_of_pul_a_seqs: ${num_seqs}" >> aegerolysins/logs/6.1.2_log.txt
 
@@ -405,17 +408,26 @@ cat aegerolysins/logs/6.1.2_log.txt
 
 Najprej pridobimo glavo csv datoteke iz prejšnjih korakov, za namen poenotenja strukturiranja podatkov:
 
-```
+```bash
 # Get header row
 head -1 aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv > aegerolysins/6_pleurotus_pulmonarius/6.2_pul_a_metadata.csv
+
+# Get fasta headers for easier input into csv file:
+seqkit seq -n aegerolysins/6_pleurotus_pulmonarius/pul_a_seqs.fasta > aegerolysins/6_pleurotus_pulmonarius/pul_a_headers.txt
 ```
 
 - Nato odpremo v poljubnem urejevalniku csv datotek in dodamo fasta header ter ime organizma.
+
 - Fasta header prekopiramo iz datoteke `"pul_a_seqs.fasta"`
+
 - Organism ID je skrajšana verzija imena - "Plepul1"
-- organism name je celotno ime vrste, enako velja za "Genus species", najdemo v originalni fasta datoteki, prenešeni iz NCBI, v oglatih oklepajih `"pul_b_protein.fasta"` - "Pleurotus pulmonarius"
+
+- organism name je celotno ime vrste, enako velja za "Genus species", najdemo v originalni fasta datoteki, prenešeni iz NCBI, v oglatih oklepajih `"pul_a_protein.fasta"` - "Pleurotus pulmonarius"
 
   - "Name" je kar enak protein id-ju `"pul_summary.txt"`
+  
+  TODO od tukaj naprej dokončaj 28. 6. 2026 ob 22:16
+  
 - "protein_id" za posamezen protein je enak, kot pri shranjevanju datotek:
 
   - "pul_a1"
@@ -437,18 +449,19 @@ python ../../../../../scripts/HMMER_API/hmmer_api_v4.py -seq ../pul_a_seqs.fasta
 python ../../../../../scripts/HMMER_api_json_to_tab/json_to_tab.py --dir hmmer_results/
 
 # Pridobimo slik
-python ../../scripts/hmmer_features/features.py --dir aegerolysins/6_pleurotus_pulmonarius/HMMER/hmmer_results/ --output aegerolysins/6_pleurotus_pulmonarius/HMMER/hmmer_pics/
+python ../../../../../scripts/hmmer_features/features.py --dir hmmer_results/ --output hmmer_pics/
+
+cd ../../../
 ```
 
 ### 6.4. Pridobivanje filogenije
 
-```
+```bash
 # Pripravljanje datoteke za pridobivanje 
 echo "Pleurotus pulmonarius" > aegerolysins/6_pleurotus_pulmonarius/6.4_pleurotus_pulmonarius_for_phylogeny.txt
 
 # Lookup phylogeny with script
 python ../../scripts/NCBI_taxonomy/taxonomy_v7_pandas_gemini.py -i aegerolysins/6_pleurotus_pulmonarius/6.4_pleurotus_pulmonarius_for_phylogeny.txt -o aegerolysins/6_pleurotus_pulmonarius/6.4_phylogeny_Plepul1.csv
-
 ```
 
 ### 6.5 Združevanje metapodatkov v eno datoteko
@@ -456,20 +469,7 @@ python ../../scripts/NCBI_taxonomy/taxonomy_v7_pandas_gemini.py -i aegerolysins/
 Korak nam olajša delo pri upodabljanju drevesa s pomočjo programa TreeViewer.
 
 ```bash
-# Create temporary directory for metadata
-mkdir -p aegerolysins/6_pleurotus_pulmonarius/6.5_combined_metadata
-
-# Copy metadata to temporary directory
-cp aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv aegerolysins/6_pleurotus_pulmonarius/6.5_combined_metadata/
-
-cp aegerolysins/6_pleurotus_pulmonarius/6.2_pul_a_metadata.csv aegerolysins/6_pleurotus_pulmonarius/6.5_combined_metadata/
-
-
-# Merging the metadata files
-awk 'FNR==1 && NR!=1{next;}{print}' aegerolysins/6_pleurotus_pulmonarius/6.5_combined_metadata/*csv > aegerolysins/6_pleurotus_pulmonarius/6.5_aegerolysin_noseqdupes_pula.csv
-
-# Remove temporary directory
-rm -rf aegerolysins/6_pleurotus_pulmonarius/6.5_combined_metadata/
+csvtk concat aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv aegerolysins/6_pleurotus_pulmonarius/6.2_pul_a_metadata.csv > aegerolysins/6_pleurotus_pulmonarius/6.5_aegerolysin_noseqdupes_pula.csv
 ```
 
 #### 6.5.2. Checkpoint
@@ -519,8 +519,7 @@ csvtk cut -d " " -f 2 ../../data/outgroups/aegerolysin_outgroups.txt | csvtk cut
 seqkit grep -r -f aegerolysins/7_outgroups/7.1_1_aegero_outgroup_protids.txt outgroups/2_all_outgroups_protein.fasta > aegerolysins/7_outgroups/7.1_2_aegerolysin_outgroups.fasta
 
 # 7.1_3: Kopiranje združenih datotek iz koraka 6.1
-seqkit seq aegerolysins/6_pleurotus_pulmonarius/6.1_aegero_nodupes_pul.fasta aegerolysins/7_outgroups/7.1_2_aegerolysin_outgroups.fasta  > aegerolysins/7_outgroups/7.1_3_final_aeggero_all_outgroups_pula.fasta
-
+seqkit seq aegerolysins/6_pleurotus_pulmonarius/6.1_aegero_nodupes_pula.fasta aegerolysins/7_outgroups/7.1_2_aegerolysin_outgroups.fasta  > aegerolysins/7_outgroups/7.1_3_final_aeggero_all_outgroups_pula.fasta
 ```
 
 ### 7.2. Pridobivanje statistike
@@ -555,7 +554,6 @@ num_seqs=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/7.2.2_all_stats.
 
 # See log
 cat aegerolysins/logs/7.2.3_log.txt
-
 ```
 
 ### 7.3. Dodamo metapodatke
@@ -578,7 +576,6 @@ csvtk concat aegerolysins/6_pleurotus_pulmonarius/6.5_aegerolysin_noseqdupes_pul
 num_seqs=$(csvtk del-header aegerolysins/7_outgroups/7.3_2_final_aegerolysins_noseqdupes_pula_outgroups_metadata.csv | wc -l); echo "num_seqs_outgroups_csv: ${num_seqs}" >> aegerolysins/logs/7.2.3_log.txt
 
 cat aegerolysins/logs/7.2.3_log.txt
-
 ```
 
 5.4 združimo datoteko z metapodatki in filogenijo za lažje delo pri uvažanju podatkov v TreeViewer. PRESTAVI ČISTO NA KONEC
