@@ -691,3 +691,5 @@ Xenasmatella vaga CBS212.54 v1.0
 Xerocomellus pruinatus BavarianF63 v1.0
 Xerocomus badius 84.06 v1.0
 Xylodon remissus sp. n. OMC1960 v1.0
+Pleurotus pulmonarius
+Aspergillus niger
