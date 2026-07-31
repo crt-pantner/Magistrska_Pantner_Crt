@@ -35,7 +35,7 @@ phylogeny_df = phylogeny_df.rename({"input_species": "Organism Name"}, axis="col
 
 merged_df = clipdf.merge(phylogeny_df, how="inner")
 
-(merged_df.to_clipboard())
+#(merged_df.to_clipboard())
 
 """Statistika za tiste ki imajo protein."""
 num_orders = merged_df["order"].nunique()  # V katerih vseh redovih se pojavlja
