@@ -1,0 +1,1 @@
+Not imported, contains X - ambiguous amino acids, ID: jgi|Monpe1_1|83513|MPER_08048m.01
