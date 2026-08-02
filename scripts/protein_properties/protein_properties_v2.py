@@ -11,13 +11,6 @@ import peptides
 
 
 input_file = sys.argv[1]
-try:
-    if sys.argv[2] and sys.argv[2] == "v":
-        print(f"Matplotlib version: {mpl.__version__}")
-        print(f"Peptides version: {peptides.__version__}")
-        quit()
-except IndexError:
-    pass
 
 seqdata = []
 
@@ -137,4 +130,5 @@ alifat.set_xlabel("Aliphatic index")
 
 
 
-plt.show()
+#plt.show()
+plt.savefig(sys.argv[2], dpi=300    )
