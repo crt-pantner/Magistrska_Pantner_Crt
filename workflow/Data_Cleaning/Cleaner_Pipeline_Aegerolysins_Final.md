@@ -357,7 +357,11 @@ cat aegerolysins/logs/5.1.3_log.txt
 
 Pridobimo statistiko vsebnosti proteinov
 
+TODO: MOVE THIS TO ANALYSIS
 
+```bash
+python ../../scripts/stat/stat_v2.py -m aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv -p basidiomycota_phylogeny/basidiomycota_taxonomy.csv -o aegerolysins/5_seqdupes/5.3_aegero_noseqdupes_statistics.xlsx
+```
 
 ## 6. Dodajanje Pleurotus pulmunarius
 
@@ -582,7 +586,11 @@ Združimo skupaj seqkit statistike v eno datoteko:
 csvtk concat aegerolysins/seqkit_stats/* > aegerolysins/seqkit_stats/all_stats.tsv
 ```
 
+# TODO 
 
+Najprej moram pridobit še filogenetske podatke za outgroupe in za pleurotus pulmunarius, nato lahko združim združim z filogenijo iz 
+
+TODO - najprej ponovno pripravi "basidiomycota_taxonomy.csv", po tem ko sem dodal notri še Pleurotus pulmonarius in Aspergillus niger.
 
 5.4 združimo datoteko z metapodatki in filogenijo za lažje delo pri uvažanju podatkov v TreeViewer. PRESTAVI ČISTO NA KONEC
 
