@@ -1,8 +1,10 @@
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
-data = "D:/Documents/Magistrska/DeepLooc/pf06355_rez/pf06355_rez_najnovejsi.csv"
+import sys
+
+
+data = sys.argv[1]
 
 dataframe = ""
 
@@ -91,4 +93,4 @@ celična_membrana = sns.histplot(data=dataframe, color=colors[13], x="Cell membr
 celična_membrana.set_xlabel("Celična membrana")
 celična_membrana.set_ylabel("Število proteinov")
 
-plt.show()
+plt.savefig("histogram.png")
