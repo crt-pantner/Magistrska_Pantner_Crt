@@ -1,0 +1,1 @@
+Tuki notr bom na hiter nardil nek skript s pomoočjo katerega lahko pregledam rezultate signalP-ja.
