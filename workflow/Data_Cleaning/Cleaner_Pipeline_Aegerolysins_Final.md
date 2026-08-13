@@ -357,24 +357,21 @@ cat aegerolysins/logs/5.1.3_log.txt
 
 Pridobimo statistiko vsebnosti proteinov
 
-TODO: MOVE THIS TO ANALYSIS
-
 ```bash
 python ../../scripts/stat/stat_v2.py -m aegerolysins/5_seqdupes/5.2_aegerolysins_noseqdupes_metadata.csv -p basidiomycota_phylogeny/basidiomycota_taxonomy.csv -o aegerolysins/5_seqdupes/5.3_aegero_noseqdupes_statistics.xlsx
 ```
 
 ## 6. Dodajanje Pleurotus pulmunarius
-
 Dodajanje fasta sekvence pul b: odstranjevanje ID-ja in dodajanje k datotekam brez duplikatnih sekvenc iz prejšnjega koraka.
 
 ```bash
 mkdir -p aegerolysins/6_pleurotus_pulmonarius
 
 # Kopiramo datoteke očiščenih in dedupliciranih proteinov ter preimenujemo
- aegerolysins/6_pleurotus_pulmonarius/6.1_aegero_nodupes_pul.fasta
+cp aegerolysins/6_pleurotus_pulmonarius/6.1_aegero_nodupes_pul.fasta
 
 # Kopiramo vse sekvence za pul a in jih shranimo v eno datoteko
-for file in $(find ../../data/pleurotus_pulmonarius_ncbi/* -iname "*.fasta"); do seqkit replace -p " " -r  "_" "$file" | seqkit seq -i >> aegerolysins/6_pleurotus_pulmonarius/pul_a_seqs.fasta; done
+for file in $(find ../../data/pleurotus_pulmonarius_ncbi/pul_a* -iname "*.fasta"); do seqkit replace -p " " -r  "_" "$file" | seqkit seq -i >> aegerolysins/6_pleurotus_pulmonarius/pul_a_seqs.fasta; done
 
 # Dodamo združene pul a sekvence k dedupliciranim sekvencam
 seqkit seq aegerolysins/6_pleurotus_pulmonarius/pul_a_seqs.fasta aegerolysins/5_seqdupes/5.1_aegero_noseqdupes.fasta > aegerolysins/6_pleurotus_pulmonarius/6.1_aegero_nodupes_pula.fasta
@@ -417,17 +414,12 @@ seqkit seq -n aegerolysins/6_pleurotus_pulmonarius/pul_a_seqs.fasta > aegerolysi
 ```
 
 - Nato odpremo v poljubnem urejevalniku csv datotek in dodamo fasta header ter ime organizma.
-
 - Fasta header prekopiramo iz datoteke `"pul_a_seqs.fasta"`
-
 - Organism ID je skrajšana verzija imena - "Plepul1"
-
 - organism name je celotno ime vrste, enako velja za "Genus species", najdemo v originalni fasta datoteki, prenešeni iz NCBI, v oglatih oklepajih `"pul_a_protein.fasta"` - "Pleurotus pulmonarius"
 
   - "Name" je kar enak protein id-ju `"pul_summary.txt"`
-  
-  TODO od tukaj naprej dokončaj 28. 6. 2026 ob 22:16
-  
+
 - "protein_id" za posamezen protein je enak, kot pri shranjevanju datotek:
 
   - "pul_a1"
@@ -585,12 +577,6 @@ Združimo skupaj seqkit statistike v eno datoteko:
 ```bash
 csvtk concat aegerolysins/seqkit_stats/* > aegerolysins/seqkit_stats/all_stats.tsv
 ```
-
-# TODO 
-
-Najprej moram pridobit še filogenetske podatke za outgroupe in za pleurotus pulmunarius, nato lahko združim združim z filogenijo iz 
-
-TODO - najprej ponovno pripravi "basidiomycota_taxonomy.csv", po tem ko sem dodal notri še Pleurotus pulmonarius in Aspergillus niger.
 
 5.4 združimo datoteko z metapodatki in filogenijo za lažje delo pri uvažanju podatkov v TreeViewer. PRESTAVI ČISTO NA KONEC
 
