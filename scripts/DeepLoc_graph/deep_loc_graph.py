@@ -40,6 +40,8 @@ print(dataframe["Mitochondrion"])
 sns.set_theme(style="darkgrid")
 sns.set_style("ticks")
 
+xlim_range = (0, 1)
+
 fig, axs = plt.subplots(2, 4, figsize=(10,10))
 
 
@@ -68,6 +70,10 @@ peroksisom = sns.histplot(data=dataframe, color=colors[7],  x="Peroxisome", ax=a
 peroksisom.set_xlabel("Peroksisom")
 peroksisom.set_ylabel("Število proteinov")
 
+for ax_row in axs:
+    for ax in ax_row:
+        ax.set_xlim(xlim_range)
+
 plt.show()
 
 
@@ -92,5 +98,10 @@ izvenceličen.set_ylabel("Število proteinov")
 celična_membrana = sns.histplot(data=dataframe, color=colors[13], x="Cell membrane", ax=axs[1, 2], kde=True)
 celična_membrana.set_xlabel("Celična membrana")
 celična_membrana.set_ylabel("Število proteinov")
+
+for ax_row in axs:
+    for ax in ax_row:
+        if ax.get_figure() is not None: # Check if the axis is used
+            ax.set_xlim(xlim_range)
 
 plt.savefig("histogram.png")
