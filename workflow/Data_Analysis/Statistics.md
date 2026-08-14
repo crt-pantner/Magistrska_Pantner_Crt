@@ -1,3 +1,5 @@
+da
+
 n poglej še enkrat graf.
 
 rezultati pomenijo
@@ -28,9 +30,15 @@ python3 ../../scripts/stat/stat_v2.py -m macpf/3_hmmer/3_4_after_hmmer/3.4.5_mac
 
 Za namen izračunanja proteinskih lastnosti in pridobivanja grafa proteinskih lastnosti (to je ..) smo uporabili skripto, ki za posamezen protein izračuna posamezno lastnost in nato vse združi na en graf. Za ta namen smo uporabili Biopython knjižnico.
 
+```Shell
+python ../../scripts/protein_properties/protein_properties_v2.py ../cleaning/aegerolysins/7_outgroups/7.1_3_final_aeggero_all_outgroups_pula.fasta fig.png Save to csv? ([Y / N]) Y
+```
+
 ## celična sublokalizacija
 
 To bi moglo bit signalP
+
+TODO: DeepLoc naredi graf
 
 Za izračun celične sublokalizacije proteinov smo uporabili DeepLock 2.1 iz spletne strani DTU. https://services.healthtech.dtu.dk/services/DeepLoc-2.1/
 
