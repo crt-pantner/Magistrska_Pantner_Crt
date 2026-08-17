@@ -570,6 +570,50 @@ num_seqs=$(csvtk del-header aegerolysins/7_outgroups/7.3_2_final_aegerolysins_no
 cat aegerolysins/logs/7.2.3_log.txt
 ```
 
+## 8. Odstranjevanje Duplikatov
+
+Pred izdelavo filogenetskega drevesa moramo odstraniti tudi duplikate glede na sekvenco. Za ta namen bomo uporabili seqkit.
+
+```bash
+# Directory management
+mkdir -p cleaning/aegerolysins/8_seqdupes
+
+# Removing duplicates, saving number of duplicate sequences and fasta file of duplicate sequences.
+
+seqkit rmdup --by-seq --dup-num-file cleaning/aegerolysins/8_seqdupes/8.1_sequence_duplicates.txt --dup-seqs-file cleaning/aegerolysins/8_seqdupes/8.2_sequence_duplicates_sequences.fasta --out-file cleaning/aegerolysins/8_seqdupes/8.3_final_aegerolysins_deduplicated_seqs.fasta cleaning/aegerolysins/7_outgroups/7.1_3_final_aeggero_all_outgroups_pula.fasta 
+
+# Generate CSV file
+head -1 aegerolysins/7_outgroups/7.3_2_final_aegerolysins_noseqdupes_pula_outgroups_metadata.csv > aegerolysins/8_seqdupes/8.4_final_aegerolysins_deduplicated_metadata.csv
+
+# Get the headers for grep
+seqkit seq -n aegerolysins/8_seqdupes/8.3_final_aegerolysins_deduplicated_seqs.fasta > aegerolysins/8_seqdupes/8.4_1_noseqdupes_headers.txt
+
+# Grab only non duplicate sequences from csv file
+grep --fixed-strings -f aegerolysins/8_seqdupes/8.4_1_noseqdupes_headers.txt aegerolysins/7_outgroups/7.3_2_final_aegerolysins_noseqdupes_pula_outgroups_metadata.csv >> aegerolysins/8_seqdupes/8.4_final_aegerolysins_deduplicated_metadata.csv 
+```
+
+Checkpoint
+
+```bash
+# Grab stats for deduplicated sequences
+seqkit stats --all --tabular aegerolysins/8_seqdupes/8.3_final_aegerolysins_deduplicated_seqs.fasta > aegerolysins/seqkit_stats/8.4_noseqdupes_stats.tsv
+
+# Get number of sequences in fasta file and print to log.
+num_seqs=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/8.4_noseqdupes_stats.tsv | csvtk del-header); echo "num_seqs_removed_dupes: ${num_seqs}" > aegerolysins/logs/8.5_log
+
+# Grab stats for metadata
+num_seqs=$(csvtk del-header | wc -l); echo "num_sequences_csv: ${num_seqs}" >> aegerolysins/logs/8.5_log
+
+
+
+
+```
+
+
+
+# Get proteins with aegerolysin domain
+grep --fixed-strings -f aegerolysins/3_hmmer/aegerolysin_containing_proteins.csv aegerolysins/2_name_copies/2.2_aegerolysins_nonamedupes.csv >> aegerolysins/3_hmmer/3_4_after_hmmer/3.4.5_aegerolysins_after_hmmer.csv
+
 ### Zadnji korak:
 
 Združimo skupaj seqkit statistike v eno datoteko:
@@ -583,5 +627,7 @@ csvtk concat aegerolysins/seqkit_stats/* > aegerolysins/seqkit_stats/all_stats.t
 ```
 python ../../scripts/NCBI_taxonomy/helpers/csv_merger/metadata_merger.py -p basidiomycota_phylogeny/basidiomycota_taxonomy.csv -m aegerolysins/7_outgroups/7.3_2_final_aegerolysins_noseqdupes_pula_outgroups_metadata.csv -o aegerolysins/7_outgroups/7.4_aegerolysin_final_metadata_phylogeny.csv
 ```
+
+8. 
 
 - References
