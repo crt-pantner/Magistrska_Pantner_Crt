@@ -602,11 +602,9 @@ seqkit stats --all --tabular aegerolysins/8_seqdupes/8.3_final_aegerolysins_dedu
 num_seqs=$(csvtk cut -t -f "num_seqs" aegerolysins/seqkit_stats/8.4_noseqdupes_stats.tsv | csvtk del-header); echo "num_seqs_removed_dupes: ${num_seqs}" > aegerolysins/logs/8.5_log
 
 # Grab stats for metadata
-num_seqs=$(csvtk del-header | wc -l); echo "num_sequences_csv: ${num_seqs}" >> aegerolysins/logs/8.5_log
+num_seqs=$(csvtk del-header aegerolysins/8_seqdupes/8.4_final_aegerolysins_deduplicated_metadata.csv | wc -l); echo "num_sequences_csv: ${num_seqs}" >> aegerolysins/logs/8.5_log
 
-
-
-
+cat aegerolysins/logs/8.5_log
 ```
 
 
