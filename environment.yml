@@ -16,5 +16,8 @@ dependencies:
   - bioconda::mafft==7.525 # For running MAFFT for sequence alignment
   - conda-forge::seaborn==0.13.2 # For protein properties script
   - bioconda::peptides==0.5.0 # For calculation of peptide properties and graphs
+  - bioconda::raxml-ng # For pyhogenetic tree
+  - bioconda::modeltest-ng # For substitution model selection.
+
 
 
