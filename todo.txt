@@ -1,0 +1,17 @@
+TODO: 18. 8. 2026
+- Grafe v slovenščino
+- Grafe postaavi tako, da bodo pasali na A4 list - bodisi vodoravno bodisi pokončno
+- DeepLoc: Množina na x osi.
+- Spodi pod grafom pa napišeš s čim ssem delal napoved.
+- DeepLoc: Preveri kaj pomenijo posamezne vrednosti in naredi izbor, kateri bodo na grafu, če ne celo vsi.
+
+27. 8. 26:
+- signalp in drugi grafi: izhodišče mora biti od 0 (predvsem signalp X os) in od 0 do 1 mora biti.
+- pošlji knjigo za deeploc
+- Dodaj X in Y os s črno črto na Deeploc in Protein vrednosti
+- Črne črte iz upset grafa stran ali pa v sivo ali v črtkano črto ali pa brez sivih pik v ozadju
+- Poravnava:
+    - Dej stran proteine, ki so daljši in krajši od 10 % (oz. kolkr kol je že blo - poglej) od mediane 
+    - Dej stran tiste ki majo manj kot 90% alpa 95% identičnost z dolžino domene z aegerolizinsko. Ostale ki ostanejo ohrani cele in iz celih naredi poravnavo
+    - Tretja vrjanta: vzami samo regijo domene in tiste proteine, ki imajo domeno krajšo od recimo 10% dolžine aegerolizinske domene odstrani.
+    - PREVERI: ali ti izračuna drevo normalo z Raxml-ng training datasetom.
