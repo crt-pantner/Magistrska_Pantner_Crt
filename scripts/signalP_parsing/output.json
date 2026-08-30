@@ -1,0 +1,3824 @@
+{
+  "INFO": {
+    "failedjobs": 0,
+    "size": 238
+  },
+  "CSV_FILE": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/prediction_results.txt",
+  "MATURE_FILE": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/processed_entries.fasta",
+  "GFF_FILE": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output.gff3",
+  "ZIP_FILE": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_all_results.zip",
+  "SEQUENCES": {
+    "KAF4577131.1_Ostreolysin_A6__Pleurotus_pulmonarius_": {
+      "Name": "KAF4577131.1_Ostreolysin_A6__Pleurotus_pulmonarius_",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_KAF4577131_1_Ostreolysin_A6__Pleurotus_pulmonarius__plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_KAF4577131_1_Ostreolysin_A6__Pleurotus_pulmonarius__plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_KAF4577131_1_Ostreolysin_A6__Pleurotus_pulmonarius__plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.8343,
+        0.1657
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "KAF4577129.1_Ostreolysin_A6__Pleurotus_pulmonarius_": {
+      "Name": "KAF4577129.1_Ostreolysin_A6__Pleurotus_pulmonarius_",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_KAF4577129_1_Ostreolysin_A6__Pleurotus_pulmonarius__plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_KAF4577129_1_Ostreolysin_A6__Pleurotus_pulmonarius__plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_KAF4577129_1_Ostreolysin_A6__Pleurotus_pulmonarius__plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "KAF4577128.1_Ostreolysin_A6__Pleurotus_pulmonarius_": {
+      "Name": "KAF4577128.1_Ostreolysin_A6__Pleurotus_pulmonarius_",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_KAF4577128_1_Ostreolysin_A6__Pleurotus_pulmonarius__plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_KAF4577128_1_Ostreolysin_A6__Pleurotus_pulmonarius__plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_KAF4577128_1_Ostreolysin_A6__Pleurotus_pulmonarius__plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "KAF4577132.1_hypothetical_protein_EYR36_005119__Pleurotus_pulmonarius_": {
+      "Name": "KAF4577132.1_hypothetical_protein_EYR36_005119__Pleurotus_pulmonarius_",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_KAF4577132_1_hypothetical_protein_EYR36_005119__Pleurotus_pulmonarius__plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_KAF4577132_1_hypothetical_protein_EYR36_005119__Pleurotus_pulmonarius__plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_KAF4577132_1_hypothetical_protein_EYR36_005119__Pleurotus_pulmonarius__plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Volvo1_116806_PriA": {
+      "Name": "jgi_Volvo1_116806_PriA",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Volvo1_116806_PriA_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Volvo1_116806_PriA_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Volvo1_116806_PriA_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Volvo1_121057_Aegerolysin": {
+      "Name": "jgi_Volvo1_121057_Aegerolysin",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Volvo1_121057_Aegerolysin_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Volvo1_121057_Aegerolysin_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Volvo1_121057_Aegerolysin_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Fibra1_8583_FIBRA_06718m.01": {
+      "Name": "jgi_Fibra1_8583_FIBRA_06718m.01",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Fibra1_8583_FIBRA_06718m_01_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Fibra1_8583_FIBRA_06718m_01_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Fibra1_8583_FIBRA_06718m_01_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Fibra1_8593_FIBRA_06728m.01": {
+      "Name": "jgi_Fibra1_8593_FIBRA_06728m.01",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Fibra1_8593_FIBRA_06728m_01_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Fibra1_8593_FIBRA_06728m_01_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Fibra1_8593_FIBRA_06728m_01_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_PhlFC14_2_483767_CE483766_4870": {
+      "Name": "jgi_PhlFC14_2_483767_CE483766_4870",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PhlFC14_2_483767_CE483766_4870_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PhlFC14_2_483767_CE483766_4870_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PhlFC14_2_483767_CE483766_4870_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_PhlFC14_2_1801769_e_gw1.2.1493.1": {
+      "Name": "jgi_PhlFC14_2_1801769_e_gw1.2.1493.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PhlFC14_2_1801769_e_gw1_2_1493_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PhlFC14_2_1801769_e_gw1_2_1493_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PhlFC14_2_1801769_e_gw1_2_1493_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_PhlFC14_2_1827079_fgenesh1_pg.2___36": {
+      "Name": "jgi_PhlFC14_2_1827079_fgenesh1_pg.2___36",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PhlFC14_2_1827079_fgenesh1_pg_2___36_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PhlFC14_2_1827079_fgenesh1_pg_2___36_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PhlFC14_2_1827079_fgenesh1_pg_2___36_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_PhlFC14_2_1947475_estExt_Genewise1Plus.C_2_t10161": {
+      "Name": "jgi_PhlFC14_2_1947475_estExt_Genewise1Plus.C_2_t10161",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PhlFC14_2_1947475_estExt_Genewise1Plus_C_2_t10161_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PhlFC14_2_1947475_estExt_Genewise1Plus_C_2_t10161_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PhlFC14_2_1947475_estExt_Genewise1Plus_C_2_t10161_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pycpun1_203258_CE203257_234": {
+      "Name": "jgi_Pycpun1_203258_CE203257_234",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pycpun1_203258_CE203257_234_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pycpun1_203258_CE203257_234_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pycpun1_203258_CE203257_234_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Parsph2_111316_CE111315_235": {
+      "Name": "jgi_Parsph2_111316_CE111315_235",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Parsph2_111316_CE111315_235_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Parsph2_111316_CE111315_235_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Parsph2_111316_CE111315_235_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Parsph2_1787663_estExt_Genemark4.C_100035": {
+      "Name": "jgi_Parsph2_1787663_estExt_Genemark4.C_100035",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Parsph2_1787663_estExt_Genemark4_C_100035_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Parsph2_1787663_estExt_Genemark4_C_100035_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Parsph2_1787663_estExt_Genemark4_C_100035_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Flafl1_1414541_gm1.5378_g": {
+      "Name": "jgi_Flafl1_1414541_gm1.5378_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Flafl1_1414541_gm1_5378_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Flafl1_1414541_gm1_5378_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Flafl1_1414541_gm1_5378_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Punst1_101965_estExt_Genewise1Plus.C_5_t30163": {
+      "Name": "jgi_Punst1_101965_estExt_Genewise1Plus.C_5_t30163",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Punst1_101965_estExt_Genewise1Plus_C_5_t30163_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Punst1_101965_estExt_Genewise1Plus_C_5_t30163_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Punst1_101965_estExt_Genewise1Plus_C_5_t30163_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.9847,
+        0.0153
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Gyrli1_877364_estExt_Genemark1.C_2_t10250": {
+      "Name": "jgi_Gyrli1_877364_estExt_Genemark1.C_2_t10250",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Gyrli1_877364_estExt_Genemark1_C_2_t10250_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Gyrli1_877364_estExt_Genemark1_C_2_t10250_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Gyrli1_877364_estExt_Genemark1_C_2_t10250_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Trace1_560779_CE560778_203": {
+      "Name": "jgi_Trace1_560779_CE560778_203",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Trace1_560779_CE560778_203_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Trace1_560779_CE560778_203_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Trace1_560779_CE560778_203_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Tragib1_1322232_e_gw1.22.291.1": {
+      "Name": "jgi_Tragib1_1322232_e_gw1.22.291.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tragib1_1322232_e_gw1_22_291_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tragib1_1322232_e_gw1_22_291_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tragib1_1322232_e_gw1_22_291_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Sisrad1_2292907_e_gw1.26.70.1": {
+      "Name": "jgi_Sisrad1_2292907_e_gw1.26.70.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sisrad1_2292907_e_gw1_26_70_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sisrad1_2292907_e_gw1_26_70_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sisrad1_2292907_e_gw1_26_70_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Cersu1_172089_uku_PF06355.4": {
+      "Name": "jgi_Cersu1_172089_uku_PF06355.4",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cersu1_172089_uku_PF06355_4_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cersu1_172089_uku_PF06355_4_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cersu1_172089_uku_PF06355_4_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pisori2_840897_fgenesh1_kg.21___243___TRINITY_DN1208_c0_g1_i1": {
+      "Name": "jgi_Pisori2_840897_fgenesh1_kg.21___243___TRINITY_DN1208_c0_g1_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisori2_840897_fgenesh1_kg_21___243___TRINITY_DN1208_c0_g1_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisori2_840897_fgenesh1_kg_21___243___TRINITY_DN1208_c0_g1_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisori2_840897_fgenesh1_kg_21___243___TRINITY_DN1208_c0_g1_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Dicsq1_69680_e_gw1.57.32.1": {
+      "Name": "jgi_Dicsq1_69680_e_gw1.57.32.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsq1_69680_e_gw1_57_32_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsq1_69680_e_gw1_57_32_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsq1_69680_e_gw1_57_32_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_PleosPC9_1_72745_estExt_Genewise1.C_60521": {
+      "Name": "jgi_PleosPC9_1_72745_estExt_Genewise1.C_60521",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PleosPC9_1_72745_estExt_Genewise1_C_60521_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PleosPC9_1_72745_estExt_Genewise1_C_60521_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PleosPC9_1_72745_estExt_Genewise1_C_60521_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.8341,
+        0.1659
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_PleosPC15_2_1090164_estExt_fgenesh1_kg.C_070197": {
+      "Name": "jgi_PleosPC15_2_1090164_estExt_fgenesh1_kg.C_070197",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PleosPC15_2_1090164_estExt_fgenesh1_kg_C_070197_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PleosPC15_2_1090164_estExt_fgenesh1_kg_C_070197_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PleosPC15_2_1090164_estExt_fgenesh1_kg_C_070197_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.8341,
+        0.1659
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Iscben1_962434_fgenesh1_kg.51___332___TRINITY_DN11122_c0_g1_i2": {
+      "Name": "jgi_Iscben1_962434_fgenesh1_kg.51___332___TRINITY_DN11122_c0_g1_i2",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Iscben1_962434_fgenesh1_kg_51___332___TRINITY_DN11122_c0_g1_i2_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Iscben1_962434_fgenesh1_kg_51___332___TRINITY_DN11122_c0_g1_i2_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Iscben1_962434_fgenesh1_kg_51___332___TRINITY_DN11122_c0_g1_i2_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hercor1_717804_CE717803_220": {
+      "Name": "jgi_Hercor1_717804_CE717803_220",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hercor1_717804_CE717803_220_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hercor1_717804_CE717803_220_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hercor1_717804_CE717803_220_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Cercru1_2939796_gm1.8175_g": {
+      "Name": "jgi_Cercru1_2939796_gm1.8175_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cercru1_2939796_gm1_8175_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cercru1_2939796_gm1_8175_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cercru1_2939796_gm1_8175_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Tramey1_1013932_gm1.9611_g": {
+      "Name": "jgi_Tramey1_1013932_gm1.9611_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tramey1_1013932_gm1_9611_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tramey1_1013932_gm1_9611_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tramey1_1013932_gm1_9611_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pismi_AB1_1_1098592_fgenesh1_kg.4___3688___TRINITY_DN2699_c0_g1_i1": {
+      "Name": "jgi_Pismi_AB1_1_1098592_fgenesh1_kg.4___3688___TRINITY_DN2699_c0_g1_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismi_AB1_1_1098592_fgenesh1_kg_4___3688___TRINITY_DN2699_c0_g1_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismi_AB1_1_1098592_fgenesh1_kg_4___3688___TRINITY_DN2699_c0_g1_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismi_AB1_1_1098592_fgenesh1_kg_4___3688___TRINITY_DN2699_c0_g1_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Tramax1_336724_CE336723_1181": {
+      "Name": "jgi_Tramax1_336724_CE336723_1181",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tramax1_336724_CE336723_1181_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tramax1_336724_CE336723_1181_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tramax1_336724_CE336723_1181_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lacsub1_1211756_fgenesh1_kg.30___717___TRINITY_DN6950_c6_g5_i1": {
+      "Name": "jgi_Lacsub1_1211756_fgenesh1_kg.30___717___TRINITY_DN6950_c6_g5_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacsub1_1211756_fgenesh1_kg_30___717___TRINITY_DN6950_c6_g5_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacsub1_1211756_fgenesh1_kg_30___717___TRINITY_DN6950_c6_g5_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacsub1_1211756_fgenesh1_kg_30___717___TRINITY_DN6950_c6_g5_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lacsub1_1211789_fgenesh1_kg.30___750___TRINITY_DN6950_c6_g5_i1": {
+      "Name": "jgi_Lacsub1_1211789_fgenesh1_kg.30___750___TRINITY_DN6950_c6_g5_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacsub1_1211789_fgenesh1_kg_30___750___TRINITY_DN6950_c6_g5_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacsub1_1211789_fgenesh1_kg_30___750___TRINITY_DN6950_c6_g5_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacsub1_1211789_fgenesh1_kg_30___750___TRINITY_DN6950_c6_g5_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lacsub1_1211835_fgenesh1_kg.30___796___TRINITY_DN6950_c6_g1_i1": {
+      "Name": "jgi_Lacsub1_1211835_fgenesh1_kg.30___796___TRINITY_DN6950_c6_g1_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacsub1_1211835_fgenesh1_kg_30___796___TRINITY_DN6950_c6_g1_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacsub1_1211835_fgenesh1_kg_30___796___TRINITY_DN6950_c6_g1_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacsub1_1211835_fgenesh1_kg_30___796___TRINITY_DN6950_c6_g1_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Spalat1_734472_e_gw1.35.12.1": {
+      "Name": "jgi_Spalat1_734472_e_gw1.35.12.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Spalat1_734472_e_gw1_35_12_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Spalat1_734472_e_gw1_35_12_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Spalat1_734472_e_gw1_35_12_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.9996,
+        0.0004
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Spalat1_734482_e_gw1.35.69.1": {
+      "Name": "jgi_Spalat1_734482_e_gw1.35.69.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Spalat1_734482_e_gw1_35_69_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Spalat1_734482_e_gw1_35_69_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Spalat1_734482_e_gw1_35_69_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Ptegra1_557421_fgenesh1_kg.1___662___Locus11731v1rpkm2.63": {
+      "Name": "jgi_Ptegra1_557421_fgenesh1_kg.1___662___Locus11731v1rpkm2.63",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Ptegra1_557421_fgenesh1_kg_1___662___Locus11731v1rpkm2_63_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Ptegra1_557421_fgenesh1_kg_1___662___Locus11731v1rpkm2_63_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Ptegra1_557421_fgenesh1_kg_1___662___Locus11731v1rpkm2_63_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Creces1_788500_CE788499_661": {
+      "Name": "jgi_Creces1_788500_CE788499_661",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Creces1_788500_CE788499_661_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Creces1_788500_CE788499_661_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Creces1_788500_CE788499_661_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_PleosDSM11191_1_1389302_fgenesh1_kg.65___274___TRINITY_DN4603_c0_g1_i1": {
+      "Name": "jgi_PleosDSM11191_1_1389302_fgenesh1_kg.65___274___TRINITY_DN4603_c0_g1_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PleosDSM11191_1_1389302_fgenesh1_kg_65___274___TRINITY_DN4603_c0_g1_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PleosDSM11191_1_1389302_fgenesh1_kg_65___274___TRINITY_DN4603_c0_g1_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_PleosDSM11191_1_1389302_fgenesh1_kg_65___274___TRINITY_DN4603_c0_g1_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.8341,
+        0.1659
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Serbor1_321324_CE321323_1946": {
+      "Name": "jgi_Serbor1_321324_CE321323_1946",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_321324_CE321323_1946_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_321324_CE321323_1946_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_321324_CE321323_1946_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Serbor1_321464_CE321463_9628": {
+      "Name": "jgi_Serbor1_321464_CE321463_9628",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_321464_CE321463_9628_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_321464_CE321463_9628_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_321464_CE321463_9628_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Serbor1_1718465_e_gw1.99.2.1": {
+      "Name": "jgi_Serbor1_1718465_e_gw1.99.2.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1718465_e_gw1_99_2_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1718465_e_gw1_99_2_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1718465_e_gw1_99_2_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Serbor1_689602_CE689601_2377": {
+      "Name": "jgi_Serbor1_689602_CE689601_2377",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_689602_CE689601_2377_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_689602_CE689601_2377_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_689602_CE689601_2377_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Serbor1_689791_CE689790_1646": {
+      "Name": "jgi_Serbor1_689791_CE689790_1646",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_689791_CE689790_1646_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_689791_CE689790_1646_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_689791_CE689790_1646_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Serbor1_1827247_fgenesh1_kg.265___52___TRINITY_DN401_c0_g1_i11": {
+      "Name": "jgi_Serbor1_1827247_fgenesh1_kg.265___52___TRINITY_DN401_c0_g1_i11",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1827247_fgenesh1_kg_265___52___TRINITY_DN401_c0_g1_i11_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1827247_fgenesh1_kg_265___52___TRINITY_DN401_c0_g1_i11_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1827247_fgenesh1_kg_265___52___TRINITY_DN401_c0_g1_i11_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Serbor1_1848073_estExt_Genewise1Plus.C_1300040": {
+      "Name": "jgi_Serbor1_1848073_estExt_Genewise1Plus.C_1300040",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1848073_estExt_Genewise1Plus_C_1300040_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1848073_estExt_Genewise1Plus_C_1300040_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1848073_estExt_Genewise1Plus_C_1300040_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Serbor1_1870416_gm1.13690_g": {
+      "Name": "jgi_Serbor1_1870416_gm1.13690_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1870416_gm1_13690_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1870416_gm1_13690_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1870416_gm1_13690_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Serbor1_1870684_gm1.13958_g": {
+      "Name": "jgi_Serbor1_1870684_gm1.13958_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1870684_gm1_13958_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1870684_gm1_13958_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1870684_gm1_13958_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Serbor1_1872343_gm1.15617_g": {
+      "Name": "jgi_Serbor1_1872343_gm1.15617_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1872343_gm1_15617_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1872343_gm1_15617_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1872343_gm1_15617_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Serbor1_1899659_estExt_Genemark1.C_2650002": {
+      "Name": "jgi_Serbor1_1899659_estExt_Genemark1.C_2650002",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1899659_estExt_Genemark1_C_2650002_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1899659_estExt_Genemark1_C_2650002_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1899659_estExt_Genemark1_C_2650002_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Serbor1_1932695_MIX32394_3851_62": {
+      "Name": "jgi_Serbor1_1932695_MIX32394_3851_62",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1932695_MIX32394_3851_62_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1932695_MIX32394_3851_62_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serbor1_1932695_MIX32394_3851_62_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Cytmel1_219606_CE219605_29787": {
+      "Name": "jgi_Cytmel1_219606_CE219605_29787",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cytmel1_219606_CE219605_29787_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cytmel1_219606_CE219605_29787_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cytmel1_219606_CE219605_29787_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Obbri1_189930_CE189929_463": {
+      "Name": "jgi_Obbri1_189930_CE189929_463",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Obbri1_189930_CE189929_463_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Obbri1_189930_CE189929_463_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Obbri1_189930_CE189929_463_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Obbri1_724008_e_gw1.21.173.1": {
+      "Name": "jgi_Obbri1_724008_e_gw1.21.173.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Obbri1_724008_e_gw1_21_173_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Obbri1_724008_e_gw1_21_173_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Obbri1_724008_e_gw1_21_173_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Obbri1_862642_MIX22168_362_79": {
+      "Name": "jgi_Obbri1_862642_MIX22168_362_79",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Obbri1_862642_MIX22168_362_79_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Obbri1_862642_MIX22168_362_79_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Obbri1_862642_MIX22168_362_79_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Trabet1_845770_fgenesh1_kg.52___99___TRINITY_DN6062_c0_g1_i2": {
+      "Name": "jgi_Trabet1_845770_fgenesh1_kg.52___99___TRINITY_DN6062_c0_g1_i2",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Trabet1_845770_fgenesh1_kg_52___99___TRINITY_DN6062_c0_g1_i2_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Trabet1_845770_fgenesh1_kg_52___99___TRINITY_DN6062_c0_g1_i2_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Trabet1_845770_fgenesh1_kg_52___99___TRINITY_DN6062_c0_g1_i2_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hydpi2_169438_fgenesh1_pg.25___18": {
+      "Name": "jgi_Hydpi2_169438_fgenesh1_pg.25___18",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hydpi2_169438_fgenesh1_pg_25___18_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hydpi2_169438_fgenesh1_pg_25___18_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hydpi2_169438_fgenesh1_pg_25___18_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Rusrug1_1191120_estExt_Genemark1.C_3620002": {
+      "Name": "jgi_Rusrug1_1191120_estExt_Genemark1.C_3620002",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Rusrug1_1191120_estExt_Genemark1_C_3620002_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Rusrug1_1191120_estExt_Genemark1_C_3620002_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Rusrug1_1191120_estExt_Genemark1_C_3620002_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Rusrug1_922004_e_gw1.147.19.1": {
+      "Name": "jgi_Rusrug1_922004_e_gw1.147.19.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Rusrug1_922004_e_gw1_147_19_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Rusrug1_922004_e_gw1_147_19_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Rusrug1_922004_e_gw1_147_19_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.6669,
+        0.3331
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Rusrug1_925929_e_gw1.362.13.1": {
+      "Name": "jgi_Rusrug1_925929_e_gw1.362.13.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Rusrug1_925929_e_gw1_362_13_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Rusrug1_925929_e_gw1_362_13_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Rusrug1_925929_e_gw1_362_13_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.8334,
+        0.1666
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Rusrug1_1001040_fgenesh1_kg.147___108___TRINITY_DN26466_c1_g1_i2": {
+      "Name": "jgi_Rusrug1_1001040_fgenesh1_kg.147___108___TRINITY_DN26466_c1_g1_i2",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Rusrug1_1001040_fgenesh1_kg_147___108___TRINITY_DN26466_c1_g1_i2_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Rusrug1_1001040_fgenesh1_kg_147___108___TRINITY_DN26466_c1_g1_i2_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Rusrug1_1001040_fgenesh1_kg_147___108___TRINITY_DN26466_c1_g1_i2_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hetan2_148469_Hetan1.estExt_fgenesh3_kg.C_110095": {
+      "Name": "jgi_Hetan2_148469_Hetan1.estExt_fgenesh3_kg.C_110095",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hetan2_148469_Hetan1_estExt_fgenesh3_kg_C_110095_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hetan2_148469_Hetan1_estExt_fgenesh3_kg_C_110095_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hetan2_148469_Hetan1_estExt_fgenesh3_kg_C_110095_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Chapip1_2925871_estExt_fgenesh1_pg.C_100091": {
+      "Name": "jgi_Chapip1_2925871_estExt_fgenesh1_pg.C_100091",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Chapip1_2925871_estExt_fgenesh1_pg_C_100091_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Chapip1_2925871_estExt_fgenesh1_pg_C_100091_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Chapip1_2925871_estExt_fgenesh1_pg_C_100091_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Chapip1_2937556_gm1.8701_g": {
+      "Name": "jgi_Chapip1_2937556_gm1.8701_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Chapip1_2937556_gm1_8701_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Chapip1_2937556_gm1_8701_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Chapip1_2937556_gm1_8701_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Clibor1_1154422_e_gw1.339.14.1": {
+      "Name": "jgi_Clibor1_1154422_e_gw1.339.14.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1154422_e_gw1_339_14_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1154422_e_gw1_339_14_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1154422_e_gw1_339_14_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Clibor1_1192231_fgenesh1_kg.9___384___TRINITY_DN5174_c2_g3_i1": {
+      "Name": "jgi_Clibor1_1192231_fgenesh1_kg.9___384___TRINITY_DN5174_c2_g3_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1192231_fgenesh1_kg_9___384___TRINITY_DN5174_c2_g3_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1192231_fgenesh1_kg_9___384___TRINITY_DN5174_c2_g3_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1192231_fgenesh1_kg_9___384___TRINITY_DN5174_c2_g3_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Clibor1_1227935_fgenesh1_kg.51___227___TRINITY_DN4499_c1_g1_i3": {
+      "Name": "jgi_Clibor1_1227935_fgenesh1_kg.51___227___TRINITY_DN4499_c1_g1_i3",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1227935_fgenesh1_kg_51___227___TRINITY_DN4499_c1_g1_i3_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1227935_fgenesh1_kg_51___227___TRINITY_DN4499_c1_g1_i3_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1227935_fgenesh1_kg_51___227___TRINITY_DN4499_c1_g1_i3_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Clibor1_1227914_fgenesh1_kg.51___206___TRINITY_DN4499_c1_g1_i3": {
+      "Name": "jgi_Clibor1_1227914_fgenesh1_kg.51___206___TRINITY_DN4499_c1_g1_i3",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1227914_fgenesh1_kg_51___206___TRINITY_DN4499_c1_g1_i3_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1227914_fgenesh1_kg_51___206___TRINITY_DN4499_c1_g1_i3_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1227914_fgenesh1_kg_51___206___TRINITY_DN4499_c1_g1_i3_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Clibor1_1428831_estExt_Genemark1.C_170196": {
+      "Name": "jgi_Clibor1_1428831_estExt_Genemark1.C_170196",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1428831_estExt_Genemark1_C_170196_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1428831_estExt_Genemark1_C_170196_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Clibor1_1428831_estExt_Genemark1_C_170196_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Paxam1_1014777_gm1.8368_g": {
+      "Name": "jgi_Paxam1_1014777_gm1.8368_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Paxam1_1014777_gm1_8368_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Paxam1_1014777_gm1_8368_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Paxam1_1014777_gm1_8368_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Monpe1_1_83513_MPER_08048m.01": {
+      "Name": "jgi_Monpe1_1_83513_MPER_08048m.01",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_83513_MPER_08048m_01_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_83513_MPER_08048m_01_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_83513_MPER_08048m_01_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Monpe1_1_83795_MPER_08358m.01": {
+      "Name": "jgi_Monpe1_1_83795_MPER_08358m.01",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_83795_MPER_08358m_01_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_83795_MPER_08358m_01_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_83795_MPER_08358m_01_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Monpe1_1_84536_MPER_09181m.01": {
+      "Name": "jgi_Monpe1_1_84536_MPER_09181m.01",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_84536_MPER_09181m_01_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_84536_MPER_09181m_01_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_84536_MPER_09181m_01_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Monpe1_1_86512_MPER_11381m.01": {
+      "Name": "jgi_Monpe1_1_86512_MPER_11381m.01",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_86512_MPER_11381m_01_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_86512_MPER_11381m_01_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_86512_MPER_11381m_01_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Monpe1_1_91804_MPER_04618m.01": {
+      "Name": "jgi_Monpe1_1_91804_MPER_04618m.01",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_91804_MPER_04618m_01_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_91804_MPER_04618m_01_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_91804_MPER_04618m_01_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Monpe1_1_92526_MPER_05430m.01": {
+      "Name": "jgi_Monpe1_1_92526_MPER_05430m.01",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_92526_MPER_05430m_01_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_92526_MPER_05430m_01_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Monpe1_1_92526_MPER_05430m_01_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Serla_varsha1_57805_gw1.862.2.1": {
+      "Name": "jgi_Serla_varsha1_57805_gw1.862.2.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serla_varsha1_57805_gw1_862_2_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serla_varsha1_57805_gw1_862_2_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Serla_varsha1_57805_gw1_862_2_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Dicsqu464_2_2907321_e_gw1.13.846.1": {
+      "Name": "jgi_Dicsqu464_2_2907321_e_gw1.13.846.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsqu464_2_2907321_e_gw1_13_846_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsqu464_2_2907321_e_gw1_13_846_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsqu464_2_2907321_e_gw1_13_846_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lanmao1_5926_Chromoboletusautipes.03785": {
+      "Name": "jgi_Lanmao1_5926_Chromoboletusautipes.03785",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lanmao1_5926_Chromoboletusautipes_03785_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lanmao1_5926_Chromoboletusautipes_03785_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lanmao1_5926_Chromoboletusautipes_03785_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lanmao1_7528_Chromoboletusautipes.05188": {
+      "Name": "jgi_Lanmao1_7528_Chromoboletusautipes.05188",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lanmao1_7528_Chromoboletusautipes_05188_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lanmao1_7528_Chromoboletusautipes_05188_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lanmao1_7528_Chromoboletusautipes_05188_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lanmao1_9032_Chromoboletusautipes.07376": {
+      "Name": "jgi_Lanmao1_9032_Chromoboletusautipes.07376",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lanmao1_9032_Chromoboletusautipes_07376_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lanmao1_9032_Chromoboletusautipes_07376_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lanmao1_9032_Chromoboletusautipes_07376_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lanmao1_9180_Chromoboletusautipes.07477": {
+      "Name": "jgi_Lanmao1_9180_Chromoboletusautipes.07477",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lanmao1_9180_Chromoboletusautipes_07477_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lanmao1_9180_Chromoboletusautipes_07477_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lanmao1_9180_Chromoboletusautipes_07477_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1102255_fgenesh1_pg.145___22": {
+      "Name": "jgi_Hygaur1_1102255_fgenesh1_pg.145___22",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1102255_fgenesh1_pg_145___22_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1102255_fgenesh1_pg_145___22_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1102255_fgenesh1_pg_145___22_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1106052_fgenesh1_pg.622___5": {
+      "Name": "jgi_Hygaur1_1106052_fgenesh1_pg.622___5",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1106052_fgenesh1_pg_622___5_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1106052_fgenesh1_pg_622___5_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1106052_fgenesh1_pg_622___5_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1157025_fgenesh1_kg.214___42___Locus11352v2rpkm5.36": {
+      "Name": "jgi_Hygaur1_1157025_fgenesh1_kg.214___42___Locus11352v2rpkm5.36",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1157025_fgenesh1_kg_214___42___Locus11352v2rpkm5_36_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1157025_fgenesh1_kg_214___42___Locus11352v2rpkm5_36_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1157025_fgenesh1_kg_214___42___Locus11352v2rpkm5_36_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1161011_fgenesh1_kg.354___18___Locus3959v1rpkm59.13": {
+      "Name": "jgi_Hygaur1_1161011_fgenesh1_kg.354___18___Locus3959v1rpkm59.13",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1161011_fgenesh1_kg_354___18___Locus3959v1rpkm59_13_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1161011_fgenesh1_kg_354___18___Locus3959v1rpkm59_13_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1161011_fgenesh1_kg_354___18___Locus3959v1rpkm59_13_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1164082_fgenesh1_kg.535___32___Locus217v1rpkm822.96": {
+      "Name": "jgi_Hygaur1_1164082_fgenesh1_kg.535___32___Locus217v1rpkm822.96",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164082_fgenesh1_kg_535___32___Locus217v1rpkm822_96_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164082_fgenesh1_kg_535___32___Locus217v1rpkm822_96_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164082_fgenesh1_kg_535___32___Locus217v1rpkm822_96_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1164298_fgenesh1_kg.550___40___Locus315v2rpkm118.86": {
+      "Name": "jgi_Hygaur1_1164298_fgenesh1_kg.550___40___Locus315v2rpkm118.86",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164298_fgenesh1_kg_550___40___Locus315v2rpkm118_86_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164298_fgenesh1_kg_550___40___Locus315v2rpkm118_86_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164298_fgenesh1_kg_550___40___Locus315v2rpkm118_86_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1164280_fgenesh1_kg.550___22___Locus535v2rpkm55.84": {
+      "Name": "jgi_Hygaur1_1164280_fgenesh1_kg.550___22___Locus535v2rpkm55.84",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164280_fgenesh1_kg_550___22___Locus535v2rpkm55_84_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164280_fgenesh1_kg_550___22___Locus535v2rpkm55_84_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164280_fgenesh1_kg_550___22___Locus535v2rpkm55_84_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.8334,
+        0.1666
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1164288_fgenesh1_kg.550___30___Locus11419v1rpkm7.85": {
+      "Name": "jgi_Hygaur1_1164288_fgenesh1_kg.550___30___Locus11419v1rpkm7.85",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164288_fgenesh1_kg_550___30___Locus11419v1rpkm7_85_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164288_fgenesh1_kg_550___30___Locus11419v1rpkm7_85_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164288_fgenesh1_kg_550___30___Locus11419v1rpkm7_85_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1164907_fgenesh1_kg.622___34___Locus1137v1rpkm212.23": {
+      "Name": "jgi_Hygaur1_1164907_fgenesh1_kg.622___34___Locus1137v1rpkm212.23",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164907_fgenesh1_kg_622___34___Locus1137v1rpkm212_23_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164907_fgenesh1_kg_622___34___Locus1137v1rpkm212_23_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164907_fgenesh1_kg_622___34___Locus1137v1rpkm212_23_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1164886_fgenesh1_kg.622___13___Locus1327v1rpkm182.11": {
+      "Name": "jgi_Hygaur1_1164886_fgenesh1_kg.622___13___Locus1327v1rpkm182.11",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164886_fgenesh1_kg_622___13___Locus1327v1rpkm182_11_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164886_fgenesh1_kg_622___13___Locus1327v1rpkm182_11_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1164886_fgenesh1_kg_622___13___Locus1327v1rpkm182_11_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.7684,
+        0.2316
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1165900_fgenesh1_kg.767___2___Locus18623v2rpkm0.18": {
+      "Name": "jgi_Hygaur1_1165900_fgenesh1_kg.767___2___Locus18623v2rpkm0.18",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1165900_fgenesh1_kg_767___2___Locus18623v2rpkm0_18_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1165900_fgenesh1_kg_767___2___Locus18623v2rpkm0_18_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1165900_fgenesh1_kg_767___2___Locus18623v2rpkm0_18_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1166697_fgenesh1_kg.925___7___Locus3959v1rpkm59.13": {
+      "Name": "jgi_Hygaur1_1166697_fgenesh1_kg.925___7___Locus3959v1rpkm59.13",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1166697_fgenesh1_kg_925___7___Locus3959v1rpkm59_13_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1166697_fgenesh1_kg_925___7___Locus3959v1rpkm59_13_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1166697_fgenesh1_kg_925___7___Locus3959v1rpkm59_13_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1166711_fgenesh1_kg.925___21___Locus12730v1rpkm5.24": {
+      "Name": "jgi_Hygaur1_1166711_fgenesh1_kg.925___21___Locus12730v1rpkm5.24",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1166711_fgenesh1_kg_925___21___Locus12730v1rpkm5_24_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1166711_fgenesh1_kg_925___21___Locus12730v1rpkm5_24_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1166711_fgenesh1_kg_925___21___Locus12730v1rpkm5_24_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1166992_fgenesh1_kg.988___3___Locus1603v1rpkm150.37": {
+      "Name": "jgi_Hygaur1_1166992_fgenesh1_kg.988___3___Locus1603v1rpkm150.37",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1166992_fgenesh1_kg_988___3___Locus1603v1rpkm150_37_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1166992_fgenesh1_kg_988___3___Locus1603v1rpkm150_37_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1166992_fgenesh1_kg_988___3___Locus1603v1rpkm150_37_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.6669,
+        0.3332
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1167771_fgenesh1_kg.1235___6___Locus1035v2rpkm174.43": {
+      "Name": "jgi_Hygaur1_1167771_fgenesh1_kg.1235___6___Locus1035v2rpkm174.43",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1167771_fgenesh1_kg_1235___6___Locus1035v2rpkm174_43_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1167771_fgenesh1_kg_1235___6___Locus1035v2rpkm174_43_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1167771_fgenesh1_kg_1235___6___Locus1035v2rpkm174_43_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1167895_fgenesh1_kg.1283___10___Locus217v1rpkm822.96": {
+      "Name": "jgi_Hygaur1_1167895_fgenesh1_kg.1283___10___Locus217v1rpkm822.96",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1167895_fgenesh1_kg_1283___10___Locus217v1rpkm822_96_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1167895_fgenesh1_kg_1283___10___Locus217v1rpkm822_96_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1167895_fgenesh1_kg_1283___10___Locus217v1rpkm822_96_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1168331_fgenesh1_kg.1477___9___Locus12730v1rpkm5.24": {
+      "Name": "jgi_Hygaur1_1168331_fgenesh1_kg.1477___9___Locus12730v1rpkm5.24",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1168331_fgenesh1_kg_1477___9___Locus12730v1rpkm5_24_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1168331_fgenesh1_kg_1477___9___Locus12730v1rpkm5_24_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1168331_fgenesh1_kg_1477___9___Locus12730v1rpkm5_24_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1168496_fgenesh1_kg.1583___4___Locus1035v2rpkm174.43": {
+      "Name": "jgi_Hygaur1_1168496_fgenesh1_kg.1583___4___Locus1035v2rpkm174.43",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1168496_fgenesh1_kg_1583___4___Locus1035v2rpkm174_43_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1168496_fgenesh1_kg_1583___4___Locus1035v2rpkm174_43_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1168496_fgenesh1_kg_1583___4___Locus1035v2rpkm174_43_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1168858_fgenesh1_kg.1983___5___Locus1137v1rpkm212.23": {
+      "Name": "jgi_Hygaur1_1168858_fgenesh1_kg.1983___5___Locus1137v1rpkm212.23",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1168858_fgenesh1_kg_1983___5___Locus1137v1rpkm212_23_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1168858_fgenesh1_kg_1983___5___Locus1137v1rpkm212_23_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1168858_fgenesh1_kg_1983___5___Locus1137v1rpkm212_23_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1168971_fgenesh1_kg.2269___1___Locus745v1rpkm305.97": {
+      "Name": "jgi_Hygaur1_1168971_fgenesh1_kg.2269___1___Locus745v1rpkm305.97",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1168971_fgenesh1_kg_2269___1___Locus745v1rpkm305_97_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1168971_fgenesh1_kg_2269___1___Locus745v1rpkm305_97_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1168971_fgenesh1_kg_2269___1___Locus745v1rpkm305_97_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_163564_CE163563_435": {
+      "Name": "jgi_Hygaur1_163564_CE163563_435",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_163564_CE163563_435_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_163564_CE163563_435_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_163564_CE163563_435_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_720682_CE720681_597": {
+      "Name": "jgi_Hygaur1_720682_CE720681_597",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_720682_CE720681_597_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_720682_CE720681_597_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_720682_CE720681_597_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1017232_e_gw1.535.10.1": {
+      "Name": "jgi_Hygaur1_1017232_e_gw1.535.10.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1017232_e_gw1_535_10_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1017232_e_gw1_535_10_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1017232_e_gw1_535_10_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygaur1_1017358_e_gw1.550.1.1": {
+      "Name": "jgi_Hygaur1_1017358_e_gw1.550.1.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1017358_e_gw1_550_1_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1017358_e_gw1_550_1_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygaur1_1017358_e_gw1_550_1_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Irplac1183_1_1338429_CE1338428_11229": {
+      "Name": "jgi_Irplac1183_1_1338429_CE1338428_11229",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Irplac1183_1_1338429_CE1338428_11229_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Irplac1183_1_1338429_CE1338428_11229_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Irplac1183_1_1338429_CE1338428_11229_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Trave1_52920_gm1.11804_g": {
+      "Name": "jgi_Trave1_52920_gm1.11804_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Trave1_52920_gm1_11804_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Trave1_52920_gm1_11804_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Trave1_52920_gm1_11804_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Geatri1_72358_gm1.4541_g": {
+      "Name": "jgi_Geatri1_72358_gm1.4541_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Geatri1_72358_gm1_4541_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Geatri1_72358_gm1_4541_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Geatri1_72358_gm1_4541_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Geatri1_72365_gm1.4548_g": {
+      "Name": "jgi_Geatri1_72365_gm1.4548_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Geatri1_72365_gm1_4548_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Geatri1_72365_gm1_4548_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Geatri1_72365_gm1_4548_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Trapub1_5034_scaffold_1568.5": {
+      "Name": "jgi_Trapub1_5034_scaffold_1568.5",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Trapub1_5034_scaffold_1568_5_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Trapub1_5034_scaffold_1568_5_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Trapub1_5034_scaffold_1568_5_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Crevar1_769707_e_gw1.44.171.1": {
+      "Name": "jgi_Crevar1_769707_e_gw1.44.171.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Crevar1_769707_e_gw1_44_171_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Crevar1_769707_e_gw1_44_171_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Crevar1_769707_e_gw1_44_171_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Crevar1_838031_fgenesh1_pg.59___13": {
+      "Name": "jgi_Crevar1_838031_fgenesh1_pg.59___13",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Crevar1_838031_fgenesh1_pg_59___13_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Crevar1_838031_fgenesh1_pg_59___13_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Crevar1_838031_fgenesh1_pg_59___13_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1050645_fgenesh1_pg.00284___4": {
+      "Name": "jgi_Leumo1_1050645_fgenesh1_pg.00284___4",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1050645_fgenesh1_pg_00284___4_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1050645_fgenesh1_pg_00284___4_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1050645_fgenesh1_pg_00284___4_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1097675_estExt_Genewise1.C_002360012": {
+      "Name": "jgi_Leumo1_1097675_estExt_Genewise1.C_002360012",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1097675_estExt_Genewise1_C_002360012_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1097675_estExt_Genewise1_C_002360012_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1097675_estExt_Genewise1_C_002360012_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1099592_estExt_Genewise1.C_003440013": {
+      "Name": "jgi_Leumo1_1099592_estExt_Genewise1.C_003440013",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1099592_estExt_Genewise1_C_003440013_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1099592_estExt_Genewise1_C_003440013_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1099592_estExt_Genewise1_C_003440013_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1130958_gm1.6857_g": {
+      "Name": "jgi_Leumo1_1130958_gm1.6857_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1130958_gm1_6857_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1130958_gm1_6857_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1130958_gm1_6857_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1133906_gm1.9805_g": {
+      "Name": "jgi_Leumo1_1133906_gm1.9805_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1133906_gm1_9805_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1133906_gm1_9805_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1133906_gm1_9805_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1133910_gm1.9809_g": {
+      "Name": "jgi_Leumo1_1133910_gm1.9809_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1133910_gm1_9809_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1133910_gm1_9809_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1133910_gm1_9809_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1134698_gm1.10597_g": {
+      "Name": "jgi_Leumo1_1134698_gm1.10597_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1134698_gm1_10597_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1134698_gm1_10597_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1134698_gm1_10597_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1006919_e_gw1.00040.123.1": {
+      "Name": "jgi_Leumo1_1006919_e_gw1.00040.123.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1006919_e_gw1_00040_123_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1006919_e_gw1_00040_123_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1006919_e_gw1_00040_123_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.9999,
+        0.0001
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1015671_e_gw1.00130.67.1": {
+      "Name": "jgi_Leumo1_1015671_e_gw1.00130.67.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1015671_e_gw1_00130_67_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1015671_e_gw1_00130_67_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1015671_e_gw1_00130_67_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1031757_fgenesh1_kg.00040___19___Locus536v1rpkm315.72": {
+      "Name": "jgi_Leumo1_1031757_fgenesh1_kg.00040___19___Locus536v1rpkm315.72",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1031757_fgenesh1_kg_00040___19___Locus536v1rpkm315_72_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1031757_fgenesh1_kg_00040___19___Locus536v1rpkm315_72_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1031757_fgenesh1_kg_00040___19___Locus536v1rpkm315_72_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1031743_fgenesh1_kg.00040___5___Locus2113v1rpkm83.23": {
+      "Name": "jgi_Leumo1_1031743_fgenesh1_kg.00040___5___Locus2113v1rpkm83.23",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1031743_fgenesh1_kg_00040___5___Locus2113v1rpkm83_23_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1031743_fgenesh1_kg_00040___5___Locus2113v1rpkm83_23_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1031743_fgenesh1_kg_00040___5___Locus2113v1rpkm83_23_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1040248_fgenesh1_kg.00278___24___Locus808v1rpkm211.63": {
+      "Name": "jgi_Leumo1_1040248_fgenesh1_kg.00278___24___Locus808v1rpkm211.63",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1040248_fgenesh1_kg_00278___24___Locus808v1rpkm211_63_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1040248_fgenesh1_kg_00278___24___Locus808v1rpkm211_63_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1040248_fgenesh1_kg_00278___24___Locus808v1rpkm211_63_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1041010_fgenesh1_kg.00344___8___Locus2477v1rpkm70.39": {
+      "Name": "jgi_Leumo1_1041010_fgenesh1_kg.00344___8___Locus2477v1rpkm70.39",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1041010_fgenesh1_kg_00344___8___Locus2477v1rpkm70_39_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1041010_fgenesh1_kg_00344___8___Locus2477v1rpkm70_39_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1041010_fgenesh1_kg_00344___8___Locus2477v1rpkm70_39_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1041657_fgenesh1_kg.00435___13___Locus3688v1rpkm45.22": {
+      "Name": "jgi_Leumo1_1041657_fgenesh1_kg.00435___13___Locus3688v1rpkm45.22",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1041657_fgenesh1_kg_00435___13___Locus3688v1rpkm45_22_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1041657_fgenesh1_kg_00435___13___Locus3688v1rpkm45_22_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1041657_fgenesh1_kg_00435___13___Locus3688v1rpkm45_22_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Leumo1_1042072_fgenesh1_kg.00558___15___Locus536v1rpkm315.72": {
+      "Name": "jgi_Leumo1_1042072_fgenesh1_kg.00558___15___Locus536v1rpkm315.72",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1042072_fgenesh1_kg_00558___15___Locus536v1rpkm315_72_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1042072_fgenesh1_kg_00558___15___Locus536v1rpkm315_72_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Leumo1_1042072_fgenesh1_kg_00558___15___Locus536v1rpkm315_72_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Mutel1_1092781_estExt_fgenesh1_pg.C_270012": {
+      "Name": "jgi_Mutel1_1092781_estExt_fgenesh1_pg.C_270012",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Mutel1_1092781_estExt_fgenesh1_pg_C_270012_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Mutel1_1092781_estExt_fgenesh1_pg_C_270012_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Mutel1_1092781_estExt_fgenesh1_pg_C_270012_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lepnud1_1174238_e_gw1.121.12.1": {
+      "Name": "jgi_Lepnud1_1174238_e_gw1.121.12.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lepnud1_1174238_e_gw1_121_12_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lepnud1_1174238_e_gw1_121_12_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lepnud1_1174238_e_gw1_121_12_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Dicsqu463_1_869446_e_gw1.245.47.1": {
+      "Name": "jgi_Dicsqu463_1_869446_e_gw1.245.47.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsqu463_1_869446_e_gw1_245_47_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsqu463_1_869446_e_gw1_245_47_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsqu463_1_869446_e_gw1_245_47_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Dicsqu18370_1_667277_e_gw1.59.43.1": {
+      "Name": "jgi_Dicsqu18370_1_667277_e_gw1.59.43.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsqu18370_1_667277_e_gw1_59_43_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsqu18370_1_667277_e_gw1_59_43_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsqu18370_1_667277_e_gw1_59_43_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Triab1_1_524632_e_gw1.129.2.1": {
+      "Name": "jgi_Triab1_1_524632_e_gw1.129.2.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Triab1_1_524632_e_gw1_129_2_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Triab1_1_524632_e_gw1_129_2_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Triab1_1_524632_e_gw1_129_2_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lyoat1_1430114_e_gw1.28.102.1": {
+      "Name": "jgi_Lyoat1_1430114_e_gw1.28.102.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lyoat1_1430114_e_gw1_28_102_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lyoat1_1430114_e_gw1_28_102_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lyoat1_1430114_e_gw1_28_102_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lyoat1_1453442_fgenesh1_pg.18___63": {
+      "Name": "jgi_Lyoat1_1453442_fgenesh1_pg.18___63",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lyoat1_1453442_fgenesh1_pg_18___63_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lyoat1_1453442_fgenesh1_pg_18___63_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lyoat1_1453442_fgenesh1_pg_18___63_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lyoat1_1456029_fgenesh1_pg.28___36": {
+      "Name": "jgi_Lyoat1_1456029_fgenesh1_pg.28___36",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lyoat1_1456029_fgenesh1_pg_28___36_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lyoat1_1456029_fgenesh1_pg_28___36_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lyoat1_1456029_fgenesh1_pg_28___36_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pisthe227_1_2266095_estExt_Genewise1Plus.C_950033": {
+      "Name": "jgi_Pisthe227_1_2266095_estExt_Genewise1Plus.C_950033",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisthe227_1_2266095_estExt_Genewise1Plus_C_950033_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisthe227_1_2266095_estExt_Genewise1Plus_C_950033_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisthe227_1_2266095_estExt_Genewise1Plus_C_950033_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Polsqu1_573877_e_gw1.36.43.1": {
+      "Name": "jgi_Polsqu1_573877_e_gw1.36.43.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polsqu1_573877_e_gw1_36_43_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polsqu1_573877_e_gw1_36_43_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polsqu1_573877_e_gw1_36_43_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Polsqu1_645443_fgenesh1_kg.36___279___TRINITY_DN6464_c2_g1_i2": {
+      "Name": "jgi_Polsqu1_645443_fgenesh1_kg.36___279___TRINITY_DN6464_c2_g1_i2",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polsqu1_645443_fgenesh1_kg_36___279___TRINITY_DN6464_c2_g1_i2_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polsqu1_645443_fgenesh1_kg_36___279___TRINITY_DN6464_c2_g1_i2_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polsqu1_645443_fgenesh1_kg_36___279___TRINITY_DN6464_c2_g1_i2_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Polsqu1_707804_fgenesh1_pm.36___52": {
+      "Name": "jgi_Polsqu1_707804_fgenesh1_pm.36___52",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polsqu1_707804_fgenesh1_pm_36___52_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polsqu1_707804_fgenesh1_pm_36___52_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polsqu1_707804_fgenesh1_pm_36___52_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Dicsqu464_1_982219_gm1.10800_g": {
+      "Name": "jgi_Dicsqu464_1_982219_gm1.10800_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsqu464_1_982219_gm1_10800_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsqu464_1_982219_gm1_10800_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Dicsqu464_1_982219_gm1_10800_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Irplac1_1724138_estExt_fgenesh1_pg.C_260088": {
+      "Name": "jgi_Irplac1_1724138_estExt_fgenesh1_pg.C_260088",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Irplac1_1724138_estExt_fgenesh1_pg_C_260088_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Irplac1_1724138_estExt_fgenesh1_pg_C_260088_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Irplac1_1724138_estExt_fgenesh1_pg_C_260088_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Cont1119283_67344_e_gw1.124.62.1": {
+      "Name": "jgi_Cont1119283_67344_e_gw1.124.62.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cont1119283_67344_e_gw1_124_62_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cont1119283_67344_e_gw1_124_62_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cont1119283_67344_e_gw1_124_62_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Cont1119283_86054_fgenesh1_pg.27___83": {
+      "Name": "jgi_Cont1119283_86054_fgenesh1_pg.27___83",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cont1119283_86054_fgenesh1_pg_27___83_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cont1119283_86054_fgenesh1_pg_27___83_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Cont1119283_86054_fgenesh1_pg_27___83_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lenti7_1_571802_gm1.7606_g": {
+      "Name": "jgi_Lenti7_1_571802_gm1.7606_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti7_1_571802_gm1_7606_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti7_1_571802_gm1_7606_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti7_1_571802_gm1_7606_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lenti7_1_523664_fgenesh1_pg.15___28": {
+      "Name": "jgi_Lenti7_1_523664_fgenesh1_pg.15___28",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti7_1_523664_fgenesh1_pg_15___28_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti7_1_523664_fgenesh1_pg_15___28_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti7_1_523664_fgenesh1_pg_15___28_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lenti7_1_523675_fgenesh1_pg.15___39": {
+      "Name": "jgi_Lenti7_1_523675_fgenesh1_pg.15___39",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti7_1_523675_fgenesh1_pg_15___39_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti7_1_523675_fgenesh1_pg_15___39_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti7_1_523675_fgenesh1_pg_15___39_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_MroMCA2997_1_8059_Moror_10041": {
+      "Name": "jgi_MroMCA2997_1_8059_Moror_10041",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_MroMCA2997_1_8059_Moror_10041_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_MroMCA2997_1_8059_Moror_10041_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_MroMCA2997_1_8059_Moror_10041_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_MroMCA2997_1_12739_Moror_17915": {
+      "Name": "jgi_MroMCA2997_1_12739_Moror_17915",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_MroMCA2997_1_12739_Moror_17915_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_MroMCA2997_1_12739_Moror_17915_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_MroMCA2997_1_12739_Moror_17915_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.8334,
+        0.1666
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lenti6_1_580340_fgenesh1_kg.54___35___Locus14359v1rpkm1.09": {
+      "Name": "jgi_Lenti6_1_580340_fgenesh1_kg.54___35___Locus14359v1rpkm1.09",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti6_1_580340_fgenesh1_kg_54___35___Locus14359v1rpkm1_09_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti6_1_580340_fgenesh1_kg_54___35___Locus14359v1rpkm1_09_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti6_1_580340_fgenesh1_kg_54___35___Locus14359v1rpkm1_09_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lenti6_1_580338_fgenesh1_kg.54___33___Locus14359v1rpkm1.09": {
+      "Name": "jgi_Lenti6_1_580338_fgenesh1_kg.54___33___Locus14359v1rpkm1.09",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti6_1_580338_fgenesh1_kg_54___33___Locus14359v1rpkm1_09_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti6_1_580338_fgenesh1_kg_54___33___Locus14359v1rpkm1_09_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti6_1_580338_fgenesh1_kg_54___33___Locus14359v1rpkm1_09_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lenti6_1_580351_fgenesh1_kg.54___46___Locus14359v1rpkm1.09": {
+      "Name": "jgi_Lenti6_1_580351_fgenesh1_kg.54___46___Locus14359v1rpkm1.09",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti6_1_580351_fgenesh1_kg_54___46___Locus14359v1rpkm1_09_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti6_1_580351_fgenesh1_kg_54___46___Locus14359v1rpkm1_09_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lenti6_1_580351_fgenesh1_kg_54___46___Locus14359v1rpkm1_09_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Traver1_9892_rna-Trave2p4_12941": {
+      "Name": "jgi_Traver1_9892_rna-Trave2p4_12941",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Traver1_9892_rna_Trave2p4_12941_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Traver1_9892_rna_Trave2p4_12941_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Traver1_9892_rna_Trave2p4_12941_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Sisbr1_603330_fgenesh1_pm.45___32": {
+      "Name": "jgi_Sisbr1_603330_fgenesh1_pm.45___32",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sisbr1_603330_fgenesh1_pm_45___32_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sisbr1_603330_fgenesh1_pm_45___32_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sisbr1_603330_fgenesh1_pm_45___32_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Sisbr1_618493_estExt_fgenesh1_pg.C_450024": {
+      "Name": "jgi_Sisbr1_618493_estExt_fgenesh1_pg.C_450024",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sisbr1_618493_estExt_fgenesh1_pg_C_450024_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sisbr1_618493_estExt_fgenesh1_pg_C_450024_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sisbr1_618493_estExt_fgenesh1_pg_C_450024_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pisthe1_1755645_gm1.7213_g": {
+      "Name": "jgi_Pisthe1_1755645_gm1.7213_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisthe1_1755645_gm1_7213_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisthe1_1755645_gm1_7213_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisthe1_1755645_gm1_7213_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Piscro1_383570_CE383569_65934": {
+      "Name": "jgi_Piscro1_383570_CE383569_65934",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Piscro1_383570_CE383569_65934_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Piscro1_383570_CE383569_65934_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Piscro1_383570_CE383569_65934_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Kavalb1_1230920_estExt_Genewise1Plus.C_1140025": {
+      "Name": "jgi_Kavalb1_1230920_estExt_Genewise1Plus.C_1140025",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Kavalb1_1230920_estExt_Genewise1Plus_C_1140025_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Kavalb1_1230920_estExt_Genewise1Plus_C_1140025_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Kavalb1_1230920_estExt_Genewise1Plus_C_1140025_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Kavalb1_1254294_fgenesh1_pg.47___31": {
+      "Name": "jgi_Kavalb1_1254294_fgenesh1_pg.47___31",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Kavalb1_1254294_fgenesh1_pg_47___31_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Kavalb1_1254294_fgenesh1_pg_47___31_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Kavalb1_1254294_fgenesh1_pg_47___31_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Kavalb1_1361163_gm4.10092_g": {
+      "Name": "jgi_Kavalb1_1361163_gm4.10092_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Kavalb1_1361163_gm4_10092_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Kavalb1_1361163_gm4_10092_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Kavalb1_1361163_gm4_10092_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Kavalb1_1361168_gm4.10097_g": {
+      "Name": "jgi_Kavalb1_1361168_gm4.10097_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Kavalb1_1361168_gm4_10097_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Kavalb1_1361168_gm4_10097_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Kavalb1_1361168_gm4_10097_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Galinc1_2073053_gm1.1219_g": {
+      "Name": "jgi_Galinc1_2073053_gm1.1219_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Galinc1_2073053_gm1_1219_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Galinc1_2073053_gm1_1219_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Galinc1_2073053_gm1_1219_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Diocr1_377693_gm1.2006_g": {
+      "Name": "jgi_Diocr1_377693_gm1.2006_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Diocr1_377693_gm1_2006_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Diocr1_377693_gm1_2006_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Diocr1_377693_gm1_2006_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Diocr1_413499_estExt_Genemark1.C_150010": {
+      "Name": "jgi_Diocr1_413499_estExt_Genemark1.C_150010",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Diocr1_413499_estExt_Genemark1_C_150010_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Diocr1_413499_estExt_Genemark1_C_150010_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Diocr1_413499_estExt_Genemark1_C_150010_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.8344,
+        0.1656
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Diocr1_413497_estExt_Genemark1.C_150008": {
+      "Name": "jgi_Diocr1_413497_estExt_Genemark1.C_150008",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Diocr1_413497_estExt_Genemark1_C_150008_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Diocr1_413497_estExt_Genemark1_C_150008_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Diocr1_413497_estExt_Genemark1_C_150008_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pleery1_1387261_e_gw1.22.102.1": {
+      "Name": "jgi_Pleery1_1387261_e_gw1.22.102.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pleery1_1387261_e_gw1_22_102_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pleery1_1387261_e_gw1_22_102_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pleery1_1387261_e_gw1_22_102_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pleery1_1444518_fgenesh1_kg.22___149___Locus743v1rpkm237.93": {
+      "Name": "jgi_Pleery1_1444518_fgenesh1_kg.22___149___Locus743v1rpkm237.93",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pleery1_1444518_fgenesh1_kg_22___149___Locus743v1rpkm237_93_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pleery1_1444518_fgenesh1_kg_22___149___Locus743v1rpkm237_93_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pleery1_1444518_fgenesh1_kg_22___149___Locus743v1rpkm237_93_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Amarub1_1079426_gm1.11311_g": {
+      "Name": "jgi_Amarub1_1079426_gm1.11311_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_1079426_gm1_11311_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_1079426_gm1_11311_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_1079426_gm1_11311_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Amarub1_1082242_gm1.14127_g": {
+      "Name": "jgi_Amarub1_1082242_gm1.14127_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_1082242_gm1_14127_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_1082242_gm1_14127_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_1082242_gm1_14127_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Amarub1_1111223_estExt_Genewise1.C_1440007": {
+      "Name": "jgi_Amarub1_1111223_estExt_Genewise1.C_1440007",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_1111223_estExt_Genewise1_C_1440007_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_1111223_estExt_Genewise1_C_1440007_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_1111223_estExt_Genewise1_C_1440007_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Amarub1_1161814_estExt_fgenesh1_pg.C_830016": {
+      "Name": "jgi_Amarub1_1161814_estExt_fgenesh1_pg.C_830016",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_1161814_estExt_fgenesh1_pg_C_830016_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_1161814_estExt_fgenesh1_pg_C_830016_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_1161814_estExt_fgenesh1_pg_C_830016_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Amarub1_650716_CE650715_4161": {
+      "Name": "jgi_Amarub1_650716_CE650715_4161",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_650716_CE650715_4161_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_650716_CE650715_4161_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_650716_CE650715_4161_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Amarub1_970520_fgenesh1_kg.26___396___TRINITY_DN18076_c2_g2_i1": {
+      "Name": "jgi_Amarub1_970520_fgenesh1_kg.26___396___TRINITY_DN18076_c2_g2_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_970520_fgenesh1_kg_26___396___TRINITY_DN18076_c2_g2_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_970520_fgenesh1_kg_26___396___TRINITY_DN18076_c2_g2_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_970520_fgenesh1_kg_26___396___TRINITY_DN18076_c2_g2_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Amarub1_991530_fgenesh1_kg.84___176___TRINITY_DN18076_c2_g2_i1": {
+      "Name": "jgi_Amarub1_991530_fgenesh1_kg.84___176___TRINITY_DN18076_c2_g2_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_991530_fgenesh1_kg_84___176___TRINITY_DN18076_c2_g2_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_991530_fgenesh1_kg_84___176___TRINITY_DN18076_c2_g2_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Amarub1_991530_fgenesh1_kg_84___176___TRINITY_DN18076_c2_g2_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Uniuni1_206842_CE206841_1637": {
+      "Name": "jgi_Uniuni1_206842_CE206841_1637",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Uniuni1_206842_CE206841_1637_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Uniuni1_206842_CE206841_1637_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Uniuni1_206842_CE206841_1637_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Elmca1_251765_CE251764_1804": {
+      "Name": "jgi_Elmca1_251765_CE251764_1804",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Elmca1_251765_CE251764_1804_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Elmca1_251765_CE251764_1804_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Elmca1_251765_CE251764_1804_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pismi2_4275208_fgenesh1_kg.9___6305___transcript_45092": {
+      "Name": "jgi_Pismi2_4275208_fgenesh1_kg.9___6305___transcript_45092",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismi2_4275208_fgenesh1_kg_9___6305___transcript_45092_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismi2_4275208_fgenesh1_kg_9___6305___transcript_45092_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismi2_4275208_fgenesh1_kg_9___6305___transcript_45092_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pismi2_688450_Pismi1.fgenesh1_kg.294___11___Locus149v1rpkm702.91": {
+      "Name": "jgi_Pismi2_688450_Pismi1.fgenesh1_kg.294___11___Locus149v1rpkm702.91",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismi2_688450_Pismi1_fgenesh1_kg_294___11___Locus149v1rpkm702_91_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismi2_688450_Pismi1_fgenesh1_kg_294___11___Locus149v1rpkm702_91_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismi2_688450_Pismi1_fgenesh1_kg_294___11___Locus149v1rpkm702_91_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pisalb1_2167476_e_gw1.26.20.1": {
+      "Name": "jgi_Pisalb1_2167476_e_gw1.26.20.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisalb1_2167476_e_gw1_26_20_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisalb1_2167476_e_gw1_26_20_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisalb1_2167476_e_gw1_26_20_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pisalb1_1121001_CE1121000_8155": {
+      "Name": "jgi_Pisalb1_1121001_CE1121000_8155",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisalb1_1121001_CE1121000_8155_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisalb1_1121001_CE1121000_8155_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pisalb1_1121001_CE1121000_8155_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.6666,
+        0.3334
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Panpap1_19875_CE19874_28": {
+      "Name": "jgi_Panpap1_19875_CE19874_28",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_19875_CE19874_28_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_19875_CE19874_28_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_19875_CE19874_28_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.8346,
+        0.1654
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Panpap1_1355982_e_gw1.26.145.1": {
+      "Name": "jgi_Panpap1_1355982_e_gw1.26.145.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1355982_e_gw1_26_145_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1355982_e_gw1_26_145_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1355982_e_gw1_26_145_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Panpap1_1397581_fgenesh1_pg.1___245": {
+      "Name": "jgi_Panpap1_1397581_fgenesh1_pg.1___245",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1397581_fgenesh1_pg_1___245_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1397581_fgenesh1_pg_1___245_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1397581_fgenesh1_pg_1___245_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Panpap1_1533752_gm1.13358_g": {
+      "Name": "jgi_Panpap1_1533752_gm1.13358_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1533752_gm1_13358_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1533752_gm1_13358_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1533752_gm1_13358_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Panpap1_1610024_estExt_Genemark1.C_7_t20145": {
+      "Name": "jgi_Panpap1_1610024_estExt_Genemark1.C_7_t20145",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1610024_estExt_Genemark1_C_7_t20145_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1610024_estExt_Genemark1_C_7_t20145_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1610024_estExt_Genemark1_C_7_t20145_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.8341,
+        0.166
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Panpap1_1614630_estExt_Genemark1.C_200276": {
+      "Name": "jgi_Panpap1_1614630_estExt_Genemark1.C_200276",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1614630_estExt_Genemark1_C_200276_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1614630_estExt_Genemark1_C_200276_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_1614630_estExt_Genemark1_C_200276_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Panpap1_689993_CE689992_265": {
+      "Name": "jgi_Panpap1_689993_CE689992_265",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_689993_CE689992_265_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_689993_CE689992_265_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Panpap1_689993_CE689992_265_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.9431,
+        0.0569
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Polar1_547014_estExt_Genewise1Plus.C_1480055": {
+      "Name": "jgi_Polar1_547014_estExt_Genewise1Plus.C_1480055",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_547014_estExt_Genewise1Plus_C_1480055_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_547014_estExt_Genewise1Plus_C_1480055_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_547014_estExt_Genewise1Plus_C_1480055_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Polar1_586868_fgenesh1_kg.218___2___Locus9925v2rpkm1.71": {
+      "Name": "jgi_Polar1_586868_fgenesh1_kg.218___2___Locus9925v2rpkm1.71",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_586868_fgenesh1_kg_218___2___Locus9925v2rpkm1_71_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_586868_fgenesh1_kg_218___2___Locus9925v2rpkm1_71_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_586868_fgenesh1_kg_218___2___Locus9925v2rpkm1_71_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Polar1_591849_fgenesh1_kg.809___2___Locus9925v2rpkm1.71": {
+      "Name": "jgi_Polar1_591849_fgenesh1_kg.809___2___Locus9925v2rpkm1.71",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_591849_fgenesh1_kg_809___2___Locus9925v2rpkm1_71_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_591849_fgenesh1_kg_809___2___Locus9925v2rpkm1_71_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_591849_fgenesh1_kg_809___2___Locus9925v2rpkm1_71_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Polar1_598570_gm1.5533_g": {
+      "Name": "jgi_Polar1_598570_gm1.5533_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_598570_gm1_5533_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_598570_gm1_5533_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_598570_gm1_5533_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Polar1_606953_gm1.13916_g": {
+      "Name": "jgi_Polar1_606953_gm1.13916_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_606953_gm1_13916_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_606953_gm1_13916_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_606953_gm1_13916_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Polar1_492019_e_gw1.218.33.1": {
+      "Name": "jgi_Polar1_492019_e_gw1.218.33.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_492019_e_gw1_218_33_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_492019_e_gw1_218_33_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polar1_492019_e_gw1_218_33_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lacam2_1678639_fgenesh1_kg.799___3___Locus800v1rpkm150.24": {
+      "Name": "jgi_Lacam2_1678639_fgenesh1_kg.799___3___Locus800v1rpkm150.24",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacam2_1678639_fgenesh1_kg_799___3___Locus800v1rpkm150_24_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacam2_1678639_fgenesh1_kg_799___3___Locus800v1rpkm150_24_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacam2_1678639_fgenesh1_kg_799___3___Locus800v1rpkm150_24_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Lacam2_687022_Lacam1.fgenesh1_kg.788___3___Locus800v1rpkm150.24": {
+      "Name": "jgi_Lacam2_687022_Lacam1.fgenesh1_kg.788___3___Locus800v1rpkm150.24",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacam2_687022_Lacam1_fgenesh1_kg_788___3___Locus800v1rpkm150_24_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacam2_687022_Lacam1_fgenesh1_kg_788___3___Locus800v1rpkm150_24_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Lacam2_687022_Lacam1_fgenesh1_kg_788___3___Locus800v1rpkm150_24_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hypsu1_208850_gm1.12935_g": {
+      "Name": "jgi_Hypsu1_208850_gm1.12935_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hypsu1_208850_gm1_12935_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hypsu1_208850_gm1_12935_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hypsu1_208850_gm1_12935_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hypsu1_208851_gm1.12936_g": {
+      "Name": "jgi_Hypsu1_208851_gm1.12936_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hypsu1_208851_gm1_12936_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hypsu1_208851_gm1_12936_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hypsu1_208851_gm1_12936_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Chopur1_951666_fgenesh1_kg.230___87___TRINITY_DN2188_c0_g2_i1": {
+      "Name": "jgi_Chopur1_951666_fgenesh1_kg.230___87___TRINITY_DN2188_c0_g2_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Chopur1_951666_fgenesh1_kg_230___87___TRINITY_DN2188_c0_g2_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Chopur1_951666_fgenesh1_kg_230___87___TRINITY_DN2188_c0_g2_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Chopur1_951666_fgenesh1_kg_230___87___TRINITY_DN2188_c0_g2_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Paxin1_9942_gm1.4513_g": {
+      "Name": "jgi_Paxin1_9942_gm1.4513_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Paxin1_9942_gm1_4513_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Paxin1_9942_gm1_4513_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Paxin1_9942_gm1_4513_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Paxin1_9943_gm1.4514_g": {
+      "Name": "jgi_Paxin1_9943_gm1.4514_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Paxin1_9943_gm1_4514_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Paxin1_9943_gm1_4514_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Paxin1_9943_gm1_4514_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Polbr1_1403104_fgenesh1_kg.24___22___Locus3445v1rpkm46.49": {
+      "Name": "jgi_Polbr1_1403104_fgenesh1_kg.24___22___Locus3445v1rpkm46.49",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polbr1_1403104_fgenesh1_kg_24___22___Locus3445v1rpkm46_49_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polbr1_1403104_fgenesh1_kg_24___22___Locus3445v1rpkm46_49_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polbr1_1403104_fgenesh1_kg_24___22___Locus3445v1rpkm46_49_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Polbr1_1403107_fgenesh1_kg.24___25___Locus12018v2rpkm2.00": {
+      "Name": "jgi_Polbr1_1403107_fgenesh1_kg.24___25___Locus12018v2rpkm2.00",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polbr1_1403107_fgenesh1_kg_24___25___Locus12018v2rpkm2_00_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polbr1_1403107_fgenesh1_kg_24___25___Locus12018v2rpkm2_00_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polbr1_1403107_fgenesh1_kg_24___25___Locus12018v2rpkm2_00_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Polbr1_1482675_gm1.6256_g": {
+      "Name": "jgi_Polbr1_1482675_gm1.6256_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polbr1_1482675_gm1_6256_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polbr1_1482675_gm1_6256_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polbr1_1482675_gm1_6256_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Polbr1_493721_CE493720_475": {
+      "Name": "jgi_Polbr1_493721_CE493720_475",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polbr1_493721_CE493720_475_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polbr1_493721_CE493720_475_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Polbr1_493721_CE493720_475_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Oudmuc1_1429373_gm1.2231_g": {
+      "Name": "jgi_Oudmuc1_1429373_gm1.2231_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Oudmuc1_1429373_gm1_2231_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Oudmuc1_1429373_gm1_2231_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Oudmuc1_1429373_gm1_2231_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.6672,
+        0.3328
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Paxru2_1809802_fgenesh1_kg.302___20___Locus4195v1rpkm36.13": {
+      "Name": "jgi_Paxru2_1809802_fgenesh1_kg.302___20___Locus4195v1rpkm36.13",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Paxru2_1809802_fgenesh1_kg_302___20___Locus4195v1rpkm36_13_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Paxru2_1809802_fgenesh1_kg_302___20___Locus4195v1rpkm36_13_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Paxru2_1809802_fgenesh1_kg_302___20___Locus4195v1rpkm36_13_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_FlaPMI526_1_860284_CE860283_46": {
+      "Name": "jgi_FlaPMI526_1_860284_CE860283_46",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_FlaPMI526_1_860284_CE860283_46_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_FlaPMI526_1_860284_CE860283_46_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_FlaPMI526_1_860284_CE860283_46_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_FlaPMI526_1_1706535_gm1.4825_g": {
+      "Name": "jgi_FlaPMI526_1_1706535_gm1.4825_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_FlaPMI526_1_1706535_gm1_4825_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_FlaPMI526_1_1706535_gm1_4825_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_FlaPMI526_1_1706535_gm1_4825_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_FlaPMI526_1_1780046_MIX51924_1_36": {
+      "Name": "jgi_FlaPMI526_1_1780046_MIX51924_1_36",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_FlaPMI526_1_1780046_MIX51924_1_36_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_FlaPMI526_1_1780046_MIX51924_1_36_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_FlaPMI526_1_1780046_MIX51924_1_36_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_FlaPMI526_1_1823268_estExt_Genemark1.C_330137": {
+      "Name": "jgi_FlaPMI526_1_1823268_estExt_Genemark1.C_330137",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_FlaPMI526_1_1823268_estExt_Genemark1_C_330137_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_FlaPMI526_1_1823268_estExt_Genemark1_C_330137_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_FlaPMI526_1_1823268_estExt_Genemark1_C_330137_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hebvel2_1149996_fgenesh1_kg.14___1326___TRINITY_DN4446_c0_g2_i1": {
+      "Name": "jgi_Hebvel2_1149996_fgenesh1_kg.14___1326___TRINITY_DN4446_c0_g2_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hebvel2_1149996_fgenesh1_kg_14___1326___TRINITY_DN4446_c0_g2_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hebvel2_1149996_fgenesh1_kg_14___1326___TRINITY_DN4446_c0_g2_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hebvel2_1149996_fgenesh1_kg_14___1326___TRINITY_DN4446_c0_g2_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hebvel2_1149999_fgenesh1_kg.14___1329___TRINITY_DN4446_c0_g2_i1": {
+      "Name": "jgi_Hebvel2_1149999_fgenesh1_kg.14___1329___TRINITY_DN4446_c0_g2_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hebvel2_1149999_fgenesh1_kg_14___1329___TRINITY_DN4446_c0_g2_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hebvel2_1149999_fgenesh1_kg_14___1329___TRINITY_DN4446_c0_g2_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hebvel2_1149999_fgenesh1_kg_14___1329___TRINITY_DN4446_c0_g2_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hebvel2_1150001_fgenesh1_kg.14___1331___TRINITY_DN9926_c0_g1_i1": {
+      "Name": "jgi_Hebvel2_1150001_fgenesh1_kg.14___1331___TRINITY_DN9926_c0_g1_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hebvel2_1150001_fgenesh1_kg_14___1331___TRINITY_DN9926_c0_g1_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hebvel2_1150001_fgenesh1_kg_14___1331___TRINITY_DN9926_c0_g1_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hebvel2_1150001_fgenesh1_kg_14___1331___TRINITY_DN9926_c0_g1_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Tulhel1_2149446_estExt_Genemark4.C_2_t10210": {
+      "Name": "jgi_Tulhel1_2149446_estExt_Genemark4.C_2_t10210",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tulhel1_2149446_estExt_Genemark4_C_2_t10210_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tulhel1_2149446_estExt_Genemark4_C_2_t10210_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tulhel1_2149446_estExt_Genemark4_C_2_t10210_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Tulhel1_1793226_e_gw1.6.211.1": {
+      "Name": "jgi_Tulhel1_1793226_e_gw1.6.211.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tulhel1_1793226_e_gw1_6_211_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tulhel1_1793226_e_gw1_6_211_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tulhel1_1793226_e_gw1_6_211_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Tulhel1_1932151_fgenesh1_kg.2___1201___TRINITY_DN1715_c0_g2_i10": {
+      "Name": "jgi_Tulhel1_1932151_fgenesh1_kg.2___1201___TRINITY_DN1715_c0_g2_i10",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tulhel1_1932151_fgenesh1_kg_2___1201___TRINITY_DN1715_c0_g2_i10_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tulhel1_1932151_fgenesh1_kg_2___1201___TRINITY_DN1715_c0_g2_i10_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tulhel1_1932151_fgenesh1_kg_2___1201___TRINITY_DN1715_c0_g2_i10_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Tulhel1_1932165_fgenesh1_kg.2___1215___TRINITY_DN1715_c0_g2_i10": {
+      "Name": "jgi_Tulhel1_1932165_fgenesh1_kg.2___1215___TRINITY_DN1715_c0_g2_i10",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tulhel1_1932165_fgenesh1_kg_2___1215___TRINITY_DN1715_c0_g2_i10_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tulhel1_1932165_fgenesh1_kg_2___1215___TRINITY_DN1715_c0_g2_i10_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Tulhel1_1932165_fgenesh1_kg_2___1215___TRINITY_DN1715_c0_g2_i10_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Galma1_143730_gm1.12231_g": {
+      "Name": "jgi_Galma1_143730_gm1.12231_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Galma1_143730_gm1_12231_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Galma1_143730_gm1_12231_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Galma1_143730_gm1_12231_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pismar1_2600390_fgenesh1_pg.25___48": {
+      "Name": "jgi_Pismar1_2600390_fgenesh1_pg.25___48",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismar1_2600390_fgenesh1_pg_25___48_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismar1_2600390_fgenesh1_pg_25___48_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismar1_2600390_fgenesh1_pg_25___48_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pismar1_2666719_fgenesh1_kg.38___402___TRINITY_DN15263_c0_g1_i1": {
+      "Name": "jgi_Pismar1_2666719_fgenesh1_kg.38___402___TRINITY_DN15263_c0_g1_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismar1_2666719_fgenesh1_kg_38___402___TRINITY_DN15263_c0_g1_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismar1_2666719_fgenesh1_kg_38___402___TRINITY_DN15263_c0_g1_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismar1_2666719_fgenesh1_kg_38___402___TRINITY_DN15263_c0_g1_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pismar1_2685475_fgenesh1_kg.62___461___TRINITY_DN15263_c0_g1_i1": {
+      "Name": "jgi_Pismar1_2685475_fgenesh1_kg.62___461___TRINITY_DN15263_c0_g1_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismar1_2685475_fgenesh1_kg_62___461___TRINITY_DN15263_c0_g1_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismar1_2685475_fgenesh1_kg_62___461___TRINITY_DN15263_c0_g1_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pismar1_2685475_fgenesh1_kg_62___461___TRINITY_DN15263_c0_g1_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Pilbys1_1192575_e_gw1.202.54.1": {
+      "Name": "jgi_Pilbys1_1192575_e_gw1.202.54.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pilbys1_1192575_e_gw1_202_54_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pilbys1_1192575_e_gw1_202_54_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Pilbys1_1192575_e_gw1_202_54_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Inolan1_1869001_e_gw1.503.13.1": {
+      "Name": "jgi_Inolan1_1869001_e_gw1.503.13.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Inolan1_1869001_e_gw1_503_13_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Inolan1_1869001_e_gw1_503_13_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Inolan1_1869001_e_gw1_503_13_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygcoc2_3130178_fgenesh1_kg.1___12___TRINITY_DN1366_c0_g1_i10": {
+      "Name": "jgi_Hygcoc2_3130178_fgenesh1_kg.1___12___TRINITY_DN1366_c0_g1_i10",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygcoc2_3130178_fgenesh1_kg_1___12___TRINITY_DN1366_c0_g1_i10_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygcoc2_3130178_fgenesh1_kg_1___12___TRINITY_DN1366_c0_g1_i10_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygcoc2_3130178_fgenesh1_kg_1___12___TRINITY_DN1366_c0_g1_i10_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Hygcoc2_3130216_fgenesh1_kg.1___50___TRINITY_DN1366_c0_g1_i13": {
+      "Name": "jgi_Hygcoc2_3130216_fgenesh1_kg.1___50___TRINITY_DN1366_c0_g1_i13",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygcoc2_3130216_fgenesh1_kg_1___50___TRINITY_DN1366_c0_g1_i13_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygcoc2_3130216_fgenesh1_kg_1___50___TRINITY_DN1366_c0_g1_i13_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Hygcoc2_3130216_fgenesh1_kg_1___50___TRINITY_DN1366_c0_g1_i13_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Sphst1_29870_fgenesh1_kg.37___29___Locus4770v1rpkm38.33": {
+      "Name": "jgi_Sphst1_29870_fgenesh1_kg.37___29___Locus4770v1rpkm38.33",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sphst1_29870_fgenesh1_kg_37___29___Locus4770v1rpkm38_33_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sphst1_29870_fgenesh1_kg_37___29___Locus4770v1rpkm38_33_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sphst1_29870_fgenesh1_kg_37___29___Locus4770v1rpkm38_33_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Sphst1_164791_e_gw1.30.53.1": {
+      "Name": "jgi_Sphst1_164791_e_gw1.30.53.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sphst1_164791_e_gw1_30_53_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sphst1_164791_e_gw1_30_53_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sphst1_164791_e_gw1_30_53_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Sphst1_191975_e_gw1.288.43.1": {
+      "Name": "jgi_Sphst1_191975_e_gw1.288.43.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sphst1_191975_e_gw1_288_43_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sphst1_191975_e_gw1_288_43_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sphst1_191975_e_gw1_288_43_1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Sphst1_267302_gm1.29192_g": {
+      "Name": "jgi_Sphst1_267302_gm1.29192_g",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sphst1_267302_gm1_29192_g_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sphst1_267302_gm1_29192_g_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Sphst1_267302_gm1_29192_g_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Mycepi1_743015_fgenesh1_pg.45___134": {
+      "Name": "jgi_Mycepi1_743015_fgenesh1_pg.45___134",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Mycepi1_743015_fgenesh1_pg_45___134_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Mycepi1_743015_fgenesh1_pg_45___134_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Mycepi1_743015_fgenesh1_pg_45___134_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Mycepi1_771896_fgenesh1_kg.10___97___TRINITY_DN12062_c0_g1_i1": {
+      "Name": "jgi_Mycepi1_771896_fgenesh1_kg.10___97___TRINITY_DN12062_c0_g1_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Mycepi1_771896_fgenesh1_kg_10___97___TRINITY_DN12062_c0_g1_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Mycepi1_771896_fgenesh1_kg_10___97___TRINITY_DN12062_c0_g1_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Mycepi1_771896_fgenesh1_kg_10___97___TRINITY_DN12062_c0_g1_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Mycepi1_771895_fgenesh1_kg.10___96___TRINITY_DN12062_c0_g1_i1": {
+      "Name": "jgi_Mycepi1_771895_fgenesh1_kg.10___96___TRINITY_DN12062_c0_g1_i1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Mycepi1_771895_fgenesh1_kg_10___96___TRINITY_DN12062_c0_g1_i1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Mycepi1_771895_fgenesh1_kg_10___96___TRINITY_DN12062_c0_g1_i1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Mycepi1_771895_fgenesh1_kg_10___96___TRINITY_DN12062_c0_g1_i1_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Aspfu1_3326_Afu3g00590_mRNA": {
+      "Name": "jgi_Aspfu1_3326_Afu3g00590_mRNA",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Aspfu1_3326_Afu3g00590_mRNA_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Aspfu1_3326_Afu3g00590_mRNA_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Aspfu1_3326_Afu3g00590_mRNA_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.5001,
+        0.4999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Aspfu1_4834_Afu4g02805_mRNA": {
+      "Name": "jgi_Aspfu1_4834_Afu4g02805_mRNA",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Aspfu1_4834_Afu4g02805_mRNA_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Aspfu1_4834_Afu4g02805_mRNA_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Aspfu1_4834_Afu4g02805_mRNA_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Beaba1_2701_BBA_02701m.01": {
+      "Name": "jgi_Beaba1_2701_BBA_02701m.01",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Beaba1_2701_BBA_02701m_01_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Beaba1_2701_BBA_02701m_01_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Beaba1_2701_BBA_02701m_01_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Aspni_NRRL3_1_1234_NRRL3_01234": {
+      "Name": "jgi_Aspni_NRRL3_1_1234_NRRL3_01234",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Aspni_NRRL3_1_1234_NRRL3_01234_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Aspni_NRRL3_1_1234_NRRL3_01234_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Aspni_NRRL3_1_1234_NRRL3_01234_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        1.0,
+        0.0
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    },
+    "jgi_Aspni_NRRL3_1_2453_NRRL3_02453": {
+      "Name": "jgi_Aspni_NRRL3_1_2453_NRRL3_02453",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Aspni_NRRL3_1_2453_NRRL3_02453_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Aspni_NRRL3_1_2453_NRRL3_02453_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/output_jgi_Aspni_NRRL3_1_2453_NRRL3_02453_plot.txt",
+      "Prediction": "Other",
+      "Likelihood": [
+        0.8337,
+        0.1663
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": ""
+    }
+  },
+  "FORMAT": "all",
+  "ORG": "eukarya",
+  "MODE": "slow-sequential",
+  "REGION_GFF_FILE": "/services/SignalP-6.0/tmp/6A6F45A2002AE8885B41078E/region_output.gff3"
+}
