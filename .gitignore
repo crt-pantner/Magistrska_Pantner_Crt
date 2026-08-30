@@ -3,3 +3,9 @@ Figure_1.png
 temp_macpf
 .vscode/settings.json
 /data/outgroups/temp
+scripts/DeepLoc_graph/deep_loc_graph.pdf
+scripts/protein_properties/fig.pdf
+scripts/protein_properties/protein_properties.pdf
+scripts/protein_properties/values.xlsx
+scripts/signalP_parsing/histogram_no_signal.png
+scripts/protein_properties/values.xlsx
