@@ -75,6 +75,36 @@ def to_comma(x, pos):
     """
     return f"{x:g}".replace('.', ',')
 
+def scale_axis(ax, df, subplot):
+    """
+    This handles the problem of labels not showing up at the max or min value on each axis.
+    For example if data ends at 10.4 the axis can get cut off at 10.5 and no major label is shown.
+    Ensures also that the coordinate system izhodišče is set at the intersection between the x and y major axis, without it sometimes they are not aligned.
+    """
+
+    # Start y axis at 0
+    ax.set_ylim(bottom=0)
+
+    # Get minimum and maximum for each property from the df
+    min_val = df[subplot].min()
+    max_val = df[subplot].max()
+
+    # Set major tics so that lables are shown.
+    ticks = ax.xaxis.get_major_locator().tick_values(min_val, max_val)
+
+    # Coordinate system needs to start at 0
+    ax.set_xlim(ticks[0], ticks[-1])
+
+    #
+    # Grab the current Y-axis boundaries that Matplotlib automatically set for the histogram
+    ymin, ymax = ax.get_ylim()
+
+    # Ask the Y-axis locator for the "nice" round numbers that enclose this range
+    yticks = ax.yaxis.get_major_locator().tick_values(ymin, ymax)
+
+    # Lock the Y-axis to start at 0 and stop at highest generated tick
+    ax.set_ylim(bottom=0, top=yticks[-1])
+
 
 sns.set_style("darkgrid", {"grid.color": ".6", "axes.edgecolor": "black", "axes.spines.right" : "False", "axes.spines.top": "False"})
 
@@ -136,5 +166,9 @@ for axis, subplot, color, name in zip(axs.flatten(), columns, colors, column_nam
 
     # Make the grid so that minor ticks are also shown.
     axis.grid(True, which="minor", color="lightgray", linestyle="-", linewidth=0.5)
+
+    scale_axis(ax=axis, df=dataframe, subplot=subplot)
+
+    
 
 plt.savefig("deep_loc_graph.pdf")
