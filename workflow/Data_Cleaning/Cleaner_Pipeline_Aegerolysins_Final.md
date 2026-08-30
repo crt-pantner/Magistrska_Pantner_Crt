@@ -367,11 +367,11 @@ Dodajanje fasta sekvence pul b: odstranjevanje ID-ja in dodajanje k datotekam br
 ```bash
 mkdir -p aegerolysins/6_pleurotus_pulmonarius
 
-# Kopiramo datoteke očiščenih in dedupliciranih proteinov ter preimenujemo
-cp aegerolysins/6_pleurotus_pulmonarius/6.1_aegero_nodupes_pul.fasta
-
 # Kopiramo vse sekvence za pul a in jih shranimo v eno datoteko
-for file in $(find ../../data/pleurotus_pulmonarius_ncbi/pul_a* -iname "*.fasta"); do seqkit replace -p " " -r  "_" "$file" | seqkit seq -i >> aegerolysins/6_pleurotus_pulmonarius/pul_a_seqs.fasta; done
+for file in $(find ../../data/pleurotus_pulmonarius_ncbi/pul_a* -iname "*.fasta"); do
+  seqkit replace -p "[ \[\]]" -r "_" "$file" | seqkit seq -i >> aegerolysins/6_pleurotus_pulmonarius/pul_a_seqs.fasta
+done
+
 
 # Dodamo združene pul a sekvence k dedupliciranim sekvencam
 seqkit seq aegerolysins/6_pleurotus_pulmonarius/pul_a_seqs.fasta aegerolysins/5_seqdupes/5.1_aegero_noseqdupes.fasta > aegerolysins/6_pleurotus_pulmonarius/6.1_aegero_nodupes_pula.fasta
@@ -576,11 +576,11 @@ Pred izdelavo filogenetskega drevesa moramo odstraniti tudi duplikate glede na s
 
 ```bash
 # Directory management
-mkdir -p cleaning/aegerolysins/8_seqdupes
+mkdir -p aegerolysins/8_seqdupes
 
 # Removing duplicates, saving number of duplicate sequences and fasta file of duplicate sequences.
 
-seqkit rmdup --by-seq --dup-num-file cleaning/aegerolysins/8_seqdupes/8.1_sequence_duplicates.txt --dup-seqs-file cleaning/aegerolysins/8_seqdupes/8.2_sequence_duplicates_sequences.fasta --out-file cleaning/aegerolysins/8_seqdupes/8.3_final_aegerolysins_deduplicated_seqs.fasta cleaning/aegerolysins/7_outgroups/7.1_3_final_aeggero_all_outgroups_pula.fasta 
+seqkit rmdup --by-seq --dup-num-file aegerolysins/8_seqdupes/8.1_sequence_duplicates.txt --dup-seqs-file aegerolysins/8_seqdupes/8.2_sequence_duplicates_sequences.fasta --out-file aegerolysins/8_seqdupes/8.3_final_aegerolysins_deduplicated_seqs.fasta aegerolysins/7_outgroups/7.1_3_final_aeggero_all_outgroups_pula.fasta 
 
 # Generate CSV file
 head -1 aegerolysins/7_outgroups/7.3_2_final_aegerolysins_noseqdupes_pula_outgroups_metadata.csv > aegerolysins/8_seqdupes/8.4_final_aegerolysins_deduplicated_metadata.csv
