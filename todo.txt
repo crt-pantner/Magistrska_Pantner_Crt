@@ -8,7 +8,6 @@ TODO: 18. 8. 2026
 27. 8. 26:
 - signalp in drugi grafi: izhodišče mora biti od 0 (predvsem signalp X os) in od 0 do 1 mora biti.
 - pošlji knjigo za deeploc
-- Dodaj X in Y os s črno črto na Deeploc in Protein vrednosti
 - Črne črte iz upset grafa stran ali pa v sivo ali v črtkano črto ali pa brez sivih pik v ozadju
 - Poravnava:
     - Dej stran proteine, ki so daljši in krajši od 10 % (oz. kolkr kol je že blo - poglej) od mediane 
