@@ -1,0 +1,21 @@
+Order	Color
+Polyporales	#ed455c
+Boletales	#01c472
+Agaricales	#27cae6
+Cantharellales	#e057e1
+Corticiales	#FF6600
+Amylocorticiales	#c0e15c
+Russulales	#72df19
+Atheliales	#ae79e0
+Diptera	#a9557b
+Sebacinales	#621da6
+Geastrales	#8b4513
+Dacrymycetales	#1f3e9e
+Auriculariales	#579754
+Ranunculales	#f4a95c
+Hymenochaetales	#bdc7d9
+Leucosporidiales	#484245
+Tremellales	#000000 
+Phallales	#000000
+Gomphales	#000000
+
