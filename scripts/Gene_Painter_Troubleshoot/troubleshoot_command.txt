@@ -1,0 +1,11 @@
+S pomočjo tega ukaza lahko ugotovimo katere gff datoteke povzročajo glavobole in prepečujejo nastanek genepainter grafa.
+Na podalgi izpisa lahko te sekvence odstanimo iz nabora in dobimo vseeno graf.
+
+for file in (find troubleshooting/** -iname "*.gff");
+    set base $(basename $file .gff);
+    set dir $(dirname $file);
+    set fasta $(echo $dir/$base.fasta);
+    echo $base;
+    echo $file >> troubleshooting_res.txt;
+    ruby ~/Programs/gene_painter/gene_painter.rb -i $fasta -p $dir -o /dev/null >> troubleshooting_res.txt;
+end
