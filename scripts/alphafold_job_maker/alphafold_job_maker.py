@@ -1,12 +1,14 @@
+import copy
 import json
+import re
 import string
 import sys
-import copy
+
 from Bio import SeqIO
+
 
 class InvalidNameError(Exception):
     "Raised when the name of the sequence contains invalid characters"
-    pass
 
 
 def main():
@@ -25,6 +27,10 @@ def main():
             job_number += 1
             write_to_file(jobs, job_number)
             jobs.clear()
+    # Write any remaining jobs that didn't fill a full batch of 20
+    if jobs:
+        job_number += 1
+        write_to_file(jobs, job_number)
     
 
     
@@ -34,11 +40,17 @@ def rename_sequence_record(seq_rec):
 
     seq_rec.seq = sequence.rstrip("*")
 
-    seq_rec.id = seq_rec.id.translate(str.maketrans({"|":"_",".":"_","#":"_", "/":"_"}))
+    cleaned_name = re.sub(r'[^a-zA-Z0-9 _:\-]', '_', seq_rec.id)
 
+    cleaned_name = cleaned_name.lower()
+
+    seq_rec.id = re.sub(r'_+', '_', cleaned_name)
+    
     new_seq_rec = copy.deepcopy(seq_rec)
 
     check_sequence_name(original_seq_record, new_seq_rec)
+
+    save_name_mapping(old_name=original_seq_record.id, new_name=new_seq_rec.id)
 
     return seq_rec
 
@@ -53,9 +65,11 @@ def check_sequence_name(original_seq_rec, new_seq_rec):
             with open("non-ran-jobs.txt", "a") as file:
                 print("The sequence name contains invalid characters, skipping sequence and writing name to file")
                 file.writelines(str(original_seq_rec.id) + "\n")
-            pass
 
-
+def save_name_mapping(old_name, new_name):
+    with open("sequence_name_mapping.csv", "a") as outfile:
+        outfile.write(f"{old_name},fold_{new_name}_model_0\n")
+    
 def job_creator(seq_record):
     job = {
             "name": seq_record.id,
