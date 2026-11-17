@@ -1,13 +1,3 @@
-da
-
-n poglej še enkrat graf.
-
-rezultati pomenijo
-
-TODO: preveri kaj signalPrezultati pomen
-
-reveri na spletni ttrani
-
 3.6.1. Pridobimo filogenijo za aegerolizin-vsebujoče proteine
 
 **Pomembno, vhodna datoteka s filogenijo (se nahaja za -i zastavico) mora vsebovati informacije o filogeniji za celotno Basidiomycota deblo**
@@ -34,13 +24,13 @@ Za namen izračunanja proteinskih lastnosti in pridobivanja grafa proteinskih la
 python ../../scripts/protein_properties/protein_properties_v2.py ../cleaning/aegerolysins/7_outgroups/7.1_3_final_aeggero_all_outgroups_pula.fasta fig.png Save to csv? ([Y / N]) Y
 ```
 
-## celična sublokalizacija
+## Znotrajcelično nahajanje
 
 To bi moglo bit signalP
 
 TODO: DeepLoc naredi graf
 
-Za izračun celične sublokalizacije proteinov smo uporabili DeepLock 2.1 iz spletne strani DTU. https://services.healthtech.dtu.dk/services/DeepLoc-2.1/
+Za izračun predvidenega znotrajceličnega nahajanja proteinov smo uporabili DeepLock 2.1 iz spletne strani DTU. https://services.healthtech.dtu.dk/services/DeepLoc-2.1/
 
 Rezultate smo nato shranili in "parsirali" s pomočjo posebej narejene skripte, ter rezultate shranili v xlsx formatu.
 
@@ -55,6 +45,8 @@ python ../../../scripts/alphafold_job_maker/alphafold_job_maker.py ../../cleanin
 Za to, a sem lahko proteine prenesel v alphafold server, sem moral preimenovati outgroup proteine, saj so imena vsebovala nedovoljene znake ("[ in ]").
 
 Predikcije smo izračunali prez prednastavljenega "semena" (angl. seed) in smo torej uporabljali avtomatično izbiro semena.
+
+Predikcije za protein jgi|Monpe1_1|83513|MPER_08048m.01 nismo izvedli, saj sekvenca vsebuje nedovoljene znake.
 
 ## GenePainter
 
@@ -72,3 +64,26 @@ seqkit watch kept_sequences.fasta -O graph_after_removal.png
 seqkit watch 
 ../../../cleaning/aegerolysins/7_outgroups/7.1_3_final_aeggero_all_outgroups_pula.fasta -O graph_before_removal.png
 ```
+
+
+### GenePainter workflow
+ 
+GenePainter je zelo muhast program, zato smo ga morali tretirati nekoliko drugače. GenePainter potrebuje za svoj vnos datoteke gff3, ki se v imenu popolnoma ujemajo z glavami fasta v datoteki s poravnavo več zaporedij. Hkrati ima GenePainter omejeno število znakov, ki jih lahko prikaže na grafu, zato smo najprej s pomočjo #TODO custom made programa iz datotek gff3 datotek posameznega proteina izločili samo vnose, ki so se ujemali z našim protein ID-ji prisotnimi v poravnavi. Program nato poišče gff3 datoteko za posamezen protein, ga "prevede" v format, ki ga GenePainter sprejme, ter nato sharni v novo GFF datoteko. Pri tem skrajša ime proteina na kratko ime organizma ter protein id. Hkrati program nato izpiše še novo MSA datoteko, v kateri spremeni fasta glavo posameznega proteina na način, da se popolnoma ujema z imenom novonastale GFF datoteke. Datoteke MSA in GFF nato služijo kot vhodne datoteke za GenePainter.
+
+```bash
+mkdir -p test
+python /run/media/crt/Crt_Omarchy/@home/crt-desktop/Development/Magistrska_Pantner_Crt/scripts/gene_painter_extraction_script/gene_painter_extraction.py --msa ../alignment_renamed.fasta --gff /run/media/crt/Crt_Omarchy/@home/crt-desktop/Databases/basidiomycota_download_merged/ --o "test" -a "test" -d /run/media/crt/Crt_Omarchy/@home/crt-desktop/Databases/gffutils_databases/
+mv test/ results/
+```
+
+
+
+Naslednji korak je, da preiskusimo, ali katera izmed sekvenc zaradi svoje sestave povzroča napake pri GenePainterjevem izračunu intronskih pozicij. To smo naredili s pomočjo for zanke, ki najprej za vsak protein v novem direktoriju ustvari mapo, nato vanj prenese gff datoteko in hkrati iz vhodne MSA datoteke, namenjene za GenePainter izžame še sekvenco proteina. Na ta način lahko iterativno poganjamo GenePainter samo na eni sekvenci in pri tem beležimo, kateri protein se izvaja. Če je se pri nekem proteinu pojavi napaka, nam zanka to javi in lahko ta protein odstranimo iz nabora podatkov. 
+Ukaz za razhroščevanje je na voljo v `/scripts/Gene_Painter_Troubleshoot/troubleshoot_command.txt`. 
+
+Ko izolčimo proteine, lahko poženemo GenePainter z ukazom:
+
+```bash
+ruby ~/Programs/gene_painter/gene_painter.rb -i results/new_msa.fasta -p results/ --svg --svg-format both -o genepainter_res --statistics
+```
+
