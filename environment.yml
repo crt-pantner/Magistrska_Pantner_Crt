@@ -18,6 +18,7 @@ dependencies:
   - bioconda::peptides==0.5.0 # For calculation of peptide properties and graphs
   - bioconda::raxml-ng # For pyhogenetic tree
   - bioconda::modeltest-ng # For substitution model selection.
-
+  - bioconfa:gffutils==0.14
+  - bioconda::foldmason==4.dd3c235 # Structure based alignment program.
 
 
