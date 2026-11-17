@@ -570,6 +570,28 @@ num_seqs=$(csvtk del-header aegerolysins/7_outgroups/7.3_2_final_aegerolysins_no
 cat aegerolysins/logs/7.2.3_log.txt
 ```
 
+### 7.4 Pridobivanje HMMER
+```
+# Znotraj direktorija outgroups
+cd aegerolysins/7_outgroups/
+mkdir -p HMMER
+cd HMMER
+
+# Poženemo hmmer skripto
+python ../../../../../scripts/HMMER_API/hmmer_api_v4.py -seq ../7.1_2_aegerolysin_outgroups.fasta
+
+# Pridobimo statistiko za HMMER
+python ../../../../../scripts/HMMER_api_json_to_tab/json_to_tab.py --dir hmmer_results/
+
+# Pridobimo slik
+python ../../../../../scripts/hmmer_features/features.py --dir hmmer_results/ --output hmmer_pics/
+
+cd ../../../
+```
+
+
+
+
 ## 8. Odstranjevanje Duplikatov
 
 Pred izdelavo filogenetskega drevesa moramo odstraniti tudi duplikate glede na sekvenco. Za ta namen bomo uporabili seqkit.
