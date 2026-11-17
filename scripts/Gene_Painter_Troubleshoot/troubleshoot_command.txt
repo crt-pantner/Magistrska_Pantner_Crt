@@ -1,6 +1,34 @@
 S pomočjo tega ukaza lahko ugotovimo katere gff datoteke povzročajo glavobole in prepečujejo nastanek genepainter grafa.
 Na podalgi izpisa lahko te sekvence odstanimo iz nabora in dobimo vseeno graf.
 
+Ukaz temelji na podlagi tega, da poženemo genepainter v zanki, samo da namesto celotne poravnave v genepainter pošljemo po eno in po eno sekvenco ter njej pripadajočo gff3 datoteko.
+Te datoteke moramo naprej pripraviti.
+
+Datoteke pripravimo s pomočjo for zanke: 
+
+S tem ukazom najprej za vsako posamezno gff datoteko ustvarimo v "troubleshooting" direktoriju novo mapo.
+for file in results/**;
+set basename $(basename $file .gff);
+mkdir -p troubleshooting/$basename;
+echo $basename;
+end
+
+
+S tem ukazom nato posamezno gff datoteko prekopiramo v pripadajočo mapo.
+for file in results/**;
+set basename $(basename $file .gff);
+cp $file troubleshooting/$basename/;
+echo $basename;
+end
+
+S sledečim ukazom pa nato v originalni poravnavi poiščemo gff datoteka pripadajoč fasta vnos in ga nato kopiramo v piripadajočo mapo.
+for file in (find troubleshooting/** -iname "*.gff");
+set base $(basename $file .gff);
+set dir $(dirname $file);
+seqkit grep -n -p $base results/new_msa.fasta > $dir/$base.fasta;
+end
+
+
 for file in (find troubleshooting/** -iname "*.gff");
     set base $(basename $file .gff);
     set dir $(dirname $file);
